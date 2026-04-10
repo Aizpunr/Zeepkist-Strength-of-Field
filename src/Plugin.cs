@@ -10,7 +10,7 @@ using ZeepkistClient;
 
 namespace StrengthOfField
 {
-    [BepInPlugin("com.aizpun.strengthoffield", "Strength of Field", "0.1.0")]
+    [BepInPlugin("com.aizpun.strengthoffield", "Strength of Field", "0.1.1")]
     [BepInDependency("ZeepSDK")]
     public class Plugin : BaseUnityPlugin
     {
@@ -130,7 +130,7 @@ namespace StrengthOfField
                     return;
                 }
 
-                ChatApi.AddLocalMessage(string.Format("SOF: {0} ({1} rated, {2} unrated, {3} total)",
+                ChatApi.AddLocalMessage(string.Format("SOF: {0} ({1} rated, {2} unrated, {3} total) [v0.1.1]",
                     sof, found, notFound, total));
             }
             catch (Exception ex)
