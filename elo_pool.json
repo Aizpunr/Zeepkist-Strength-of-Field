@@ -6,7 +6,7 @@
     "slope": -135.1221,
     "r_squared": 0.7966,
     "n_fit": 105,
-    "n_excluded": 60,
+    "n_excluded": 62,
     "excluded_named": [
       "del gaming",
       "clycl",
@@ -593,14 +593,6 @@
       "cotd_rank": 78
     },
     {
-      "steam_id": "76561199321598731",
-      "name": "void",
-      "elo": 1530.5,
-      "source": "cotd",
-      "cotd_cups": 6,
-      "cotd_rank": 79
-    },
-    {
       "steam_id": "76561198212710700",
       "name": "Minkus",
       "elo": 1529.9,
@@ -841,12 +833,28 @@
       "cotd_rank": 110
     },
     {
+      "steam_id": "76561199321598731",
+      "name": "//////void",
+      "elo": 1494.4,
+      "source": "cotd",
+      "cotd_cups": 5,
+      "cotd_rank": 111
+    },
+    {
       "steam_id": "76561198250994428",
       "name": "Savage Package",
       "elo": 1492.2,
       "source": "cotd",
       "cotd_cups": 5,
       "cotd_rank": 112
+    },
+    {
+      "steam_id": "76561198067016097",
+      "name": "masterofpi11436",
+      "elo": 1491.8,
+      "source": "cotd",
+      "cotd_cups": 5,
+      "cotd_rank": 113
     },
     {
       "steam_id": "76561199186342067",
@@ -911,6 +919,14 @@
       "source": "cotd",
       "cotd_cups": 12,
       "cotd_rank": 121
+    },
+    {
+      "steam_id": "76561197970830160",
+      "name": "Cactushead",
+      "elo": 1482.5,
+      "source": "cotd",
+      "cotd_cups": 9,
+      "cotd_rank": 122
     },
     {
       "steam_id": "76561198027169155",
@@ -1886,7 +1902,7 @@
       "elo": 1479.9,
       "source": "gtr",
       "gtr_rank": 134,
-      "gtr_points": 72520
+      "gtr_points": 72518
     },
     {
       "steam_id": "76561198369128224",
@@ -1951,14 +1967,6 @@
       "source": "gtr",
       "gtr_rank": 149,
       "gtr_points": 70561
-    },
-    {
-      "steam_id": "76561197970830160",
-      "name": "cactuzhead",
-      "elo": 1464.7,
-      "source": "gtr",
-      "gtr_rank": 150,
-      "gtr_points": 70536
     },
     {
       "steam_id": "76561199121464627",
@@ -3030,7 +3038,7 @@
       "elo": 1361.5,
       "source": "gtr",
       "gtr_rank": 322,
-      "gtr_points": 49300
+      "gtr_points": 49299
     },
     {
       "steam_id": "76561198147823227",
@@ -3303,14 +3311,6 @@
       "source": "gtr",
       "gtr_rank": 363,
       "gtr_points": 41603
-    },
-    {
-      "steam_id": "76561198067016097",
-      "name": "masterofpi",
-      "elo": 1344.5,
-      "source": "gtr",
-      "gtr_rank": 365,
-      "gtr_points": 41536
     },
     {
       "steam_id": "76561198829629259",
@@ -4086,7 +4086,7 @@
       "elo": 1310.4,
       "source": "gtr",
       "gtr_rank": 470,
-      "gtr_points": 21318
+      "gtr_points": 21325
     },
     {
       "steam_id": "76561199023322702",
@@ -4214,7 +4214,7 @@
       "elo": 1305.6,
       "source": "gtr",
       "gtr_rank": 487,
-      "gtr_points": 17315
+      "gtr_points": 17312
     },
     {
       "steam_id": "76561198075429274",
@@ -5327,14 +5327,6 @@
       "source": "gtr",
       "gtr_rank": 630,
       "gtr_points": 89
-    },
-    {
-      "steam_id": "76561199700009913",
-      "name": "cactuzhead",
-      "elo": 1270.6,
-      "source": "gtr",
-      "gtr_rank": 631,
-      "gtr_points": 76
     },
     {
       "steam_id": "76561199133498345",
