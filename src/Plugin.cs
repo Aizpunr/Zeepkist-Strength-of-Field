@@ -10,14 +10,21 @@ using ZeepkistClient;
 
 namespace StrengthOfField
 {
-    [BepInPlugin("com.aizpun.strengthoffield", "Strength of Field", "0.1.1")]
+    [BepInPlugin("com.aizpun.strengthoffield", "Strength of Field", "0.2.0")]
     [BepInDependency("ZeepSDK")]
     public class Plugin : BaseUnityPlugin
     {
-        private Dictionary<string, double> normalizedPool = new Dictionary<string, double>(StringComparer.OrdinalIgnoreCase);
+        // Steam ID -> raw ELO (COTD weighted or GTR-regression-predicted).
+        // No normalization — values are on the same raw scale as alldata.json's
+        // weighted variant, because the GTR regression was fit in that scale.
+        private Dictionary<ulong, double> eloBySteamId = new Dictionary<ulong, double>();
+        private double sofDivisor = 2000.0;
         private double minPoolRating = 0;
         private bool dataLoaded = false;
         private bool dataLoading = false;
+
+        private const string ELO_POOL_URL =
+            "https://raw.githubusercontent.com/Aizpunr/Zeepkist-Strength-of-Field/main/elo_pool.json";
 
         private void Awake()
         {
@@ -27,7 +34,7 @@ namespace StrengthOfField
             ChatCommandApi.RegisterLocalChatCommand("/", "sof", "Show lobby Strength of Field (detailed)",
                 (LocalChatCommandCallbackDelegate)OnSofLocal);
 
-            // !sof = works for anyone in chat, short output
+            // !sof = fires on anyone's chat message, broadcasts the result
             ChatCommandApi.RegisterMixedChatCommand("!", "sof", "Show lobby SOF",
                 (MixedChatCommandCallbackDelegate)OnSofMixed);
 
@@ -48,11 +55,8 @@ namespace StrengthOfField
 
             foreach (var player in players)
             {
-                string name = player.GetUserNameNoTag();
-                if (string.IsNullOrEmpty(name)) continue;
-
                 double rating;
-                if (normalizedPool.TryGetValue(name, out rating))
+                if (eloBySteamId.TryGetValue(player.SteamID, out rating))
                 {
                     elos.Add(rating);
                     found++;
@@ -70,25 +74,12 @@ namespace StrengthOfField
                 top10.Add(minPoolRating);
 
             double avg = top10.Average();
-            return Math.Round(avg / 1850.0 * 100.0, 1);
-        }
-
-        private string GetPlayerName(ulong steamId)
-        {
-            var players = ZeepkistNetwork.PlayerList;
-            if (players == null) return null;
-            foreach (var p in players)
-            {
-                if (p.SteamID == steamId)
-                    return p.GetUserNameNoTag();
-            }
-            return null;
+            return Math.Round(avg / sofDivisor * 100.0, 1);
         }
 
         private void OnSofMixed(bool isLocal, ulong steamId, string arguments)
         {
-            // Respond when anyone in the lobby types !sof.
-            // NOTE: if multiple players have the mod, you'll get duplicate broadcasts.
+            // Responds when anyone in the lobby types !sof.
             if (!dataLoaded) return;
 
             try
@@ -130,7 +121,7 @@ namespace StrengthOfField
                     return;
                 }
 
-                ChatApi.AddLocalMessage(string.Format("SOF: {0} ({1} rated, {2} unrated, {3} total) [v0.1.1]",
+                ChatApi.AddLocalMessage(string.Format("SOF: {0} ({1} rated, {2} unrated, {3} total) [v0.2.0]",
                     sof, found, notFound, total));
             }
             catch (Exception ex)
@@ -160,7 +151,9 @@ namespace StrengthOfField
                         ParseEloData(e.Result);
                         dataLoaded = true;
                         dataLoading = false;
-                        Logger.LogInfo(string.Format("ELO data loaded: {0} players", normalizedPool.Count));
+                        Logger.LogInfo(string.Format(
+                            "ELO data loaded: {0} players (divisor={1})",
+                            eloBySteamId.Count, sofDivisor));
                     }
                     catch (Exception ex)
                     {
@@ -168,9 +161,7 @@ namespace StrengthOfField
                         dataLoading = false;
                     }
                 };
-                client.DownloadStringAsync(new Uri(
-                    "https://raw.githubusercontent.com/Aizpunr/Zeepkist-COTD-Elo-Rankings/main/alldata.json"
-                ));
+                client.DownloadStringAsync(new Uri(ELO_POOL_URL));
             }
             catch (Exception ex)
             {
@@ -182,32 +173,39 @@ namespace StrengthOfField
         private void ParseEloData(string json)
         {
             JObject root = JObject.Parse(json);
-            JArray weighted = (JArray)root["weighted"];
 
-            Dictionary<string, double> ratings = new Dictionary<string, double>(StringComparer.OrdinalIgnoreCase);
-
-            foreach (JObject player in weighted)
+            // Divisor from file; fall back to 2000 if missing.
+            JToken divisorToken = root["sof_divisor"];
+            if (divisorToken != null)
             {
-                string name = (string)player["n"];
-                double rating = (double)player["r"];
-                if (name != null && rating > 0)
-                {
-                    ratings[name] = rating;
-                }
+                sofDivisor = (double)divisorToken;
+                if (sofDivisor <= 0) sofDivisor = 2000.0;
             }
 
-            if (ratings.Count == 0) return;
+            JArray players = (JArray)root["players"];
+            if (players == null) return;
 
-            double maxRating = ratings.Values.Max();
-            double scale = 2000.0 / maxRating;
-
-            normalizedPool.Clear();
-            foreach (var kvp in ratings)
+            eloBySteamId.Clear();
+            foreach (JObject player in players)
             {
-                normalizedPool[kvp.Key] = Math.Round(kvp.Value * scale, 1);
+                string sidStr = (string)player["steam_id"];
+                if (string.IsNullOrEmpty(sidStr)) continue;
+
+                ulong sid;
+                if (!ulong.TryParse(sidStr, out sid)) continue;
+
+                JToken eloTok = player["elo"];
+                if (eloTok == null) continue;
+                double elo = (double)eloTok;
+                if (elo <= 0) continue;
+
+                eloBySteamId[sid] = elo;
             }
 
-            minPoolRating = normalizedPool.Values.Min();
+            if (eloBySteamId.Count > 0)
+                minPoolRating = eloBySteamId.Values.Min();
+            else
+                minPoolRating = 0;
         }
     }
 }
