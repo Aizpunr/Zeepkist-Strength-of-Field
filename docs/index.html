@@ -1,0 +1,837 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cross-Comp ELO — Zeepkist</title>
+<style>
+:root {
+  --bg: #0e1116; --panel: #161b22; --border: #2a313b;
+  --fg: #e6edf3; --muted: #8b949e; --accent: #f59e0b;
+  --legend: #dc2626;  --pro: #a855f7;  --master: #3b82f6;
+  --gold: #10b981;    --silver: #6b7280;
+  --comp-cotd:  #3b82f6;
+  --comp-zsl:   #f59e0b;
+  --comp-pcdj:  #a855f7;
+  --comp-tyo:   #10b981;
+  --comp-kerki: #ec4899;
+}
+*       { box-sizing: border-box; }
+body    { margin:0; padding:24px 16px; font:14px/1.45 system-ui,Segoe UI,Roboto,sans-serif;
+          background:var(--bg); color:var(--fg); }
+.wrap   { max-width:980px; margin:0 auto; }
+h1      { margin:0 0 4px; font-size:22px; }
+.sub    { color:var(--muted); font-size:13px; margin-bottom:18px; }
+.cfg    { display:flex; flex-wrap:wrap; gap:6px 14px; padding:10px 12px; margin-bottom:18px;
+          background:var(--panel); border:1px solid var(--border); border-radius:8px;
+          color:var(--muted); font-size:12px; }
+.cfg b  { color:var(--fg); }
+table   { width:100%; border-collapse:collapse; background:var(--panel);
+          border:1px solid var(--border); border-radius:8px; overflow:hidden; }
+th, td  { padding:7px 10px; border-bottom:1px solid var(--border); text-align:left; }
+th      { background:#1a2029; color:var(--muted); font-weight:600; font-size:12px;
+          text-transform:uppercase; letter-spacing:.04em; cursor:pointer; user-select:none;
+          position:sticky; top:0; }
+th:hover{ color:var(--fg); }
+th.num, td.num { text-align:right; font-variant-numeric:tabular-nums; }
+tbody tr { cursor:pointer; }
+tbody tr:hover { background:#1c232d; }
+tbody tr.expanded { background:#1c232d; }
+.rk     { color:var(--muted); width:42px; }
+.rk.unranked { color:var(--accent); font-style:italic; }
+tbody tr.unranked-row td:not(.detail) { background:#15191f; }
+tbody tr.inactive-row td:not(.detail) { opacity:0.55; }
+.inactive-badge { display:inline-block; margin-left:6px; padding:1px 6px;
+                  font-size:10px; font-weight:600; text-transform:uppercase;
+                  letter-spacing:.04em;
+                  background:#2a313b; color:var(--muted); border-radius:3px; }
+.player { font-weight:600; }
+.tier-legend { color:var(--legend); }
+.tier-pro    { color:var(--pro); }
+.tier-master { color:var(--master); }
+.tier-gold   { color:var(--gold); }
+.tier-silver { color:var(--silver); }
+.search { padding:8px 12px; background:var(--panel); border:1px solid var(--border);
+          color:var(--fg); border-radius:6px; width:240px; margin-bottom:10px;
+          font:inherit; }
+.note   { margin-top:14px; color:var(--muted); font-size:12px; }
+.tierkey { display:flex; gap:14px; flex-wrap:wrap; margin-top:10px; font-size:12px; color:var(--muted); }
+.tierkey b { font-weight:600; }
+.detail { background:#0f1419; padding:0; }
+.detail-inner { padding:14px 16px; }
+.detail h3   { margin:0 0 8px; font-size:14px; }
+.detail .stats { display:flex; flex-wrap:wrap; gap:6px 18px; color:var(--muted);
+                 font-size:12px; margin-bottom:10px; }
+.detail .stats b { color:var(--fg); }
+.detail canvas { display:block; width:100%; height:240px;
+                 background:#0a0d12; border:1px solid var(--border); border-radius:6px;
+                 cursor:crosshair; }
+.legend-row { display:flex; gap:14px; flex-wrap:wrap; font-size:11px;
+              color:var(--muted); margin-top:8px; }
+.legend-row .dot { display:inline-block; width:10px; height:10px; border-radius:50%;
+                   margin-right:5px; vertical-align:middle; }
+.tooltip { margin-top:8px; padding:8px 12px; min-height:34px;
+           background:#0a0d12; border:1px solid var(--border); border-radius:6px;
+           font-size:12px; color:var(--muted); font-variant-numeric:tabular-nums; }
+.tooltip.placeholder { font-style:italic; }
+.tooltip b { color:var(--fg); }
+.tabs   { display:flex; gap:4px; margin-bottom:14px;
+          background:var(--panel); padding:4px; border:1px solid var(--border);
+          border-radius:8px; width:fit-content; }
+.tab    { padding:6px 14px; border:none; background:transparent; color:var(--muted);
+          font:inherit; font-size:13px; font-weight:600; border-radius:5px;
+          cursor:pointer; }
+.tab.active { background:rgba(245,158,11,0.18); color:var(--accent); }
+.tab:hover:not(.active) { color:var(--fg); }
+.comp-chip { display:inline-block; padding:1px 7px; border-radius:3px;
+             font-size:11px; font-weight:700; text-transform:uppercase;
+             letter-spacing:.04em; }
+.elo-up   { color:#10b981; font-variant-numeric:tabular-nums; }
+.elo-down { color:#dc2626; font-variant-numeric:tabular-nums; }
+.elo-flat { color:var(--muted); font-variant-numeric:tabular-nums; }
+.event-leaderboard { font-size:12px; }
+.event-leaderboard .lb-head { display:grid; gap:8px;
+                              padding:6px 0; color:var(--muted);
+                              font-size:10px; text-transform:uppercase;
+                              letter-spacing:.05em; border-bottom:1px solid var(--border); }
+.event-leaderboard .lb-row { display:grid; gap:8px;
+                             padding:4px 0; border-bottom:1px solid #1a2029;
+                             align-items:center; }
+.event-leaderboard .lb-row:hover { background:#1c232d; }
+.event-leaderboard .lb-num { text-align:right; font-variant-numeric:tabular-nums; }
+.event-leaderboard .lb-head [data-lbsort] { cursor:pointer; user-select:none; }
+.event-leaderboard .lb-head [data-lbsort]:hover { color:var(--fg); }
+.event-leaderboard .lb-head .lb-active { color:var(--fg); }
+.history-controls { padding:12px 14px; margin-bottom:14px;
+                    background:var(--panel); border:1px solid var(--border);
+                    border-radius:8px; }
+.history-controls .label { color:var(--muted); font-size:12px; margin-bottom:8px; }
+.history-controls .label b { color:var(--fg); font-variant-numeric:tabular-nums; }
+.history-controls .label .comp-chip { vertical-align:1px; }
+.history-controls input[type=range] { width:100%; accent-color:var(--accent); }
+.history-controls .row { display:flex; gap:10px; align-items:center; margin-top:8px;
+                         color:var(--muted); font-size:12px; flex-wrap:wrap; }
+.history-controls .row button { padding:4px 9px; background:#1a2029; color:var(--fg);
+                                border:1px solid var(--border); border-radius:4px;
+                                cursor:pointer; font:inherit; font-size:11px; }
+.history-controls .row button:hover { background:#222a35; }
+@media (max-width:640px) {
+  th.m-hide, td.m-hide { display:none; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Cross-Comp ELO</h1>
+  <div class="sub" id="sub">loading…</div>
+  <div class="cfg" id="cfg"></div>
+
+  <div class="tabs">
+    <button class="tab active" data-view="players">Players</button>
+    <button class="tab" data-view="events">Events</button>
+    <button class="tab" data-view="history">History</button>
+  </div>
+
+  <input class="search" id="search" placeholder="search player…" oninput="render()">
+
+  <div id="history-controls" class="history-controls" style="display:none">
+    <div class="label">Snapshot at <b id="hist-label">—</b></div>
+    <input type="range" id="hist-slider" min="1" max="1" value="1" step="1">
+    <div class="row">
+      <button data-histjump="-10">«</button>
+      <button data-histjump="-1">‹</button>
+      <button data-histjump="+1">›</button>
+      <button data-histjump="+10">»</button>
+      <button data-histjump="end">latest</button>
+      <span id="hist-stats" style="margin-left:auto"></span>
+    </div>
+  </div>
+
+  <table id="players-table">
+    <thead>
+      <tr>
+        <th class="num rk">#</th>
+        <th data-sort="n">Player</th>
+        <th class="num" data-sort="r">Rating</th>
+        <th class="num m-hide" data-sort="c">GP</th>
+        <th class="num m-hide" data-sort="w">Wins</th>
+        <th class="num m-hide" data-sort="s">Pod</th>
+        <th class="num m-hide" data-sort="peak">Peak</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+
+  <table id="history-table" style="display:none">
+    <thead>
+      <tr>
+        <th class="num rk">#</th>
+        <th data-histsort="n">Player</th>
+        <th class="num" data-histsort="r">Rating</th>
+        <th class="num m-hide" data-histsort="c">GP</th>
+        <th class="num m-hide" data-histsort="w">Wins</th>
+        <th class="num m-hide" data-histsort="peak">Peak</th>
+      </tr>
+    </thead>
+    <tbody id="history-tbody"></tbody>
+  </table>
+
+  <table id="events-table" style="display:none">
+    <thead>
+      <tr>
+        <th class="num rk">#</th>
+        <th data-evsort="d">Date</th>
+        <th data-evsort="comp">Comp</th>
+        <th data-evsort="id">Event</th>
+        <th data-evsort="winner">Winner</th>
+        <th class="num" data-evsort="lobby">Size</th>
+        <th class="num" data-evsort="sof">SOF</th>
+      </tr>
+    </thead>
+    <tbody id="events-tbody"></tbody>
+  </table>
+
+  <div class="tierkey" id="tierkey">
+    <span><b class="tier-legend">Legend</b> 2000+</span>
+    <span><b class="tier-pro">Pro</b> 1800+</span>
+    <span><b class="tier-master">Master</b> 1650+</span>
+    <span><b class="tier-gold">Gold</b> 1500+</span>
+    <span><b class="tier-silver">Silver</b> &lt;1500</span>
+  </div>
+
+  <div class="note" id="note"></div>
+</div>
+
+<script>
+let DATA = null;
+let EVENTS = null;
+let EVENT_LB = null;       // Map<evNum, [{sid, name, pos, after, before, delta}, ...] sorted by pos
+let VIEW = 'players';
+let SORT = { key: 'r', dir: -1 };
+let EVSORT = { key: 'd', dir: -1 };
+let EXPANDED = null;            // expanded sid in players view
+let EVENT_EXPANDED = null;      // expanded evNum in events view
+let LB_SORT = { key: 'pos', dir: 1 };
+let HIST_IDX = null;                 // 1-based event index (null until data loads)
+let HIST_SORT = { key: 'r', dir: -1 };
+const DECAY = 0.990;
+const GRACE = 5;
+
+const COMP_COLORS = {
+  cotd:  getComputedStyle(document.documentElement).getPropertyValue('--comp-cotd').trim(),
+  zsl:   getComputedStyle(document.documentElement).getPropertyValue('--comp-zsl').trim(),
+  pcdj:  getComputedStyle(document.documentElement).getPropertyValue('--comp-pcdj').trim(),
+  tyo:   getComputedStyle(document.documentElement).getPropertyValue('--comp-tyo').trim(),
+  kerki: getComputedStyle(document.documentElement).getPropertyValue('--comp-kerki').trim(),
+};
+
+function tierClass(r) {
+  if (r >= 2000) return 'tier-legend';
+  if (r >= 1800) return 'tier-pro';
+  if (r >= 1650) return 'tier-master';
+  if (r >= 1500) return 'tier-gold';
+  return 'tier-silver';
+}
+
+function bestPos(p) {
+  let b = 9999;
+  for (const h of p.h) if (h.p < b) b = h.p;
+  return b < 9999 ? b : null;
+}
+
+function peakRating(p) {
+  let m = -Infinity;
+  for (const h of p.h) if (h.r > m) m = h.r;
+  return isFinite(m) ? m : null;
+}
+
+const INACTIVITY_DAYS = 180;   // ~6 months
+
+function lastPlayedDate(p) {
+  if (!p.h || !p.h.length) return null;
+  const last = p.h[p.h.length - 1];
+  const ev = EVENTS[last.c - 1];
+  return ev ? ev.d : null;
+}
+
+function daysSince(dStr, refDateMs) {
+  if (!dStr) return Infinity;
+  return (refDateMs - Date.parse(dStr)) / 86400000;
+}
+
+function isInactive(p, refDateMs) {
+  return daysSince(lastPlayedDate(p), refDateMs) > INACTIVITY_DAYS;
+}
+
+function render() {
+  if (!DATA) return;
+  const q = document.getElementById('search').value.toLowerCase().trim();
+  const maxGp = Math.max(...DATA.players.map(s => s.c));
+  const threshold = Math.ceil(maxGp * 0.10);
+  const refDateMs = Date.parse(EVENTS[EVENTS.length - 1].d);
+  const sortFn = (a, b) => {
+    let av, bv;
+    if (SORT.key === 'best')      { av = bestPos(a) || 9999;       bv = bestPos(b) || 9999; }
+    else if (SORT.key === 'peak') { av = peakRating(a) ?? -Infinity; bv = peakRating(b) ?? -Infinity; }
+    else                          { av = a[SORT.key]; bv = b[SORT.key]; }
+    if (typeof av === 'string') return SORT.dir * av.localeCompare(bv);
+    return SORT.dir * (av - bv);
+  };
+  // Active qualified players get the canonical leaderboard ranks.
+  const activeQual = DATA.players.filter(s => s.c >= threshold && !isInactive(s, refDateMs));
+  activeQual.sort(sortFn);
+  const rankBySid = new Map();
+  activeQual.forEach((p, i) => rankBySid.set(p.sid, i + 1));
+
+  // Idle view = active qualified only. Search = all players (any rank, active or not).
+  const filtered = q
+    ? DATA.players.filter(s => s.n.toLowerCase().includes(q))
+    : activeQual;
+  filtered.sort(sortFn);
+
+  const tb = document.getElementById('tbody');
+  tb.innerHTML = filtered.map(p => {
+    const pod = (p.w || 0) + (p.s || 0) + (p.b || 0);
+    const best = bestPos(p);
+    const peak = peakRating(p);
+    const expanded = (p.sid === EXPANDED);
+    const rank = rankBySid.get(p.sid);
+    const inactive = isInactive(p, refDateMs);
+    const lastDate = lastPlayedDate(p);
+    let rankCell;
+    if (rank) {
+      rankCell = `<td class="num rk">${rank}</td>`;
+    } else if (inactive) {
+      rankCell = `<td class="num rk unranked" title="inactive — last played ${lastDate}">—</td>`;
+    } else {
+      rankCell = `<td class="num rk unranked" title="needs ${threshold}+ events to qualify">—</td>`;
+    }
+    const rowClasses = [
+      expanded ? 'expanded' : '',
+      rank ? '' : 'unranked-row',
+      inactive ? 'inactive-row' : '',
+    ].filter(Boolean).join(' ');
+    const inactiveBadge = inactive
+      ? `<span class="inactive-badge" title="last event ${lastDate}">inactive</span>` : '';
+    const row = `
+      <tr data-sid="${p.sid}" class="${rowClasses}">
+        ${rankCell}
+        <td class="player ${tierClass(p.r)}">${escapeHtml(p.n)}${inactiveBadge}</td>
+        <td class="num">${p.r.toFixed(1)}</td>
+        <td class="num m-hide">${p.c}</td>
+        <td class="num m-hide">${p.w || 0}</td>
+        <td class="num m-hide">${p.w}/${p.s}/${p.b}</td>
+        <td class="num m-hide">${peak !== null ? peak.toFixed(1) : '—'}</td>
+      </tr>`;
+    if (!expanded) return row;
+    return row + `<tr class="detail-row"><td colspan="7" class="detail"><div class="detail-inner">
+        ${detailHtml(p, best, pod)}
+      </div></td></tr>`;
+  }).join('');
+
+  // Wire up clicks
+  tb.querySelectorAll('tr[data-sid]').forEach(tr => {
+    tr.addEventListener('click', () => {
+      const sid = tr.dataset.sid;
+      EXPANDED = (EXPANDED === sid) ? null : sid;
+      render();
+      if (EXPANDED === sid) {
+        const p = DATA.players.find(x => x.sid === sid);
+        const canvas = document.getElementById(`chart-${sid}`);
+        if (canvas) drawHistoryChart(canvas, p);
+      }
+    });
+  });
+
+  const unrankedShown = filtered.filter(p => !rankBySid.has(p.sid)).length;
+  const sub = document.getElementById('sub');
+  if (q) {
+    const inactiveShown = filtered.filter(p => isInactive(p, refDateMs)).length;
+    const tags = [];
+    if (unrankedShown) tags.push(`${unrankedShown} unranked`);
+    if (inactiveShown) tags.push(`${inactiveShown} inactive`);
+    sub.textContent = `${filtered.length} match` + (filtered.length === 1 ? '' : 'es') +
+      (tags.length ? ` (${tags.join(', ')})` : '');
+  } else {
+    sub.textContent =
+      `${filtered.length} active qualified players (≥${threshold} events, played within ${INACTIVITY_DAYS} days)`;
+  }
+}
+
+function detailHtml(p, best, pod) {
+  const peak = p.h.reduce((m, h) => h.r > m ? h.r : m, -Infinity);
+  const trough = p.h.reduce((m, h) => h.r < m ? h.r : m, Infinity);
+  const startR = p.h.length ? p.h[0].r : null;
+  const lastR = p.r;
+  // Per-comp counts
+  const byComp = {};
+  for (const h of p.h) {
+    const ev = EVENTS[h.c - 1];
+    if (!ev) continue;
+    byComp[ev.comp] = (byComp[ev.comp] || 0) + 1;
+  }
+  const compStats = Object.entries(byComp).sort((a,b)=>b[1]-a[1])
+    .map(([c,n]) => `<span style="color:${COMP_COLORS[c]||'#fff'}">●</span> ${c} ${n}`).join(' ');
+  return `
+    <h3>${escapeHtml(p.n)}</h3>
+    <div class="stats">
+      <span><b>${p.r.toFixed(1)}</b> rating</span>
+      <span><b>${p.c}</b> events</span>
+      <span><b>${p.w}/${p.s}/${p.b}</b> 🥇/🥈/🥉</span>
+      <span>peak <b>${peak.toFixed(1)}</b></span>
+      <span>low <b>${trough.toFixed(1)}</b></span>
+      ${best !== null ? `<span>best pos <b>${best}</b></span>` : ''}
+    </div>
+    <div class="legend-row">${compStats}</div>
+    <canvas id="chart-${p.sid}"></canvas>
+    <div class="tooltip placeholder" id="tt-${p.sid}">hover over the graph to see events</div>`;
+}
+
+function drawHistoryChart(canvas, player) {
+  const dpr = window.devicePixelRatio || 1;
+  const W = canvas.clientWidth, H = canvas.clientHeight;
+  canvas.width = W * dpr; canvas.height = H * dpr;
+  const ctx = canvas.getContext('2d');
+  ctx.scale(dpr, dpr);
+  ctx.clearRect(0, 0, W, H);
+
+  const totalEvents = EVENTS.length;
+  const ratings = player.h.map(h => h.r);
+  const minR = Math.min(...ratings, 1500) - 30;
+  const maxR = Math.max(...ratings, 1500) + 30;
+
+  const padL = 40, padR = 16, padT = 14, padB = 22;
+  const plotW = W - padL - padR, plotH = H - padT - padB;
+
+  const xAt = (n) => padL + (n - 1) / (totalEvents - 1) * plotW;
+  const yAt = (r) => padT + (1 - (r - minR) / (maxR - minR)) * plotH;
+
+  // Remember dot positions for hit-testing
+  canvas._dots = [];   // [{x, y, h, ev}]
+
+  // Grid: rating lines at every 100
+  ctx.strokeStyle = '#1a2029'; ctx.lineWidth = 1;
+  ctx.fillStyle = '#5a626d'; ctx.font = '10px system-ui';
+  for (let r = Math.ceil(minR/100)*100; r <= maxR; r += 100) {
+    const y = yAt(r);
+    ctx.beginPath(); ctx.moveTo(padL, y); ctx.lineTo(W - padR, y); ctx.stroke();
+    ctx.fillText(r, 4, y + 3);
+  }
+
+  // Baseline 1500 highlighted
+  if (1500 >= minR && 1500 <= maxR) {
+    ctx.strokeStyle = '#2a313b'; ctx.lineWidth = 1;
+    ctx.setLineDash([4, 4]);
+    const y = yAt(1500);
+    ctx.beginPath(); ctx.moveTo(padL, y); ctx.lineTo(W - padR, y); ctx.stroke();
+    ctx.setLineDash([]);
+  }
+
+  // X axis dates (4 markers)
+  ctx.fillStyle = '#5a626d';
+  for (let i = 0; i < 4; i++) {
+    const n = Math.round(1 + i * (totalEvents - 1) / 3);
+    const ev = EVENTS[n - 1];
+    if (!ev) continue;
+    const x = xAt(n);
+    ctx.fillText(ev.d.slice(0,7), x - 18, H - 6);
+  }
+
+  // Rating line
+  ctx.strokeStyle = '#e6edf3'; ctx.lineWidth = 1.5;
+  ctx.beginPath();
+  for (let i = 0; i < player.h.length; i++) {
+    const h = player.h[i];
+    const x = xAt(h.c), y = yAt(h.r);
+    if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+  }
+  ctx.stroke();
+
+  // Dots colored by comp
+  for (const h of player.h) {
+    const ev = EVENTS[h.c - 1]; if (!ev) continue;
+    const x = xAt(h.c), y = yAt(h.r);
+    ctx.fillStyle = COMP_COLORS[ev.comp] || '#fff';
+    ctx.beginPath(); ctx.arc(x, y, 2.5, 0, Math.PI * 2); ctx.fill();
+    if (h.p === 1) {
+      ctx.strokeStyle = '#ffd700'; ctx.lineWidth = 1.5;
+      ctx.beginPath(); ctx.arc(x, y, 4, 0, Math.PI * 2); ctx.stroke();
+    }
+    canvas._dots.push({ x, y, h, ev });
+  }
+
+  // Hover handler
+  const tt = document.getElementById(`tt-${player.sid}`);
+  const placeholder = 'hover over the graph to see events';
+  function onMove(e) {
+    const rect = canvas.getBoundingClientRect();
+    const mx = e.clientX - rect.left;
+    const my = e.clientY - rect.top;
+    let best = null, bestD2 = 14 * 14;   // 14px hit radius
+    for (const d of canvas._dots) {
+      const dx = d.x - mx, dy = d.y - my;
+      const d2 = dx*dx + dy*dy;
+      if (d2 < bestD2) { bestD2 = d2; best = d; }
+    }
+    if (best) {
+      const { h, ev } = best;
+      const dotColor = COMP_COLORS[ev.comp] || '#fff';
+      const idx = player.h.indexOf(h);
+      const before = (h.pre !== undefined) ? h.pre :
+                     (idx > 0 ? player.h[idx - 1].r : 1500);
+      const delta = h.r - before;
+      const deltaStr =
+        ` <span style="color:${delta >= 0 ? '#10b981' : '#dc2626'}">(${delta >= 0 ? '+' : ''}${delta.toFixed(1)})</span>`;
+      tt.classList.remove('placeholder');
+      tt.innerHTML =
+        `<b>${ev.d}</b> · <span style="color:${dotColor}">${ev.comp}</span> · ` +
+        `<b>${escapeHtml(ev.id)}</b> · pos <b>${h.p}/${ev.lobby}</b> · ` +
+        `rating <b>${h.r.toFixed(1)}</b>${deltaStr}` +
+        (ev.sof != null ? ` · SOF ${ev.sof}%` : '');
+    } else {
+      tt.classList.add('placeholder');
+      tt.textContent = placeholder;
+    }
+  }
+  canvas.addEventListener('mousemove', onMove);
+  canvas.addEventListener('mouseleave', () => {
+    tt.classList.add('placeholder');
+    tt.textContent = placeholder;
+  });
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({
+    '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+  })[c]);
+}
+
+document.querySelectorAll('th[data-sort]').forEach(th => {
+  th.addEventListener('click', (ev) => {
+    ev.stopPropagation();
+    const k = th.dataset.sort;
+    if (SORT.key === k) SORT.dir *= -1;
+    else { SORT.key = k; SORT.dir = (k === 'n') ? 1 : (k === 'best' ? 1 : -1); }
+    render();
+  });
+});
+
+document.querySelectorAll('th[data-evsort]').forEach(th => {
+  th.addEventListener('click', (ev) => {
+    ev.stopPropagation();
+    const k = th.dataset.evsort;
+    if (EVSORT.key === k) EVSORT.dir *= -1;
+    else { EVSORT.key = k; EVSORT.dir = (k === 'comp' || k === 'id' || k === 'winner') ? 1 : -1; }
+    renderEvents();
+  });
+});
+
+document.querySelectorAll('.tabs .tab').forEach(btn => {
+  btn.addEventListener('click', () => {
+    VIEW = btn.dataset.view;
+    document.querySelectorAll('.tabs .tab').forEach(b => b.classList.toggle('active', b === btn));
+    document.getElementById('players-table').style.display  = VIEW === 'players' ? '' : 'none';
+    document.getElementById('events-table').style.display   = VIEW === 'events'  ? '' : 'none';
+    document.getElementById('history-table').style.display  = VIEW === 'history' ? '' : 'none';
+    document.getElementById('history-controls').style.display = VIEW === 'history' ? '' : 'none';
+    document.getElementById('search').style.display         = VIEW === 'players' ? '' : 'none';
+    document.getElementById('tierkey').style.display        = (VIEW === 'players' || VIEW === 'history') ? '' : 'none';
+    if (VIEW === 'players') render();
+    else if (VIEW === 'events') renderEvents();
+    else renderHistory();
+  });
+});
+
+// ── History view ───────────────────────────────────────────────────────
+// Snapshot a player's state at the END of `targetIdx` (1-based event #).
+// Returns null if the player hadn't joined yet at that point.
+function snapshotAt(p, targetIdx) {
+  let lastIdx = -1;
+  let gp = 0, wins = 0, podS = 0, podB = 0, peak = -Infinity, bestPos = 9999;
+  for (let i = 0; i < p.h.length; i++) {
+    const h = p.h[i];
+    if (h.c > targetIdx) break;
+    lastIdx = i;
+    gp++;
+    if (h.p === 1) wins++;
+    else if (h.p === 2) podS++;
+    else if (h.p === 3) podB++;
+    if (h.r > peak) peak = h.r;
+    if (h.p < bestPos) bestPos = h.p;
+  }
+  if (lastIdx < 0) return null;
+  const last = p.h[lastIdx];
+  let r = last.r;
+  if (last.c < targetIdx) {
+    const missed = targetIdx - last.c;
+    if (missed > GRACE && r > 1500) {
+      r = 1500 + (r - 1500) * Math.pow(DECAY, missed - GRACE);
+    }
+  }
+  return {
+    sid: p.sid, n: p.n,
+    r, c: gp, w: wins, s: podS, b: podB,
+    peak: isFinite(peak) ? peak : null,
+    bestPos: bestPos < 9999 ? bestPos : null,
+    lastEvent: last.c,
+  };
+}
+
+function renderHistory() {
+  if (!DATA || HIST_IDX == null) return;
+  const ev = EVENTS[HIST_IDX - 1];
+  const refDateMs = Date.parse(ev.d);
+  const compColor = COMP_COLORS[ev.comp] || '#fff';
+
+  // Snapshot every player.
+  const snaps = [];
+  for (const p of DATA.players) {
+    const s = snapshotAt(p, HIST_IDX);
+    if (s) snaps.push(s);
+  }
+
+  const maxGp = snaps.reduce((m, s) => s.c > m ? s.c : m, 0);
+  const threshold = Math.max(1, Math.ceil(maxGp * 0.10));
+
+  const isInactiveSnap = (s) => {
+    const evLast = EVENTS[s.lastEvent - 1];
+    if (!evLast) return true;
+    return (refDateMs - Date.parse(evLast.d)) / 86400000 > INACTIVITY_DAYS;
+  };
+  const activeQual = snaps.filter(s => s.c >= threshold && !isInactiveSnap(s));
+
+  const sortFn = (a, b) => {
+    let av, bv;
+    if (HIST_SORT.key === 'peak') { av = a.peak ?? -Infinity; bv = b.peak ?? -Infinity; }
+    else                          { av = a[HIST_SORT.key]; bv = b[HIST_SORT.key]; }
+    if (typeof av === 'string') return HIST_SORT.dir * av.localeCompare(bv);
+    return HIST_SORT.dir * (av - bv);
+  };
+  activeQual.sort(sortFn);
+
+  // Update slider label + stats
+  const sof = ev.sof != null ? ` · SOF <b>${ev.sof.toFixed(1)}%</b>` : '';
+  document.getElementById('hist-label').innerHTML =
+    `Event <b>${HIST_IDX}/${EVENTS.length}</b> — <b>${ev.d}</b> · ` +
+    `<span class="comp-chip" style="background:${compColor}33;color:${compColor}">${ev.comp}</span> ` +
+    `<b>${escapeHtml(ev.id)}</b> · ${ev.lobby} players${sof}`;
+  document.getElementById('hist-stats').textContent =
+    `${activeQual.length} active qualified · threshold ≥${threshold} GP`;
+
+  const tb = document.getElementById('history-tbody');
+  tb.innerHTML = activeQual.map((s, i) => `
+    <tr>
+      <td class="num rk">${i + 1}</td>
+      <td class="player ${tierClass(s.r)}">${escapeHtml(s.n)}</td>
+      <td class="num">${s.r.toFixed(1)}</td>
+      <td class="num m-hide">${s.c}</td>
+      <td class="num m-hide">${s.w}</td>
+      <td class="num m-hide">${s.peak !== null ? s.peak.toFixed(1) : '—'}</td>
+    </tr>`).join('');
+
+  document.getElementById('sub').textContent =
+    `Time travel — leaderboard reconstructed at the end of event ${HIST_IDX}/${EVENTS.length}`;
+}
+
+function setHist(n) {
+  if (!EVENTS) return;
+  HIST_IDX = Math.max(1, Math.min(EVENTS.length, n));
+  document.getElementById('hist-slider').value = HIST_IDX;
+  renderHistory();
+}
+
+document.querySelectorAll('th[data-histsort]').forEach(th => {
+  th.addEventListener('click', (ev) => {
+    ev.stopPropagation();
+    const k = th.dataset.histsort;
+    if (HIST_SORT.key === k) HIST_SORT.dir *= -1;
+    else { HIST_SORT.key = k; HIST_SORT.dir = (k === 'n') ? 1 : -1; }
+    renderHistory();
+  });
+});
+
+// Pre-compute per-event leaderboards (run once on data load).
+function buildEventLeaderboards() {
+  EVENT_LB = new Map();
+  for (const p of DATA.players) {
+    p.h.forEach((h, idx) => {
+      // h.pre = actual pre-event rating (after any decay).
+      // Falls back to previous-post if data was built before the pre field existed.
+      const before = (h.pre !== undefined) ? h.pre :
+                     (idx > 0 ? p.h[idx - 1].r : 1500);
+      const list = EVENT_LB.get(h.c) || [];
+      list.push({
+        sid: p.sid, name: p.n, pos: h.p,
+        after: h.r, before, delta: h.r - before,
+      });
+      EVENT_LB.set(h.c, list);
+    });
+  }
+  for (const list of EVENT_LB.values()) list.sort((a, b) => a.pos - b.pos);
+}
+
+function renderEvents() {
+  if (!DATA) return;
+  const tb = document.getElementById('events-tbody');
+  // Clone events with derived fields for sorting
+  const annotated = EVENTS.map(ev => {
+    const lb = EVENT_LB.get(ev.n) || [];
+    return {
+      ev, lb,
+      winner: lb[0] ? lb[0].name : '',
+    };
+  });
+  annotated.sort((a, b) => {
+    let av, bv;
+    switch (EVSORT.key) {
+      case 'd':      av = a.ev.d;     bv = b.ev.d;     break;
+      case 'comp':   av = a.ev.comp;  bv = b.ev.comp;  break;
+      case 'id':     av = a.ev.id;    bv = b.ev.id;    break;
+      case 'winner': av = a.winner;   bv = b.winner;   break;
+      case 'lobby':  av = a.ev.lobby; bv = b.ev.lobby; break;
+      case 'sof':    av = a.ev.sof ?? -1; bv = b.ev.sof ?? -1; break;
+      default:       av = a.ev.n;     bv = b.ev.n;
+    }
+    if (typeof av === 'string') return EVSORT.dir * av.localeCompare(bv);
+    return EVSORT.dir * (av - bv);
+  });
+
+  // Update sub-line
+  const lastEv = EVENTS[EVENTS.length - 1];
+  document.getElementById('sub').textContent =
+    `${EVENTS.length} events · ${lastEv.d} latest`;
+
+  tb.innerHTML = annotated.map((row, i) => {
+    const ev = row.ev;
+    const lb = row.lb;
+    const winner = row.winner;
+    const expanded = (ev.n === EVENT_EXPANDED);
+    const sof = ev.sof != null ? `${ev.sof.toFixed(1)}%` : '—';
+    const winColor = lb[0] ? rColor(lb[0].after) : 'var(--muted)';
+    const compColor = COMP_COLORS[ev.comp] || '#fff';
+    const main = `
+      <tr data-evnum="${ev.n}" class="${expanded ? 'expanded' : ''}">
+        <td class="num rk">${i + 1}</td>
+        <td>${ev.d}</td>
+        <td><span class="comp-chip" style="background:${compColor}33;color:${compColor}">${ev.comp}</span></td>
+        <td>${escapeHtml(ev.id)}</td>
+        <td style="color:${winColor};font-weight:600">${escapeHtml(winner) || '—'}</td>
+        <td class="num">${ev.lobby}</td>
+        <td class="num">${sof}</td>
+      </tr>`;
+    if (!expanded) return main;
+    return main + `<tr class="detail-row"><td colspan="7" class="detail"><div class="detail-inner">
+      ${eventDetailHtml(ev, lb)}
+    </div></td></tr>`;
+  }).join('');
+
+  tb.querySelectorAll('tr[data-evnum]').forEach(tr => {
+    tr.addEventListener('click', () => {
+      const n = parseInt(tr.dataset.evnum);
+      // Switching to a different event resets the sort to default (pos asc).
+      if (EVENT_EXPANDED !== n) LB_SORT = { key: 'pos', dir: 1 };
+      EVENT_EXPANDED = (EVENT_EXPANDED === n) ? null : n;
+      renderEvents();
+    });
+  });
+  tb.querySelectorAll('[data-lbsort]').forEach(el => {
+    el.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const k = el.dataset.lbsort;
+      if (LB_SORT.key === k) LB_SORT.dir *= -1;
+      else { LB_SORT.key = k; LB_SORT.dir = (k === 'name' || k === 'pos') ? 1 : -1; }
+      renderEvents();
+    });
+  });
+}
+
+function rColor(r) {
+  if (r >= 2000) return 'var(--legend)';
+  if (r >= 1800) return 'var(--pro)';
+  if (r >= 1650) return 'var(--master)';
+  if (r >= 1500) return 'var(--gold)';
+  return 'var(--silver)';
+}
+
+function sortLeaderboard(lb) {
+  const out = lb.slice();
+  out.sort((a, b) => {
+    let av = a[LB_SORT.key], bv = b[LB_SORT.key];
+    if (typeof av === 'string') return LB_SORT.dir * av.localeCompare(bv);
+    return LB_SORT.dir * (av - bv);
+  });
+  return out;
+}
+
+function eventDetailHtml(ev, lb) {
+  const cols = '36px 1fr 80px 80px 80px';
+  const sortHeader = (key, label, numeric) => {
+    const cls = (LB_SORT.key === key ? 'lb-active ' : '') + (numeric ? 'lb-num' : '');
+    const arrow = LB_SORT.key === key ? (LB_SORT.dir === 1 ? ' ▲' : ' ▼') : '';
+    return `<div class="${cls}" data-lbsort="${key}">${label}${arrow}</div>`;
+  };
+  const head = `<div class="lb-head" style="grid-template-columns:${cols}">
+    ${sortHeader('pos', 'Pos', false)}
+    ${sortHeader('name', 'Player', false)}
+    ${sortHeader('before', 'Pre', true)}
+    ${sortHeader('after', 'Post', true)}
+    ${sortHeader('delta', 'Δ', true)}
+  </div>`;
+  const sorted = sortLeaderboard(lb);
+  const rows = sorted.map(r => {
+    const dCls = r.delta > 0 ? 'elo-up' : (r.delta < 0 ? 'elo-down' : 'elo-flat');
+    const dStr = (r.delta >= 0 ? '+' : '') + r.delta.toFixed(1);
+    return `<div class="lb-row" style="grid-template-columns:${cols}">
+      <div style="color:var(--muted)">${r.pos}</div>
+      <div style="color:${rColor(r.after)};font-weight:600">${escapeHtml(r.name)}</div>
+      <div class="lb-num" style="color:var(--muted)">${r.before.toFixed(1)}</div>
+      <div class="lb-num" style="color:${rColor(r.after)};font-weight:600">${r.after.toFixed(1)}</div>
+      <div class="lb-num ${dCls}">${dStr}</div>
+    </div>`;
+  }).join('');
+  const sof = ev.sof != null ? ` · SOF <b>${ev.sof.toFixed(1)}%</b>` : '';
+  return `
+    <h3>${escapeHtml(ev.id)} <span style="font-weight:400;color:var(--muted)">— ${ev.d} · <span class="comp-chip" style="background:${COMP_COLORS[ev.comp]}33;color:${COMP_COLORS[ev.comp]}">${ev.comp}</span> · ${ev.lobby} players${sof}</span></h3>
+    <div class="event-leaderboard">${head}${rows}</div>`;
+}
+
+fetch('allcompdata.json').then(r => r.json()).then(d => {
+  DATA = d;
+  EVENTS = d.events;
+  buildEventLeaderboards();
+  // History slider init
+  HIST_IDX = EVENTS.length;
+  const slider = document.getElementById('hist-slider');
+  slider.min = 1; slider.max = EVENTS.length; slider.value = EVENTS.length;
+  slider.addEventListener('input', () => setHist(parseInt(slider.value)));
+  document.querySelectorAll('[data-histjump]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const v = btn.dataset.histjump;
+      if (v === 'end') setHist(EVENTS.length);
+      else setHist(HIST_IDX + parseInt(v));
+    });
+  });
+  const c = d.config;
+  const lastEv = EVENTS[EVENTS.length - 1];
+  document.getElementById('cfg').innerHTML = `
+    <span><b>K</b> ${c.K_BASE}</span>
+    <span><b>Decay</b> ${c.DECAY} (after ${c.GRACE} missed)</span>
+    <span><b>SOF anchor</b> ${c.SOF_FLOOR ?? '–'} → ${c.SOF_PEAK ?? '–'}</span>
+    <span><b>Glicko-2 warmup</b> ${c.WARMUP_EVENTS} events (τ=${c.G2_TAU}, RD floor ${c.G2_RD_FLOOR})</span>
+    <span><b>Total events</b> ${EVENTS.length}</span>
+    ${lastEv ? `<span><b>Last</b> ${lastEv.d} ${lastEv.id}${lastEv.sof?` (SOF ${lastEv.sof}%)`:''}</span>` : ''}
+  `;
+  document.getElementById('note').innerHTML =
+    `Glicko-2 warmup over the first ${c.WARMUP_EVENTS} chronological events, then standard pairwise ELO with K-factor scaled by SOF. ` +
+    `SOF is min-max anchored: avg(top-10 lobby ratings) = ${c.SOF_FLOOR} → 0%, = ${c.SOF_PEAK} → 100%. ` +
+    `Above-baseline ratings decay ${(100*(1-c.DECAY)).toFixed(1)}% toward 1500 per missed event past the ${c.GRACE}-event grace (one-sided — sub-1500 players are frozen, not drifted up). ` +
+    `Players with no activity for ${INACTIVITY_DAYS}+ days are flagged <span class="inactive-badge">inactive</span> and hidden from the leaderboard, but still searchable with full history preserved. ` +
+    `<b>Click any row</b> to expand history chart + recent events. Dots colored by comp.`;
+  render();
+}).catch(e => {
+  document.getElementById('sub').textContent = 'Failed to load allcompdata.json — run build_allcompdata.py first.';
+  console.error(e);
+});
+</script>
+</body>
+</html>
