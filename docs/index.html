@@ -15,6 +15,7 @@
   --comp-pcdj:  #a855f7;
   --comp-tyo:   #10b981;
   --comp-kerki: #ec4899;
+  --comp-qube:  #06b6d4;
 }
 *       { box-sizing: border-box; }
 body    { margin:0; padding:24px 16px; font:14px/1.45 system-ui,Segoe UI,Roboto,sans-serif;
@@ -66,6 +67,17 @@ tbody tr.inactive-row td:not(.detail) { opacity:0.55; }
 .detail canvas { display:block; width:100%; height:240px;
                  background:#0a0d12; border:1px solid var(--border); border-radius:6px;
                  cursor:crosshair; }
+.chart-wrap { display:flex; gap:6px; align-items:stretch; }
+.chart-wrap canvas { flex:1; min-width:0; }
+.chart-zoom { writing-mode:vertical-lr; direction:rtl;
+              width:20px; align-self:stretch; cursor:ns-resize;
+              accent-color: var(--accent); }
+.chart-pan-row { display:flex; gap:8px; align-items:center; margin-top:4px;
+                 font-size:10px; color:var(--muted); font-family:monospace; }
+.chart-pan { flex:1; accent-color: var(--accent); cursor:ew-resize; }
+.chart-pan:disabled { opacity:0.35; cursor:not-allowed; }
+.chart-zoom-label { font-family:monospace; font-size:10px; color:var(--muted);
+                    min-width:32px; text-align:right; }
 .legend-row { display:flex; gap:14px; flex-wrap:wrap; font-size:11px;
               color:var(--muted); margin-top:8px; }
 .legend-row .dot { display:inline-block; width:10px; height:10px; border-radius:50%;
@@ -223,6 +235,7 @@ const COMP_COLORS = {
   pcdj:  getComputedStyle(document.documentElement).getPropertyValue('--comp-pcdj').trim(),
   tyo:   getComputedStyle(document.documentElement).getPropertyValue('--comp-tyo').trim(),
   kerki: getComputedStyle(document.documentElement).getPropertyValue('--comp-kerki').trim(),
+  qube:  getComputedStyle(document.documentElement).getPropertyValue('--comp-qube').trim(),
 };
 
 function tierClass(r) {
@@ -338,7 +351,10 @@ function render() {
       if (EXPANDED === sid) {
         const p = DATA.players.find(x => x.sid === sid);
         const canvas = document.getElementById(`chart-${sid}`);
-        if (canvas) drawHistoryChart(canvas, p);
+        if (canvas) {
+          drawHistoryChart(canvas, p);
+          attachZoomPan(sid, p);
+        }
       }
     });
   });
@@ -383,7 +399,17 @@ function detailHtml(p, best, pod) {
       ${best !== null ? `<span>best pos <b>${best}</b></span>` : ''}
     </div>
     <div class="legend-row">${compStats}</div>
-    <canvas id="chart-${p.sid}"></canvas>
+    <div class="chart-wrap">
+      <canvas id="chart-${p.sid}"></canvas>
+      <input type="range" class="chart-zoom" id="zoom-${p.sid}"
+             min="1" max="10" step="0.1" value="1" title="zoom (1× = full timeline)">
+    </div>
+    <div class="chart-pan-row">
+      <span class="chart-zoom-label" id="zlbl-${p.sid}">1.0×</span>
+      <input type="range" class="chart-pan" id="pan-${p.sid}"
+             min="0" max="100" step="0.1" value="50" disabled
+             title="pan left/right (active when zoomed in)">
+    </div>
     <div class="tooltip placeholder" id="tt-${p.sid}">hover over the graph to see events</div>`;
 }
 
@@ -397,13 +423,22 @@ function drawHistoryChart(canvas, player) {
 
   const totalEvents = EVENTS.length;
   const ratings = player.h.map(h => h.r);
+  // Y range stays fixed across zoom/pan (per spec) — uses player's full history.
   const minR = Math.min(...ratings, 1500) - 30;
   const maxR = Math.max(...ratings, 1500) + 30;
 
   const padL = 40, padR = 16, padT = 14, padB = 22;
   const plotW = W - padL - padR, plotH = H - padT - padB;
 
-  const xAt = (n) => padL + (n - 1) / (totalEvents - 1) * plotW;
+  // Zoom/pan window — only affects the X axis.
+  const zoom = canvas._zoom || 1;
+  const panFrac = canvas._panFrac ?? 0.5;
+  const winSize = Math.max(2, totalEvents / zoom);
+  const maxStart = Math.max(0, totalEvents - winSize);
+  const startEv = 1 + maxStart * panFrac;       // first event visible (float ok)
+  const endEv = startEv + winSize - 1;
+
+  const xAt = (n) => padL + (n - startEv) / (winSize - 1) * plotW;
   const yAt = (r) => padT + (1 - (r - minR) / (maxR - minR)) * plotH;
 
   // Remember dot positions for hit-testing
@@ -427,15 +462,21 @@ function drawHistoryChart(canvas, player) {
     ctx.setLineDash([]);
   }
 
-  // X axis dates (4 markers)
+  // X axis dates (4 markers, anchored to the visible window)
   ctx.fillStyle = '#5a626d';
   for (let i = 0; i < 4; i++) {
-    const n = Math.round(1 + i * (totalEvents - 1) / 3);
+    const n = Math.round(startEv + i * (winSize - 1) / 3);
     const ev = EVENTS[n - 1];
     if (!ev) continue;
     const x = xAt(n);
     ctx.fillText(ev.d.slice(0,7), x - 18, H - 6);
   }
+
+  // Clip line + dots to the plot rect so out-of-window points don't spill.
+  ctx.save();
+  ctx.beginPath();
+  ctx.rect(padL, padT, plotW, plotH);
+  ctx.clip();
 
   // Rating line
   ctx.strokeStyle = '#e6edf3'; ctx.lineWidth = 1.5;
@@ -447,7 +488,7 @@ function drawHistoryChart(canvas, player) {
   }
   ctx.stroke();
 
-  // Dots colored by comp
+  // Dots colored by comp — only collect for hit-testing those in window
   for (const h of player.h) {
     const ev = EVENTS[h.c - 1]; if (!ev) continue;
     const x = xAt(h.c), y = yAt(h.r);
@@ -457,8 +498,11 @@ function drawHistoryChart(canvas, player) {
       ctx.strokeStyle = '#ffd700'; ctx.lineWidth = 1.5;
       ctx.beginPath(); ctx.arc(x, y, 4, 0, Math.PI * 2); ctx.stroke();
     }
-    canvas._dots.push({ x, y, h, ev });
+    if (h.c >= startEv && h.c <= endEv) {
+      canvas._dots.push({ x, y, h, ev });
+    }
   }
+  ctx.restore();
 
   // Hover handler
   const tt = document.getElementById(`tt-${player.sid}`);
@@ -497,6 +541,27 @@ function drawHistoryChart(canvas, player) {
   canvas.addEventListener('mouseleave', () => {
     tt.classList.add('placeholder');
     tt.textContent = placeholder;
+  });
+}
+
+function attachZoomPan(sid, player) {
+  const canvas = document.getElementById(`chart-${sid}`);
+  const zoomEl = document.getElementById(`zoom-${sid}`);
+  const panEl  = document.getElementById(`pan-${sid}`);
+  const lblEl  = document.getElementById(`zlbl-${sid}`);
+  if (!canvas || !zoomEl || !panEl || !lblEl) return;
+
+  zoomEl.addEventListener('input', () => {
+    const z = parseFloat(zoomEl.value);
+    canvas._zoom = z;
+    canvas._panFrac = parseFloat(panEl.value) / 100;
+    lblEl.textContent = `${z.toFixed(1)}×`;
+    panEl.disabled = (z <= 1.001);
+    drawHistoryChart(canvas, player);
+  });
+  panEl.addEventListener('input', () => {
+    canvas._panFrac = parseFloat(panEl.value) / 100;
+    drawHistoryChart(canvas, player);
   });
 }
 
