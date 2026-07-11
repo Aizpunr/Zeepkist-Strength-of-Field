@@ -1,11 +1,11 @@
 {
-  "version": "2026-07-05",
+  "version": "2026-07-11",
   "regression": {
     "form": "ELO = a + b * log(gtr_rank)",
-    "intercept": 2048.2181,
-    "slope": -104.8064,
-    "r_squared": 0.7592,
-    "n_fit": 249,
+    "intercept": 2042.0325,
+    "slope": -103.6082,
+    "r_squared": 0.7508,
+    "n_fit": 250,
     "min_events_for_fit": 5,
     "fit_target": "cross-comp ELO"
   },
@@ -14,98 +14,82 @@
     {
       "steam_id": "76561198050792757",
       "name": "justMaki",
-      "elo": 2126.2,
+      "elo": 2130.0,
       "source": "crosscomp",
-      "crosscomp_events": 139,
-      "crosscomp_wins": 74
+      "crosscomp_events": 141,
+      "crosscomp_wins": 75
     },
     {
       "steam_id": "76561199024808939",
       "name": "Kernkob",
-      "elo": 2101.3,
+      "elo": 2104.6,
       "source": "crosscomp",
-      "crosscomp_events": 131,
+      "crosscomp_events": 132,
       "crosscomp_wins": 56
-    },
-    {
-      "steam_id": "76561198851912263",
-      "name": "Lexer",
-      "elo": 1985.6,
-      "source": "crosscomp",
-      "crosscomp_events": 223,
-      "crosscomp_wins": 8
     },
     {
       "steam_id": "76561199126724675",
       "name": "ZOMAN",
-      "elo": 1977.7,
+      "elo": 1976.2,
       "source": "crosscomp",
-      "crosscomp_events": 140,
+      "crosscomp_events": 142,
       "crosscomp_wins": 40
+    },
+    {
+      "steam_id": "76561198851912263",
+      "name": "Lexer",
+      "elo": 1968.9,
+      "source": "crosscomp",
+      "crosscomp_events": 225,
+      "crosscomp_wins": 8
     },
     {
       "steam_id": "76561198149636594",
       "name": "Quickracer10",
-      "elo": 1961.8,
+      "elo": 1968.1,
       "source": "crosscomp",
-      "crosscomp_events": 143,
+      "crosscomp_events": 144,
+      "crosscomp_wins": 9
+    },
+    {
+      "steam_id": "76561198152852852",
+      "name": "JakeAdjacent",
+      "elo": 1946.3,
+      "source": "crosscomp",
+      "crosscomp_events": 88,
       "crosscomp_wins": 9
     },
     {
       "steam_id": "76561199027567424",
       "name": "Hydro",
-      "elo": 1949.5,
+      "elo": 1938.9,
       "source": "crosscomp",
-      "crosscomp_events": 96,
+      "crosscomp_events": 97,
       "crosscomp_wins": 9
     },
     {
       "steam_id": "76561198896246339",
       "name": "RoundNzt",
-      "elo": 1945.3,
+      "elo": 1926.2,
       "source": "crosscomp",
-      "crosscomp_events": 181,
+      "crosscomp_events": 182,
       "crosscomp_wins": 13
-    },
-    {
-      "steam_id": "76561198152852852",
-      "name": "JakeAdjacent",
-      "elo": 1939.7,
-      "source": "crosscomp",
-      "crosscomp_events": 86,
-      "crosscomp_wins": 9
     },
     {
       "steam_id": "76561198081356099",
       "name": "Sandals",
-      "elo": 1924.1,
+      "elo": 1920.5,
       "source": "crosscomp",
       "crosscomp_events": 116,
       "crosscomp_wins": 3
     },
     {
-      "steam_id": "76561198253679880",
-      "name": "PandaMane",
-      "elo": 1845.8,
-      "source": "crosscomp",
-      "crosscomp_events": 93,
-      "crosscomp_wins": 3
-    },
-    {
       "steam_id": "76561198877428244",
       "name": "Sterben",
-      "elo": 1843.5,
+      "elo": 1826.8,
       "source": "crosscomp",
-      "crosscomp_events": 52,
+      "crosscomp_events": 53,
       "crosscomp_wins": 5
-    },
-    {
-      "steam_id": "76561199187327002",
-      "name": "Tommygaming",
-      "elo": 1820.7,
-      "source": "crosscomp",
-      "crosscomp_events": 95,
-      "crosscomp_wins": 2
     },
     {
       "steam_id": "76561199448462477",
@@ -116,28 +100,52 @@
       "crosscomp_wins": 5
     },
     {
+      "steam_id": "76561198253679880",
+      "name": "PandaMane",
+      "elo": 1811.4,
+      "source": "crosscomp",
+      "crosscomp_events": 94,
+      "crosscomp_wins": 3
+    },
+    {
+      "steam_id": "76561199187327002",
+      "name": "Tommygaming",
+      "elo": 1794.6,
+      "source": "crosscomp",
+      "crosscomp_events": 96,
+      "crosscomp_wins": 2
+    },
+    {
+      "steam_id": "76561199590715014",
+      "name": "Stick",
+      "elo": 1781.8,
+      "source": "crosscomp",
+      "crosscomp_events": 80,
+      "crosscomp_wins": 3
+    },
+    {
       "steam_id": "76561198865432343",
       "name": "MackCheesy",
-      "elo": 1776.5,
+      "elo": 1774.1,
       "source": "crosscomp",
       "crosscomp_events": 88,
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561199590715014",
-      "name": "Stick",
-      "elo": 1760.6,
-      "source": "crosscomp",
-      "crosscomp_events": 78,
-      "crosscomp_wins": 3
-    },
-    {
       "steam_id": "76561198125435428",
       "name": "JobW",
-      "elo": 1759.5,
+      "elo": 1757.2,
       "source": "crosscomp",
       "crosscomp_events": 64,
       "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561198159073318",
+      "name": "GuAlexItar",
+      "elo": 1747.9,
+      "source": "crosscomp",
+      "crosscomp_events": 152,
+      "crosscomp_wins": 1
     },
     {
       "steam_id": "76561199109206781",
@@ -150,25 +158,17 @@
     {
       "steam_id": "76561198212710700",
       "name": "Minkus",
-      "elo": 1742.6,
+      "elo": 1741.0,
       "source": "crosscomp",
-      "crosscomp_events": 36,
-      "crosscomp_wins": 1
-    },
-    {
-      "steam_id": "76561198159073318",
-      "name": "GuAlexItar",
-      "elo": 1742.5,
-      "source": "crosscomp",
-      "crosscomp_events": 151,
+      "crosscomp_events": 38,
       "crosscomp_wins": 1
     },
     {
       "steam_id": "76561198974231691",
       "name": "agix",
-      "elo": 1737.5,
+      "elo": 1738.0,
       "source": "crosscomp",
-      "crosscomp_events": 155,
+      "crosscomp_events": 156,
       "crosscomp_wins": 1
     },
     {
@@ -180,25 +180,25 @@
       "crosscomp_wins": 1
     },
     {
-      "steam_id": "76561199129302746",
-      "name": "brrryy",
-      "elo": 1730.7,
-      "source": "crosscomp",
-      "crosscomp_events": 71,
-      "crosscomp_wins": 0
-    },
-    {
       "steam_id": "76561198430273427",
       "name": "Redstony",
-      "elo": 1722.0,
+      "elo": 1729.6,
       "source": "crosscomp",
-      "crosscomp_events": 40,
+      "crosscomp_events": 41,
       "crosscomp_wins": 3
+    },
+    {
+      "steam_id": "76561199129302746",
+      "name": "brrryy",
+      "elo": 1729.1,
+      "source": "crosscomp",
+      "crosscomp_events": 73,
+      "crosscomp_wins": 0
     },
     {
       "steam_id": "76561198052077385",
       "name": "schmxrg",
-      "elo": 1715.6,
+      "elo": 1713.8,
       "source": "crosscomp",
       "crosscomp_events": 45,
       "crosscomp_wins": 2
@@ -206,18 +206,10 @@
     {
       "steam_id": "76561199147780037",
       "name": "An Actual g00se",
-      "elo": 1710.9,
+      "elo": 1709.1,
       "source": "crosscomp",
       "crosscomp_events": 44,
       "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561198067925412",
-      "name": "AndMe",
-      "elo": 1704.9,
-      "source": "crosscomp",
-      "crosscomp_events": 87,
-      "crosscomp_wins": 1
     },
     {
       "steam_id": "76561198357858848",
@@ -228,11 +220,27 @@
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561198067925412",
+      "name": "AndMe",
+      "elo": 1703.1,
+      "source": "crosscomp",
+      "crosscomp_events": 87,
+      "crosscomp_wins": 1
+    },
+    {
       "steam_id": "76561198205579857",
       "name": "Linzi",
       "elo": 1697.5,
       "source": "crosscomp",
       "crosscomp_events": 38,
+      "crosscomp_wins": 1
+    },
+    {
+      "steam_id": "76561199529259554",
+      "name": "Pants",
+      "elo": 1695.6,
+      "source": "crosscomp",
+      "crosscomp_events": 49,
       "crosscomp_wins": 1
     },
     {
@@ -262,7 +270,7 @@
     {
       "steam_id": "76561198842622746",
       "name": "Beans",
-      "elo": 1685.6,
+      "elo": 1684.0,
       "source": "crosscomp",
       "crosscomp_events": 43,
       "crosscomp_wins": 0
@@ -278,17 +286,9 @@
     {
       "steam_id": "76561199733601754",
       "name": "LKat",
-      "elo": 1680.7,
+      "elo": 1679.2,
       "source": "crosscomp",
       "crosscomp_events": 25,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561199529259554",
-      "name": "Pants",
-      "elo": 1677.8,
-      "source": "crosscomp",
-      "crosscomp_events": 48,
       "crosscomp_wins": 0
     },
     {
@@ -302,17 +302,9 @@
     {
       "steam_id": "76561198357638671",
       "name": "Murrl",
-      "elo": 1674.6,
+      "elo": 1673.1,
       "source": "crosscomp",
       "crosscomp_events": 43,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561198335037968",
-      "name": "A2 Zecklord",
-      "elo": 1673.3,
-      "source": "crosscomp",
-      "crosscomp_events": 64,
       "crosscomp_wins": 0
     },
     {
@@ -324,9 +316,25 @@
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561198335037968",
+      "name": "A2 Zecklord",
+      "elo": 1671.8,
+      "source": "crosscomp",
+      "crosscomp_events": 64,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561199380118922",
+      "name": "Victor",
+      "elo": 1667.8,
+      "source": "crosscomp",
+      "crosscomp_events": 37,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561198314320065",
       "name": "DeeDeeNaNaNa",
-      "elo": 1668.2,
+      "elo": 1666.7,
       "source": "crosscomp",
       "crosscomp_events": 94,
       "crosscomp_wins": 0
@@ -342,7 +350,7 @@
     {
       "steam_id": "76561199006040868",
       "name": "Eclipse135",
-      "elo": 1665.6,
+      "elo": 1664.2,
       "source": "crosscomp",
       "crosscomp_events": 22,
       "crosscomp_wins": 0
@@ -350,23 +358,23 @@
     {
       "steam_id": "76561198161379363",
       "name": "Cbad Cruiser",
-      "elo": 1664.6,
+      "elo": 1663.2,
       "source": "crosscomp",
       "crosscomp_events": 37,
       "crosscomp_wins": 2
     },
     {
-      "steam_id": "76561199380118922",
-      "name": "Victor",
-      "elo": 1660.3,
+      "steam_id": "76561198056113005",
+      "name": "Six",
+      "elo": 1655.4,
       "source": "crosscomp",
-      "crosscomp_events": 36,
-      "crosscomp_wins": 0
+      "crosscomp_events": 71,
+      "crosscomp_wins": 1
     },
     {
       "steam_id": "76561198001387193",
       "name": "Warsnac",
-      "elo": 1655.7,
+      "elo": 1654.3,
       "source": "crosscomp",
       "crosscomp_events": 34,
       "crosscomp_wins": 0
@@ -374,7 +382,7 @@
     {
       "steam_id": "76561199135775747",
       "name": "Renergy",
-      "elo": 1653.3,
+      "elo": 1652.0,
       "source": "crosscomp",
       "crosscomp_events": 53,
       "crosscomp_wins": 0
@@ -382,7 +390,7 @@
     {
       "steam_id": "76561198181691229",
       "name": "redal",
-      "elo": 1652.2,
+      "elo": 1650.9,
       "source": "crosscomp",
       "crosscomp_events": 48,
       "crosscomp_wins": 0
@@ -390,7 +398,7 @@
     {
       "steam_id": "76561198106476018",
       "name": "jandje",
-      "elo": 1647.4,
+      "elo": 1646.1,
       "source": "crosscomp",
       "crosscomp_events": 54,
       "crosscomp_wins": 8
@@ -398,7 +406,7 @@
     {
       "steam_id": "76561199278221929",
       "name": "icRS",
-      "elo": 1645.9,
+      "elo": 1644.6,
       "source": "crosscomp",
       "crosscomp_events": 65,
       "crosscomp_wins": 0
@@ -406,23 +414,15 @@
     {
       "steam_id": "76561198049803270",
       "name": "Orthros",
-      "elo": 1644.4,
+      "elo": 1643.1,
       "source": "crosscomp",
       "crosscomp_events": 27,
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198056113005",
-      "name": "Six",
-      "elo": 1642.9,
-      "source": "crosscomp",
-      "crosscomp_events": 70,
-      "crosscomp_wins": 1
-    },
-    {
       "steam_id": "76561199173536675",
       "name": "OwlPlague",
-      "elo": 1638.1,
+      "elo": 1636.9,
       "source": "crosscomp",
       "crosscomp_events": 74,
       "crosscomp_wins": 0
@@ -430,23 +430,31 @@
     {
       "steam_id": "76561198364662649",
       "name": "Heart-TGV",
-      "elo": 1634.4,
+      "elo": 1636.2,
       "source": "crosscomp",
-      "crosscomp_events": 56,
+      "crosscomp_events": 57,
       "crosscomp_wins": 0
     },
     {
       "steam_id": "76561198104372256",
       "name": "Shattersmith",
-      "elo": 1632.5,
+      "elo": 1631.3,
       "source": "crosscomp",
       "crosscomp_events": 22,
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561197997929590",
+      "name": "Gimpel",
+      "elo": 1631.2,
+      "source": "crosscomp",
+      "crosscomp_events": 50,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561198160604987",
       "name": "Northwind/Noweki",
-      "elo": 1632.3,
+      "elo": 1631.1,
       "source": "crosscomp",
       "crosscomp_events": 50,
       "crosscomp_wins": 0
@@ -460,52 +468,36 @@
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561198126038296",
+      "name": "Noxitu",
+      "elo": 1629.9,
+      "source": "crosscomp",
+      "crosscomp_events": 127,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561198178190613",
       "name": "magical",
-      "elo": 1624.4,
+      "elo": 1623.3,
       "source": "crosscomp",
       "crosscomp_events": 14,
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561197997929590",
-      "name": "Gimpel",
-      "elo": 1622.7,
-      "source": "crosscomp",
-      "crosscomp_events": 49,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561198126038296",
-      "name": "Noxitu",
-      "elo": 1619.1,
-      "source": "crosscomp",
-      "crosscomp_events": 126,
-      "crosscomp_wins": 0
-    },
-    {
       "steam_id": "76561198021974488",
       "name": "NathWalt",
-      "elo": 1618.5,
+      "elo": 1616.1,
       "source": "crosscomp",
-      "crosscomp_events": 27,
+      "crosscomp_events": 28,
       "crosscomp_wins": 0
     },
     {
       "steam_id": "76561198932043314",
       "name": "Metalted",
-      "elo": 1615.1,
+      "elo": 1614.1,
       "source": "crosscomp",
       "crosscomp_events": 53,
       "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561199230094250",
-      "name": "Naomi :3",
-      "elo": 1613.6,
-      "source": "crosscomp",
-      "crosscomp_events": 42,
-      "crosscomp_wins": 2
     },
     {
       "steam_id": "76561199498272376",
@@ -516,9 +508,17 @@
       "crosscomp_wins": 2
     },
     {
+      "steam_id": "76561199230094250",
+      "name": "Naomi :3",
+      "elo": 1612.6,
+      "source": "crosscomp",
+      "crosscomp_events": 42,
+      "crosscomp_wins": 2
+    },
+    {
       "steam_id": "76561199583884117",
       "name": "Weak_Knees",
-      "elo": 1612.5,
+      "elo": 1611.6,
       "source": "crosscomp",
       "crosscomp_events": 38,
       "crosscomp_wins": 0
@@ -526,25 +526,25 @@
     {
       "steam_id": "76561198082490487",
       "name": "M4rv",
-      "elo": 1611.7,
+      "elo": 1610.7,
       "source": "crosscomp",
       "crosscomp_events": 22,
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198000593151",
-      "name": "Triton",
-      "elo": 1606.9,
+      "steam_id": "76561198027169155",
+      "name": "DeiRex",
+      "elo": 1607.1,
       "source": "crosscomp",
-      "crosscomp_events": 15,
+      "crosscomp_events": 155,
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198027169155",
-      "name": "DeiRex",
-      "elo": 1605.8,
+      "steam_id": "76561198000593151",
+      "name": "Triton",
+      "elo": 1606.0,
       "source": "crosscomp",
-      "crosscomp_events": 154,
+      "crosscomp_events": 15,
       "crosscomp_wins": 0
     },
     {
@@ -556,25 +556,25 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198428660617",
-      "name": "BB_Benji",
-      "elo": 1604.3,
-      "source": "crosscomp",
-      "crosscomp_events": 24,
-      "crosscomp_wins": 0
-    },
-    {
       "steam_id": "76561198082304391",
       "name": "[CTR] TheBamboozler",
-      "elo": 1601.4,
+      "elo": 1600.5,
       "source": "crosscomp",
       "crosscomp_events": 21,
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561198428660617",
+      "name": "BB_Benji",
+      "elo": 1597.2,
+      "source": "crosscomp",
+      "crosscomp_events": 25,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561197996376845",
       "name": "Arder",
-      "elo": 1589.8,
+      "elo": 1589.0,
       "source": "crosscomp",
       "crosscomp_events": 48,
       "crosscomp_wins": 0
@@ -582,17 +582,9 @@
     {
       "steam_id": "76561198290668879",
       "name": "Socks242",
-      "elo": 1586.7,
+      "elo": 1586.0,
       "source": "crosscomp",
       "crosscomp_events": 22,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561199051019898",
-      "name": "Mr. Hubub",
-      "elo": 1585.3,
-      "source": "crosscomp",
-      "crosscomp_events": 19,
       "crosscomp_wins": 0
     },
     {
@@ -604,9 +596,17 @@
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561199051019898",
+      "name": "Mr. Hubub",
+      "elo": 1584.6,
+      "source": "crosscomp",
+      "crosscomp_events": 19,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561198454611931",
       "name": "376",
-      "elo": 1581.6,
+      "elo": 1580.9,
       "source": "crosscomp",
       "crosscomp_events": 16,
       "crosscomp_wins": 0
@@ -614,7 +614,7 @@
     {
       "steam_id": "76561198259463003",
       "name": "R0nanC",
-      "elo": 1581.5,
+      "elo": 1580.8,
       "source": "crosscomp",
       "crosscomp_events": 128,
       "crosscomp_wins": 0
@@ -622,17 +622,9 @@
     {
       "steam_id": "76561198840040581",
       "name": "RadAbsRad",
-      "elo": 1580.2,
+      "elo": 1579.5,
       "source": "crosscomp",
       "crosscomp_events": 12,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561198846673916",
-      "name": "Matic_D",
-      "elo": 1579.8,
-      "source": "crosscomp",
-      "crosscomp_events": 103,
       "crosscomp_wins": 0
     },
     {
@@ -644,9 +636,17 @@
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561198072185237",
+      "name": "Nails",
+      "elo": 1576.4,
+      "source": "crosscomp",
+      "crosscomp_events": 38,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561198093513150",
       "name": "CantFindTheSky",
-      "elo": 1575.9,
+      "elo": 1575.2,
       "source": "crosscomp",
       "crosscomp_events": 9,
       "crosscomp_wins": 0
@@ -654,23 +654,23 @@
     {
       "steam_id": "76561198438442547",
       "name": "palfly",
-      "elo": 1575.0,
+      "elo": 1574.3,
       "source": "crosscomp",
       "crosscomp_events": 23,
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198072185237",
-      "name": "Nails",
-      "elo": 1574.3,
+      "steam_id": "76561198846673916",
+      "name": "Matic_D",
+      "elo": 1573.4,
       "source": "crosscomp",
-      "crosscomp_events": 37,
+      "crosscomp_events": 104,
       "crosscomp_wins": 0
     },
     {
       "steam_id": "76561197996872205",
       "name": "Erko",
-      "elo": 1573.8,
+      "elo": 1573.2,
       "source": "crosscomp",
       "crosscomp_events": 25,
       "crosscomp_wins": 1
@@ -678,7 +678,7 @@
     {
       "steam_id": "76561198965056659",
       "name": "zivecef",
-      "elo": 1570.3,
+      "elo": 1569.7,
       "source": "crosscomp",
       "crosscomp_events": 27,
       "crosscomp_wins": 0
@@ -686,7 +686,7 @@
     {
       "steam_id": "76561199644142984",
       "name": "clycl",
-      "elo": 1570.2,
+      "elo": 1569.6,
       "source": "crosscomp",
       "crosscomp_events": 4,
       "crosscomp_wins": 1
@@ -700,9 +700,17 @@
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561198213715297",
+      "name": "stindt",
+      "elo": 1567.4,
+      "source": "crosscomp",
+      "crosscomp_events": 32,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561198008859132",
       "name": "Lazy_Echidna",
-      "elo": 1562.4,
+      "elo": 1561.9,
       "source": "crosscomp",
       "crosscomp_events": 115,
       "crosscomp_wins": 0
@@ -710,7 +718,7 @@
     {
       "steam_id": "76561198287320070",
       "name": "[KRS] Trash Salad",
-      "elo": 1561.7,
+      "elo": 1561.2,
       "source": "crosscomp",
       "crosscomp_events": 7,
       "crosscomp_wins": 0
@@ -718,7 +726,7 @@
     {
       "steam_id": "76561198416930050",
       "name": "Wombat!",
-      "elo": 1561.0,
+      "elo": 1560.5,
       "source": "crosscomp",
       "crosscomp_events": 9,
       "crosscomp_wins": 0
@@ -726,7 +734,7 @@
     {
       "steam_id": "76561198064346397",
       "name": "Mark",
-      "elo": 1560.7,
+      "elo": 1560.2,
       "source": "crosscomp",
       "crosscomp_events": 23,
       "crosscomp_wins": 3
@@ -734,7 +742,7 @@
     {
       "steam_id": "76561197965640463",
       "name": "L3it3R",
-      "elo": 1559.9,
+      "elo": 1559.4,
       "source": "crosscomp",
       "crosscomp_events": 57,
       "crosscomp_wins": 0
@@ -742,7 +750,7 @@
     {
       "steam_id": "76561198847576929",
       "name": "Lightning",
-      "elo": 1559.3,
+      "elo": 1558.8,
       "source": "crosscomp",
       "crosscomp_events": 6,
       "crosscomp_wins": 0
@@ -750,7 +758,7 @@
     {
       "steam_id": "76561198078203272",
       "name": "Psycho No. 7",
-      "elo": 1558.6,
+      "elo": 1558.1,
       "source": "crosscomp",
       "crosscomp_events": 15,
       "crosscomp_wins": 0
@@ -758,31 +766,31 @@
     {
       "steam_id": "76561198030459761",
       "name": "IStaySideway",
-      "elo": 1554.0,
+      "elo": 1553.5,
       "source": "crosscomp",
       "crosscomp_events": 15,
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198359568548",
-      "name": "Kodiak",
-      "elo": 1552.2,
-      "source": "crosscomp",
-      "crosscomp_events": 16,
-      "crosscomp_wins": 0
-    },
-    {
       "steam_id": "76561197995534351",
       "name": "Kaiser64",
-      "elo": 1552.2,
+      "elo": 1551.8,
       "source": "crosscomp",
       "crosscomp_events": 18,
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561198359568548",
+      "name": "Kodiak",
+      "elo": 1551.7,
+      "source": "crosscomp",
+      "crosscomp_events": 16,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561198155015234",
       "name": "VirusCookies",
-      "elo": 1551.6,
+      "elo": 1551.2,
       "source": "crosscomp",
       "crosscomp_events": 6,
       "crosscomp_wins": 0
@@ -798,47 +806,23 @@
     {
       "steam_id": "76561198019659175",
       "name": "Revenger_19",
-      "elo": 1551.1,
+      "elo": 1550.7,
       "source": "crosscomp",
       "crosscomp_events": 12,
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198213715297",
-      "name": "stindt",
-      "elo": 1550.8,
-      "source": "crosscomp",
-      "crosscomp_events": 31,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561198250994428",
-      "name": "Savage Package",
-      "elo": 1547.5,
-      "source": "crosscomp",
-      "crosscomp_events": 20,
-      "crosscomp_wins": 0
-    },
-    {
       "steam_id": "76561197999431502",
       "name": "readfreak7",
-      "elo": 1547.1,
+      "elo": 1546.7,
       "source": "crosscomp",
       "crosscomp_events": 24,
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561199218214543",
-      "name": "Wheelie",
-      "elo": 1546.5,
-      "source": "crosscomp",
-      "crosscomp_events": 101,
-      "crosscomp_wins": 0
-    },
-    {
       "steam_id": "76561198157436732",
       "name": "variableferret",
-      "elo": 1546.5,
+      "elo": 1546.1,
       "source": "crosscomp",
       "crosscomp_events": 25,
       "crosscomp_wins": 0
@@ -846,7 +830,7 @@
     {
       "steam_id": "76561198299114586",
       "name": "gilgool",
-      "elo": 1545.8,
+      "elo": 1545.4,
       "source": "crosscomp",
       "crosscomp_events": 34,
       "crosscomp_wins": 0
@@ -862,7 +846,7 @@
     {
       "steam_id": "76561198934033785",
       "name": "OgelGames",
-      "elo": 1543.9,
+      "elo": 1543.5,
       "source": "crosscomp",
       "crosscomp_events": 11,
       "crosscomp_wins": 0
@@ -870,7 +854,7 @@
     {
       "steam_id": "76561198082960657",
       "name": "FlamingSquid",
-      "elo": 1543.7,
+      "elo": 1543.3,
       "source": "crosscomp",
       "crosscomp_events": 13,
       "crosscomp_wins": 0
@@ -878,7 +862,7 @@
     {
       "steam_id": "76561198056301310",
       "name": "matt",
-      "elo": 1542.9,
+      "elo": 1542.6,
       "source": "crosscomp",
       "crosscomp_events": 16,
       "crosscomp_wins": 0
@@ -886,7 +870,7 @@
     {
       "steam_id": "76561198003528539",
       "name": "Orange Sheets",
-      "elo": 1542.1,
+      "elo": 1541.8,
       "source": "crosscomp",
       "crosscomp_events": 22,
       "crosscomp_wins": 0
@@ -894,7 +878,7 @@
     {
       "steam_id": "76561199028380903",
       "name": "johnglorp2002",
-      "elo": 1541.7,
+      "elo": 1541.3,
       "source": "crosscomp",
       "crosscomp_events": 4,
       "crosscomp_wins": 0
@@ -902,7 +886,7 @@
     {
       "steam_id": "76561199602234412",
       "name": "MetalCJ",
-      "elo": 1539.6,
+      "elo": 1539.3,
       "source": "crosscomp",
       "crosscomp_events": 32,
       "crosscomp_wins": 0
@@ -910,23 +894,23 @@
     {
       "steam_id": "76561198871908504",
       "name": "PoopSheriff",
-      "elo": 1538.4,
+      "elo": 1538.1,
       "source": "crosscomp",
       "crosscomp_events": 24,
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198052262761",
-      "name": "Form",
-      "elo": 1537.2,
+      "steam_id": "76561197988996330",
+      "name": "LupensCruor",
+      "elo": 1538.0,
       "source": "crosscomp",
-      "crosscomp_events": 45,
+      "crosscomp_events": 8,
       "crosscomp_wins": 0
     },
     {
       "steam_id": "76561198178960505",
       "name": "SharKy",
-      "elo": 1536.7,
+      "elo": 1536.4,
       "source": "crosscomp",
       "crosscomp_events": 2,
       "crosscomp_wins": 0
@@ -934,7 +918,7 @@
     {
       "steam_id": "76561199115313906",
       "name": "Pigbuy",
-      "elo": 1535.7,
+      "elo": 1535.4,
       "source": "crosscomp",
       "crosscomp_events": 10,
       "crosscomp_wins": 1
@@ -942,7 +926,7 @@
     {
       "steam_id": "76561198838593572",
       "name": "invisiblecat8",
-      "elo": 1534.0,
+      "elo": 1533.7,
       "source": "crosscomp",
       "crosscomp_events": 21,
       "crosscomp_wins": 0
@@ -950,17 +934,9 @@
     {
       "steam_id": "76561198109881901",
       "name": "Kabs666",
-      "elo": 1532.8,
+      "elo": 1532.5,
       "source": "crosscomp",
       "crosscomp_events": 5,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561199128560669",
-      "name": "Graham The Guy",
-      "elo": 1532.0,
-      "source": "crosscomp",
-      "crosscomp_events": 11,
       "crosscomp_wins": 0
     },
     {
@@ -972,9 +948,17 @@
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561199128560669",
+      "name": "Graham The Guy",
+      "elo": 1531.7,
+      "source": "crosscomp",
+      "crosscomp_events": 11,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561199121464627",
       "name": "rsgold",
-      "elo": 1531.7,
+      "elo": 1531.4,
       "source": "crosscomp",
       "crosscomp_events": 8,
       "crosscomp_wins": 0
@@ -982,7 +966,7 @@
     {
       "steam_id": "76561199031843177",
       "name": "Sniffals",
-      "elo": 1531.5,
+      "elo": 1531.2,
       "source": "crosscomp",
       "crosscomp_events": 3,
       "crosscomp_wins": 0
@@ -990,15 +974,23 @@
     {
       "steam_id": "76561199043210759",
       "name": "Nicolas_Gamer5476",
-      "elo": 1531.4,
+      "elo": 1531.1,
       "source": "crosscomp",
       "crosscomp_events": 5,
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561199218214543",
+      "name": "Wheelie",
+      "elo": 1529.9,
+      "source": "crosscomp",
+      "crosscomp_events": 103,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561199477437324",
       "name": "Joking",
-      "elo": 1529.8,
+      "elo": 1529.6,
       "source": "crosscomp",
       "crosscomp_events": 22,
       "crosscomp_wins": 0
@@ -1006,7 +998,7 @@
     {
       "steam_id": "76561199144917715",
       "name": "FORT OFF",
-      "elo": 1529.5,
+      "elo": 1529.3,
       "source": "crosscomp",
       "crosscomp_events": 5,
       "crosscomp_wins": 0
@@ -1014,7 +1006,7 @@
     {
       "steam_id": "76561198144551155",
       "name": "Termite",
-      "elo": 1529.3,
+      "elo": 1529.1,
       "source": "crosscomp",
       "crosscomp_events": 20,
       "crosscomp_wins": 0
@@ -1022,7 +1014,7 @@
     {
       "steam_id": "76561198081686672",
       "name": "Not That Guy",
-      "elo": 1529.1,
+      "elo": 1528.9,
       "source": "crosscomp",
       "crosscomp_events": 17,
       "crosscomp_wins": 0
@@ -1030,7 +1022,7 @@
     {
       "steam_id": "76561199144056798",
       "name": "ArmchairPolymath",
-      "elo": 1528.8,
+      "elo": 1528.5,
       "source": "crosscomp",
       "crosscomp_events": 11,
       "crosscomp_wins": 0
@@ -1038,7 +1030,7 @@
     {
       "steam_id": "76561198245799392",
       "name": "Bram2323",
-      "elo": 1528.6,
+      "elo": 1528.4,
       "source": "crosscomp",
       "crosscomp_events": 11,
       "crosscomp_wins": 0
@@ -1046,15 +1038,23 @@
     {
       "steam_id": "76561199053404858",
       "name": "Roader",
-      "elo": 1528.5,
+      "elo": 1528.2,
       "source": "crosscomp",
       "crosscomp_events": 13,
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561198250994428",
+      "name": "Savage Package",
+      "elo": 1528.2,
+      "source": "crosscomp",
+      "crosscomp_events": 21,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561198020002661",
       "name": "RadiationMutt",
-      "elo": 1527.6,
+      "elo": 1527.4,
       "source": "crosscomp",
       "crosscomp_events": 4,
       "crosscomp_wins": 0
@@ -1062,17 +1062,9 @@
     {
       "steam_id": "76561198017668945",
       "name": "Striking Vyper",
-      "elo": 1527.5,
+      "elo": 1527.2,
       "source": "crosscomp",
       "crosscomp_events": 11,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561197988996330",
-      "name": "LupensCruor",
-      "elo": 1527.4,
-      "source": "crosscomp",
-      "crosscomp_events": 7,
       "crosscomp_wins": 0
     },
     {
@@ -1086,7 +1078,7 @@
     {
       "steam_id": "76561197970830160",
       "name": "cactuzhead",
-      "elo": 1526.8,
+      "elo": 1526.5,
       "source": "crosscomp",
       "crosscomp_events": 8,
       "crosscomp_wins": 0
@@ -1094,7 +1086,7 @@
     {
       "steam_id": "76561199128492450",
       "name": "ITz_WillleeMan",
-      "elo": 1526.1,
+      "elo": 1525.8,
       "source": "crosscomp",
       "crosscomp_events": 9,
       "crosscomp_wins": 0
@@ -1102,7 +1094,7 @@
     {
       "steam_id": "76561198855781617",
       "name": "MMXD18",
-      "elo": 1526.0,
+      "elo": 1525.8,
       "source": "crosscomp",
       "crosscomp_events": 22,
       "crosscomp_wins": 0
@@ -1110,7 +1102,7 @@
     {
       "steam_id": "76561198115077065",
       "name": "Khord",
-      "elo": 1525.5,
+      "elo": 1525.3,
       "source": "crosscomp",
       "crosscomp_events": 3,
       "crosscomp_wins": 0
@@ -1118,7 +1110,7 @@
     {
       "steam_id": "76561198991002114",
       "name": "Sir Ragdollot",
-      "elo": 1524.8,
+      "elo": 1524.6,
       "source": "crosscomp",
       "crosscomp_events": 2,
       "crosscomp_wins": 0
@@ -1126,7 +1118,7 @@
     {
       "steam_id": "76561198404874313",
       "name": "Moiso",
-      "elo": 1524.7,
+      "elo": 1524.5,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -1142,7 +1134,7 @@
     {
       "steam_id": "76561199366940380",
       "name": "Clowny",
-      "elo": 1524.3,
+      "elo": 1524.1,
       "source": "crosscomp",
       "crosscomp_events": 9,
       "crosscomp_wins": 0
@@ -1150,7 +1142,7 @@
     {
       "steam_id": "76561198080629453",
       "name": "TudBungus",
-      "elo": 1524.0,
+      "elo": 1523.8,
       "source": "crosscomp",
       "crosscomp_events": 3,
       "crosscomp_wins": 0
@@ -1158,7 +1150,7 @@
     {
       "steam_id": "76561199217544926",
       "name": "dirtyboy58",
-      "elo": 1523.7,
+      "elo": 1523.5,
       "source": "crosscomp",
       "crosscomp_events": 6,
       "crosscomp_wins": 0
@@ -1166,7 +1158,7 @@
     {
       "steam_id": "76561198072912743",
       "name": "Lynhardt",
-      "elo": 1523.7,
+      "elo": 1523.5,
       "source": "crosscomp",
       "crosscomp_events": 31,
       "crosscomp_wins": 0
@@ -1174,7 +1166,7 @@
     {
       "steam_id": "76561198859311447",
       "name": "Joe-bgaming",
-      "elo": 1523.3,
+      "elo": 1523.1,
       "source": "crosscomp",
       "crosscomp_events": 13,
       "crosscomp_wins": 0
@@ -1182,7 +1174,7 @@
     {
       "steam_id": "76561198061460580",
       "name": "Happydr",
-      "elo": 1523.1,
+      "elo": 1522.9,
       "source": "crosscomp",
       "crosscomp_events": 3,
       "crosscomp_wins": 0
@@ -1198,7 +1190,7 @@
     {
       "steam_id": "76561199726483179",
       "name": "loganbradley714",
-      "elo": 1522.6,
+      "elo": 1522.4,
       "source": "crosscomp",
       "crosscomp_events": 12,
       "crosscomp_wins": 0
@@ -1206,7 +1198,7 @@
     {
       "steam_id": "76561198044425998",
       "name": "Principe",
-      "elo": 1522.3,
+      "elo": 1522.1,
       "source": "crosscomp",
       "crosscomp_events": 13,
       "crosscomp_wins": 0
@@ -1214,17 +1206,9 @@
     {
       "steam_id": "76561198046077557",
       "name": "maxie12",
-      "elo": 1521.8,
+      "elo": 1521.7,
       "source": "crosscomp",
       "crosscomp_events": 24,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561198364836379",
-      "name": "[TBD]Arctic_XpERt",
-      "elo": 1521.6,
-      "source": "crosscomp",
-      "crosscomp_events": 2,
       "crosscomp_wins": 0
     },
     {
@@ -1236,9 +1220,17 @@
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561198364836379",
+      "name": "[TBD]Arctic_XpERt",
+      "elo": 1521.4,
+      "source": "crosscomp",
+      "crosscomp_events": 2,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561198023336905",
       "name": "Hademar",
-      "elo": 1521.4,
+      "elo": 1521.2,
       "source": "crosscomp",
       "crosscomp_events": 2,
       "crosscomp_wins": 0
@@ -1246,7 +1238,7 @@
     {
       "steam_id": "76561197971539447",
       "name": "loxiww",
-      "elo": 1520.7,
+      "elo": 1520.5,
       "source": "crosscomp",
       "crosscomp_events": 4,
       "crosscomp_wins": 0
@@ -1254,7 +1246,7 @@
     {
       "steam_id": "76561198012873957",
       "name": "Frixion",
-      "elo": 1520.0,
+      "elo": 1519.8,
       "source": "crosscomp",
       "crosscomp_events": 2,
       "crosscomp_wins": 0
@@ -1262,7 +1254,7 @@
     {
       "steam_id": "76561198810177914",
       "name": "PoleLord",
-      "elo": 1519.7,
+      "elo": 1519.5,
       "source": "crosscomp",
       "crosscomp_events": 4,
       "crosscomp_wins": 0
@@ -1270,7 +1262,7 @@
     {
       "steam_id": "76561198182467866",
       "name": "Danners",
-      "elo": 1519.5,
+      "elo": 1519.4,
       "source": "crosscomp",
       "crosscomp_events": 2,
       "crosscomp_wins": 0
@@ -1278,7 +1270,7 @@
     {
       "steam_id": "76561198353455576",
       "name": "GeneralYoda",
-      "elo": 1519.4,
+      "elo": 1519.2,
       "source": "crosscomp",
       "crosscomp_events": 2,
       "crosscomp_wins": 0
@@ -1286,7 +1278,7 @@
     {
       "steam_id": "76561198253561586",
       "name": "Memphis Strangler",
-      "elo": 1519.2,
+      "elo": 1519.1,
       "source": "crosscomp",
       "crosscomp_events": 3,
       "crosscomp_wins": 0
@@ -1294,7 +1286,7 @@
     {
       "steam_id": "76561198008520019",
       "name": "Giganten",
-      "elo": 1518.5,
+      "elo": 1518.4,
       "source": "crosscomp",
       "crosscomp_events": 8,
       "crosscomp_wins": 0
@@ -1302,15 +1294,23 @@
     {
       "steam_id": "76561198111825993",
       "name": "Danuluss",
-      "elo": 1518.5,
+      "elo": 1518.4,
       "source": "crosscomp",
       "crosscomp_events": 3,
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561198052262761",
+      "name": "Form",
+      "elo": 1518.2,
+      "source": "crosscomp",
+      "crosscomp_events": 46,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561198123116932",
       "name": "nate69cam",
-      "elo": 1518.2,
+      "elo": 1518.1,
       "source": "crosscomp",
       "crosscomp_events": 3,
       "crosscomp_wins": 0
@@ -1318,7 +1318,7 @@
     {
       "steam_id": "76561198031026580",
       "name": "WotterBytes",
-      "elo": 1517.7,
+      "elo": 1517.5,
       "source": "crosscomp",
       "crosscomp_events": 10,
       "crosscomp_wins": 0
@@ -1326,14 +1326,6 @@
     {
       "steam_id": "76561198100712511",
       "name": "TTV/BlackHawkXNL",
-      "elo": 1517.5,
-      "source": "crosscomp",
-      "crosscomp_events": 1,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561198079618904",
-      "name": "AuroTheAzure",
       "elo": 1517.3,
       "source": "crosscomp",
       "crosscomp_events": 1,
@@ -1342,9 +1334,17 @@
     {
       "steam_id": "76561198991237382",
       "name": "TraNin",
-      "elo": 1517.3,
+      "elo": 1517.2,
       "source": "crosscomp",
       "crosscomp_events": 9,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561198079618904",
+      "name": "AuroTheAzure",
+      "elo": 1517.1,
+      "source": "crosscomp",
+      "crosscomp_events": 1,
       "crosscomp_wins": 0
     },
     {
@@ -1358,7 +1358,7 @@
     {
       "steam_id": "76561198047054140",
       "name": "Arepuz",
-      "elo": 1516.6,
+      "elo": 1516.4,
       "source": "crosscomp",
       "crosscomp_events": 7,
       "crosscomp_wins": 0
@@ -1366,7 +1366,7 @@
     {
       "steam_id": "76561199237593375",
       "name": "LokiOfAsunder",
-      "elo": 1516.4,
+      "elo": 1516.3,
       "source": "crosscomp",
       "crosscomp_events": 2,
       "crosscomp_wins": 0
@@ -1374,7 +1374,7 @@
     {
       "steam_id": "76561198041162028",
       "name": "taigtasche",
-      "elo": 1516.0,
+      "elo": 1515.9,
       "source": "crosscomp",
       "crosscomp_events": 2,
       "crosscomp_wins": 0
@@ -1382,7 +1382,7 @@
     {
       "steam_id": "76561198076411436",
       "name": "StonyBaboon",
-      "elo": 1515.8,
+      "elo": 1515.7,
       "source": "crosscomp",
       "crosscomp_events": 5,
       "crosscomp_wins": 0
@@ -1390,7 +1390,7 @@
     {
       "steam_id": "76561199180150756",
       "name": "GearworkDragon",
-      "elo": 1515.7,
+      "elo": 1515.6,
       "source": "crosscomp",
       "crosscomp_events": 11,
       "crosscomp_wins": 0
@@ -1398,7 +1398,7 @@
     {
       "steam_id": "76561199580052002",
       "name": "TheRockingSheep",
-      "elo": 1515.5,
+      "elo": 1515.4,
       "source": "crosscomp",
       "crosscomp_events": 5,
       "crosscomp_wins": 0
@@ -1406,7 +1406,7 @@
     {
       "steam_id": "76561199137807850",
       "name": "CDAW",
-      "elo": 1515.0,
+      "elo": 1514.9,
       "source": "crosscomp",
       "crosscomp_events": 3,
       "crosscomp_wins": 0
@@ -1414,7 +1414,7 @@
     {
       "steam_id": "76561198037649622",
       "name": "Hairybroness",
-      "elo": 1515.0,
+      "elo": 1514.8,
       "source": "crosscomp",
       "crosscomp_events": 7,
       "crosscomp_wins": 0
@@ -1422,7 +1422,7 @@
     {
       "steam_id": "76561197996506229",
       "name": "felix",
-      "elo": 1514.8,
+      "elo": 1514.7,
       "source": "crosscomp",
       "crosscomp_events": 2,
       "crosscomp_wins": 0
@@ -1430,7 +1430,7 @@
     {
       "steam_id": "76561198029508562",
       "name": "Cold Deck? ...",
-      "elo": 1514.6,
+      "elo": 1514.5,
       "source": "crosscomp",
       "crosscomp_events": 2,
       "crosscomp_wins": 0
@@ -1446,7 +1446,7 @@
     {
       "steam_id": "76561199242599801",
       "name": "[XTR]Hawk",
-      "elo": 1514.4,
+      "elo": 1514.3,
       "source": "crosscomp",
       "crosscomp_events": 24,
       "crosscomp_wins": 0
@@ -1454,7 +1454,7 @@
     {
       "steam_id": "76561198027978961",
       "name": "Rorroh",
-      "elo": 1514.2,
+      "elo": 1514.1,
       "source": "crosscomp",
       "crosscomp_events": 2,
       "crosscomp_wins": 0
@@ -1462,7 +1462,7 @@
     {
       "steam_id": "76561199120472717",
       "name": "Mustang302",
-      "elo": 1514.2,
+      "elo": 1514.1,
       "source": "crosscomp",
       "crosscomp_events": 2,
       "crosscomp_wins": 0
@@ -1470,7 +1470,7 @@
     {
       "steam_id": "76561199070202397",
       "name": "Thenonymous",
-      "elo": 1514.1,
+      "elo": 1514.0,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -1478,7 +1478,7 @@
     {
       "steam_id": "76561198052872868",
       "name": "Prepe",
-      "elo": 1514.1,
+      "elo": 1514.0,
       "source": "crosscomp",
       "crosscomp_events": 4,
       "crosscomp_wins": 0
@@ -1486,31 +1486,31 @@
     {
       "steam_id": "76561198060405963",
       "name": "ForestTheBoy",
-      "elo": 1514.0,
+      "elo": 1513.9,
       "source": "crosscomp",
       "crosscomp_events": 4,
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198027023975",
-      "name": "Bridaggs",
-      "elo": 1513.6,
-      "source": "crosscomp",
-      "crosscomp_events": 6,
-      "crosscomp_wins": 0
-    },
-    {
       "steam_id": "76561198068885599",
       "name": "Spuzzle",
-      "elo": 1513.5,
+      "elo": 1513.4,
       "source": "crosscomp",
       "crosscomp_events": 2,
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561198027023975",
+      "name": "Bridaggs",
+      "elo": 1513.4,
+      "source": "crosscomp",
+      "crosscomp_events": 6,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561197975483812",
       "name": "Dunke",
-      "elo": 1513.3,
+      "elo": 1513.2,
       "source": "crosscomp",
       "crosscomp_events": 4,
       "crosscomp_wins": 0
@@ -1518,7 +1518,7 @@
     {
       "steam_id": "76561198095392263",
       "name": "Ezoz",
-      "elo": 1513.2,
+      "elo": 1513.1,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -1526,23 +1526,15 @@
     {
       "steam_id": "76561198048503797",
       "name": "AssassinLV",
-      "elo": 1513.2,
+      "elo": 1513.1,
       "source": "crosscomp",
       "crosscomp_events": 5,
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198062354991",
-      "name": "RuthlessTex",
-      "elo": 1513.0,
-      "source": "crosscomp",
-      "crosscomp_events": 1,
-      "crosscomp_wins": 0
-    },
-    {
       "steam_id": "76561198207957111",
       "name": "Lord Mendigo",
-      "elo": 1513.0,
+      "elo": 1512.9,
       "source": "crosscomp",
       "crosscomp_events": 3,
       "crosscomp_wins": 0
@@ -1550,15 +1542,23 @@
     {
       "steam_id": "76561199013714548",
       "name": "Chapin",
-      "elo": 1513.0,
+      "elo": 1512.9,
       "source": "crosscomp",
       "crosscomp_events": 13,
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561198062354991",
+      "name": "RuthlessTex",
+      "elo": 1512.8,
+      "source": "crosscomp",
+      "crosscomp_events": 1,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561198180909591",
       "name": "Odist",
-      "elo": 1513.0,
+      "elo": 1512.8,
       "source": "crosscomp",
       "crosscomp_events": 5,
       "crosscomp_wins": 0
@@ -1566,7 +1566,7 @@
     {
       "steam_id": "76561199037373763",
       "name": "Hate Hater",
-      "elo": 1512.8,
+      "elo": 1512.7,
       "source": "crosscomp",
       "crosscomp_events": 8,
       "crosscomp_wins": 0
@@ -1574,7 +1574,7 @@
     {
       "steam_id": "76561198447684490",
       "name": "Rigenix",
-      "elo": 1512.4,
+      "elo": 1512.3,
       "source": "crosscomp",
       "crosscomp_events": 15,
       "crosscomp_wins": 0
@@ -1582,7 +1582,7 @@
     {
       "steam_id": "76561198130056087",
       "name": "Amystika",
-      "elo": 1512.3,
+      "elo": 1512.2,
       "source": "crosscomp",
       "crosscomp_events": 3,
       "crosscomp_wins": 0
@@ -1590,7 +1590,7 @@
     {
       "steam_id": "76561199112560691",
       "name": "BaasBallas",
-      "elo": 1512.1,
+      "elo": 1512.0,
       "source": "crosscomp",
       "crosscomp_events": 10,
       "crosscomp_wins": 0
@@ -1598,7 +1598,7 @@
     {
       "steam_id": "76561198125000151",
       "name": "Irisdice",
-      "elo": 1511.9,
+      "elo": 1511.8,
       "source": "crosscomp",
       "crosscomp_events": 5,
       "crosscomp_wins": 0
@@ -1606,7 +1606,7 @@
     {
       "steam_id": "76561198331571202",
       "name": "Y",
-      "elo": 1511.8,
+      "elo": 1511.7,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -1614,7 +1614,7 @@
     {
       "steam_id": "76561198082902698",
       "name": "DorJis",
-      "elo": 1511.8,
+      "elo": 1511.7,
       "source": "crosscomp",
       "crosscomp_events": 3,
       "crosscomp_wins": 0
@@ -1622,7 +1622,7 @@
     {
       "steam_id": "76561198168946802",
       "name": "Coffeebro",
-      "elo": 1511.7,
+      "elo": 1511.6,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -1630,7 +1630,7 @@
     {
       "steam_id": "76561198311835092",
       "name": "MichelleX",
-      "elo": 1511.5,
+      "elo": 1511.4,
       "source": "crosscomp",
       "crosscomp_events": 6,
       "crosscomp_wins": 0
@@ -1638,7 +1638,7 @@
     {
       "steam_id": "76561198093242864",
       "name": "Last",
-      "elo": 1511.4,
+      "elo": 1511.3,
       "source": "crosscomp",
       "crosscomp_events": 4,
       "crosscomp_wins": 0
@@ -1646,7 +1646,7 @@
     {
       "steam_id": "76561198145132822",
       "name": "cgwheeler96",
-      "elo": 1511.3,
+      "elo": 1511.2,
       "source": "crosscomp",
       "crosscomp_events": 6,
       "crosscomp_wins": 0
@@ -1654,7 +1654,7 @@
     {
       "steam_id": "76561198225327104",
       "name": "Sol",
-      "elo": 1511.2,
+      "elo": 1511.1,
       "source": "crosscomp",
       "crosscomp_events": 4,
       "crosscomp_wins": 0
@@ -1662,7 +1662,7 @@
     {
       "steam_id": "76561198256080744",
       "name": "Joshuee1912",
-      "elo": 1511.2,
+      "elo": 1511.1,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -1670,7 +1670,7 @@
     {
       "steam_id": "76561199480203457",
       "name": "[WSC]Josh",
-      "elo": 1511.2,
+      "elo": 1511.1,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -1678,7 +1678,7 @@
     {
       "steam_id": "76561199031124115",
       "name": "moins3n",
-      "elo": 1510.9,
+      "elo": 1510.8,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -1686,7 +1686,7 @@
     {
       "steam_id": "76561199030452322",
       "name": "monstermud69",
-      "elo": 1510.9,
+      "elo": 1510.8,
       "source": "crosscomp",
       "crosscomp_events": 3,
       "crosscomp_wins": 0
@@ -1702,7 +1702,7 @@
     {
       "steam_id": "76561199101994275",
       "name": "VroomVroomer",
-      "elo": 1510.6,
+      "elo": 1510.5,
       "source": "crosscomp",
       "crosscomp_events": 6,
       "crosscomp_wins": 0
@@ -1710,7 +1710,7 @@
     {
       "steam_id": "76561198385703512",
       "name": "Last ⁧⁧💤",
-      "elo": 1510.6,
+      "elo": 1510.5,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -1726,7 +1726,7 @@
     {
       "steam_id": "76561198824105813",
       "name": "CCrider",
-      "elo": 1510.3,
+      "elo": 1510.2,
       "source": "crosscomp",
       "crosscomp_events": 5,
       "crosscomp_wins": 0
@@ -1734,7 +1734,7 @@
     {
       "steam_id": "76561198411255577",
       "name": "Toad",
-      "elo": 1510.1,
+      "elo": 1510.0,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -1742,7 +1742,7 @@
     {
       "steam_id": "76561197979087520",
       "name": "Mokster",
-      "elo": 1510.0,
+      "elo": 1509.9,
       "source": "crosscomp",
       "crosscomp_events": 22,
       "crosscomp_wins": 0
@@ -1750,7 +1750,7 @@
     {
       "steam_id": "76561198133108029",
       "name": "Thalonius",
-      "elo": 1510.0,
+      "elo": 1509.9,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -1758,7 +1758,7 @@
     {
       "steam_id": "76561198001257036",
       "name": "dejman",
-      "elo": 1509.9,
+      "elo": 1509.8,
       "source": "crosscomp",
       "crosscomp_events": 2,
       "crosscomp_wins": 0
@@ -1766,7 +1766,7 @@
     {
       "steam_id": "76561198083545292",
       "name": "Bean",
-      "elo": 1509.9,
+      "elo": 1509.8,
       "source": "crosscomp",
       "crosscomp_events": 4,
       "crosscomp_wins": 0
@@ -1774,7 +1774,7 @@
     {
       "steam_id": "76561198262438672",
       "name": "Codewalt",
-      "elo": 1509.8,
+      "elo": 1509.7,
       "source": "crosscomp",
       "crosscomp_events": 7,
       "crosscomp_wins": 0
@@ -1782,7 +1782,7 @@
     {
       "steam_id": "76561198199830705",
       "name": "Hidef09",
-      "elo": 1509.5,
+      "elo": 1509.4,
       "source": "crosscomp",
       "crosscomp_events": 6,
       "crosscomp_wins": 0
@@ -1790,7 +1790,7 @@
     {
       "steam_id": "76561198383168783",
       "name": "Vrikka",
-      "elo": 1509.4,
+      "elo": 1509.3,
       "source": "crosscomp",
       "crosscomp_events": 5,
       "crosscomp_wins": 0
@@ -1798,7 +1798,7 @@
     {
       "steam_id": "76561198448256191",
       "name": "Brittany Spears",
-      "elo": 1509.3,
+      "elo": 1509.2,
       "source": "crosscomp",
       "crosscomp_events": 3,
       "crosscomp_wins": 0
@@ -1806,17 +1806,9 @@
     {
       "steam_id": "76561198007897230",
       "name": "Shivaxi",
-      "elo": 1509.3,
-      "source": "crosscomp",
-      "crosscomp_events": 1,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561198015595906",
-      "name": "Fatboy",
       "elo": 1509.2,
       "source": "crosscomp",
-      "crosscomp_events": 20,
+      "crosscomp_events": 1,
       "crosscomp_wins": 0
     },
     {
@@ -1828,9 +1820,17 @@
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561198015595906",
+      "name": "Fatboy",
+      "elo": 1509.1,
+      "source": "crosscomp",
+      "crosscomp_events": 20,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561198169339323",
       "name": "Lamp",
-      "elo": 1509.0,
+      "elo": 1508.9,
       "source": "crosscomp",
       "crosscomp_events": 51,
       "crosscomp_wins": 0
@@ -1852,14 +1852,6 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198068650664",
-      "name": "Romans138",
-      "elo": 1508.8,
-      "source": "crosscomp",
-      "crosscomp_events": 18,
-      "crosscomp_wins": 0
-    },
-    {
       "steam_id": "76561198855034411",
       "name": "DOA | Grimmlon",
       "elo": 1508.7,
@@ -1868,9 +1860,17 @@
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561198068650664",
+      "name": "Romans138",
+      "elo": 1508.7,
+      "source": "crosscomp",
+      "crosscomp_events": 18,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561198136137440",
       "name": "rtm_lover2007",
-      "elo": 1508.5,
+      "elo": 1508.4,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -1878,7 +1878,7 @@
     {
       "steam_id": "76561198011349021",
       "name": "mumboking",
-      "elo": 1508.4,
+      "elo": 1508.3,
       "source": "crosscomp",
       "crosscomp_events": 2,
       "crosscomp_wins": 0
@@ -1886,7 +1886,7 @@
     {
       "steam_id": "76561198000493194",
       "name": "MCRJAKE17",
-      "elo": 1508.4,
+      "elo": 1508.3,
       "source": "crosscomp",
       "crosscomp_events": 3,
       "crosscomp_wins": 0
@@ -1894,33 +1894,9 @@
     {
       "steam_id": "76561198136885512",
       "name": "ChociCinna94",
-      "elo": 1508.4,
+      "elo": 1508.3,
       "source": "crosscomp",
       "crosscomp_events": 4,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561198378599589",
-      "name": "BitPolygon",
-      "elo": 1508.4,
-      "source": "crosscomp",
-      "crosscomp_events": 2,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561198870312435",
-      "name": "[VK] Redeemed Ulv_RaVn",
-      "elo": 1508.3,
-      "source": "crosscomp",
-      "crosscomp_events": 6,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561198260675459",
-      "name": "Quad",
-      "elo": 1508.3,
-      "source": "crosscomp",
-      "crosscomp_events": 3,
       "crosscomp_wins": 0
     },
     {
@@ -1932,9 +1908,33 @@
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561198378599589",
+      "name": "BitPolygon",
+      "elo": 1508.3,
+      "source": "crosscomp",
+      "crosscomp_events": 2,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561198870312435",
+      "name": "[VK] Redeemed Ulv_RaVn",
+      "elo": 1508.2,
+      "source": "crosscomp",
+      "crosscomp_events": 6,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561198260675459",
+      "name": "Quad",
+      "elo": 1508.2,
+      "source": "crosscomp",
+      "crosscomp_events": 3,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561198091890563",
       "name": "Neptunix",
-      "elo": 1508.2,
+      "elo": 1508.1,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -1942,7 +1942,7 @@
     {
       "steam_id": "76561199259736237",
       "name": "Commander Cody",
-      "elo": 1508.2,
+      "elo": 1508.1,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -1950,7 +1950,7 @@
     {
       "steam_id": "76561199125432357",
       "name": "muffins0319",
-      "elo": 1508.2,
+      "elo": 1508.1,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -1958,7 +1958,7 @@
     {
       "steam_id": "76561197972325111",
       "name": "Snad",
-      "elo": 1508.2,
+      "elo": 1508.1,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -1966,25 +1966,9 @@
     {
       "steam_id": "76561198907902784",
       "name": "GearMogg",
-      "elo": 1508.2,
-      "source": "crosscomp",
-      "crosscomp_events": 2,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561198946320582",
-      "name": "Nyancatya",
       "elo": 1508.1,
       "source": "crosscomp",
-      "crosscomp_events": 3,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561198041135033",
-      "name": "profwaldone",
-      "elo": 1508.0,
-      "source": "crosscomp",
-      "crosscomp_events": 1,
+      "crosscomp_events": 2,
       "crosscomp_wins": 0
     },
     {
@@ -1996,17 +1980,41 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561199643465013",
-      "name": "l3purple",
+      "steam_id": "76561198946320582",
+      "name": "Nyancatya",
+      "elo": 1508.0,
+      "source": "crosscomp",
+      "crosscomp_events": 3,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561198041135033",
+      "name": "profwaldone",
       "elo": 1507.9,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561199643465013",
+      "name": "l3purple",
+      "elo": 1507.8,
+      "source": "crosscomp",
+      "crosscomp_events": 1,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561197961191126",
+      "name": "alpa",
+      "elo": 1507.7,
+      "source": "crosscomp",
+      "crosscomp_events": 39,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561198402005981",
       "name": "sadje",
-      "elo": 1507.7,
+      "elo": 1507.6,
       "source": "crosscomp",
       "crosscomp_events": 2,
       "crosscomp_wins": 0
@@ -2030,7 +2038,7 @@
     {
       "steam_id": "76561198161571477",
       "name": "Zachafinackus",
-      "elo": 1507.3,
+      "elo": 1507.2,
       "source": "crosscomp",
       "crosscomp_events": 2,
       "crosscomp_wins": 0
@@ -2038,25 +2046,9 @@
     {
       "steam_id": "76561199016181953",
       "name": "Ebruis",
-      "elo": 1507.2,
+      "elo": 1507.1,
       "source": "crosscomp",
       "crosscomp_events": 3,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561198171003110",
-      "name": "[           ]",
-      "elo": 1507.0,
-      "source": "crosscomp",
-      "crosscomp_events": 7,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561198210248213",
-      "name": "CodeingerCat",
-      "elo": 1507.0,
-      "source": "crosscomp",
-      "crosscomp_events": 9,
       "crosscomp_wins": 0
     },
     {
@@ -2068,9 +2060,25 @@
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561198171003110",
+      "name": "[           ]",
+      "elo": 1506.9,
+      "source": "crosscomp",
+      "crosscomp_events": 7,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561198210248213",
+      "name": "CodeingerCat",
+      "elo": 1506.9,
+      "source": "crosscomp",
+      "crosscomp_events": 9,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561199388392683",
       "name": "elibarrett709",
-      "elo": 1506.9,
+      "elo": 1506.8,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -2078,7 +2086,7 @@
     {
       "steam_id": "76561198426839944",
       "name": "Galactichero623",
-      "elo": 1506.9,
+      "elo": 1506.8,
       "source": "crosscomp",
       "crosscomp_events": 4,
       "crosscomp_wins": 0
@@ -2086,7 +2094,7 @@
     {
       "steam_id": "76561198158497194",
       "name": "mori_cinis",
-      "elo": 1506.7,
+      "elo": 1506.6,
       "source": "crosscomp",
       "crosscomp_events": 5,
       "crosscomp_wins": 0
@@ -2102,7 +2110,7 @@
     {
       "steam_id": "76561198102901342",
       "name": "LoadingCodex",
-      "elo": 1506.5,
+      "elo": 1506.4,
       "source": "crosscomp",
       "crosscomp_events": 2,
       "crosscomp_wins": 0
@@ -2110,7 +2118,7 @@
     {
       "steam_id": "76561198412663596",
       "name": "Blu",
-      "elo": 1506.5,
+      "elo": 1506.4,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -2118,7 +2126,7 @@
     {
       "steam_id": "76561199126272859",
       "name": "Bottomless",
-      "elo": 1506.4,
+      "elo": 1506.3,
       "source": "crosscomp",
       "crosscomp_events": 3,
       "crosscomp_wins": 0
@@ -2142,25 +2150,9 @@
     {
       "steam_id": "76561198000529645",
       "name": "ButItPlays",
-      "elo": 1506.3,
-      "source": "crosscomp",
-      "crosscomp_events": 3,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561198041945695",
-      "name": "Zucker_Schock",
-      "elo": 1506.3,
-      "source": "crosscomp",
-      "crosscomp_events": 1,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561199060323532",
-      "name": "deathcount610",
       "elo": 1506.2,
       "source": "crosscomp",
-      "crosscomp_events": 2,
+      "crosscomp_events": 3,
       "crosscomp_wins": 0
     },
     {
@@ -2172,27 +2164,27 @@
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561198041945695",
+      "name": "Zucker_Schock",
+      "elo": 1506.2,
+      "source": "crosscomp",
+      "crosscomp_events": 1,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561199060323532",
+      "name": "deathcount610",
+      "elo": 1506.1,
+      "source": "crosscomp",
+      "crosscomp_events": 2,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561199083480800",
       "name": "lewis",
       "elo": 1506.1,
       "source": "crosscomp",
       "crosscomp_events": 4,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561199046555647",
-      "name": "bernhard",
-      "elo": 1506.1,
-      "source": "crosscomp",
-      "crosscomp_events": 10,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561199566212567",
-      "name": "Ntbvt26",
-      "elo": 1506.1,
-      "source": "crosscomp",
-      "crosscomp_events": 1,
       "crosscomp_wins": 0
     },
     {
@@ -2220,25 +2212,17 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561199046913177",
-      "name": "Leech",
+      "steam_id": "76561199046555647",
+      "name": "bernhard",
       "elo": 1506.0,
       "source": "crosscomp",
-      "crosscomp_events": 3,
+      "crosscomp_events": 10,
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198858890235",
-      "name": "Jaz1127",
-      "elo": 1505.9,
-      "source": "crosscomp",
-      "crosscomp_events": 1,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561199014162289",
-      "name": "Longstruck",
-      "elo": 1505.9,
+      "steam_id": "76561199566212567",
+      "name": "Ntbvt26",
+      "elo": 1506.0,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -2252,9 +2236,25 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198176510155",
-      "name": "ᓚᘏᗢ Rydad",
+      "steam_id": "76561199046913177",
+      "name": "Leech",
       "elo": 1505.9,
+      "source": "crosscomp",
+      "crosscomp_events": 3,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561198858890235",
+      "name": "Jaz1127",
+      "elo": 1505.8,
+      "source": "crosscomp",
+      "crosscomp_events": 1,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561199014162289",
+      "name": "Longstruck",
+      "elo": 1505.8,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -2268,8 +2268,8 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561199405643674",
-      "name": "JimmTheWizzard",
+      "steam_id": "76561198176510155",
+      "name": "ᓚᘏᗢ Rydad",
       "elo": 1505.8,
       "source": "crosscomp",
       "crosscomp_events": 1,
@@ -2300,9 +2300,9 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198968586064",
-      "name": "Trouble_2X",
-      "elo": 1505.6,
+      "steam_id": "76561199405643674",
+      "name": "JimmTheWizzard",
+      "elo": 1505.7,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -2316,17 +2316,9 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198121243214",
-      "name": "Cliff the Crafter",
-      "elo": 1505.6,
-      "source": "crosscomp",
-      "crosscomp_events": 3,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561199776829001",
-      "name": "hoppoulotl",
-      "elo": 1505.6,
+      "steam_id": "76561198968586064",
+      "name": "Trouble_2X",
+      "elo": 1505.5,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -2340,22 +2332,6 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198310944158",
-      "name": "[Poseidon]",
-      "elo": 1505.5,
-      "source": "crosscomp",
-      "crosscomp_events": 1,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561198402229045",
-      "name": "Meowvelous_Purrrson",
-      "elo": 1505.5,
-      "source": "crosscomp",
-      "crosscomp_events": 1,
-      "crosscomp_wins": 0
-    },
-    {
       "steam_id": "76561199229647570",
       "name": "jabob2112",
       "elo": 1505.5,
@@ -2364,9 +2340,41 @@
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561198121243214",
+      "name": "Cliff the Crafter",
+      "elo": 1505.5,
+      "source": "crosscomp",
+      "crosscomp_events": 3,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561199776829001",
+      "name": "hoppoulotl",
+      "elo": 1505.5,
+      "source": "crosscomp",
+      "crosscomp_events": 1,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561198310944158",
+      "name": "[Poseidon]",
+      "elo": 1505.4,
+      "source": "crosscomp",
+      "crosscomp_events": 1,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561198402229045",
+      "name": "Meowvelous_Purrrson",
+      "elo": 1505.4,
+      "source": "crosscomp",
+      "crosscomp_events": 1,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561198086671586",
       "name": "Spaceman Spiff",
-      "elo": 1505.4,
+      "elo": 1505.3,
       "source": "crosscomp",
       "crosscomp_events": 9,
       "crosscomp_wins": 0
@@ -2374,7 +2382,7 @@
     {
       "steam_id": "76561198047422386",
       "name": "Starfury",
-      "elo": 1505.3,
+      "elo": 1505.2,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -2382,7 +2390,7 @@
     {
       "steam_id": "76561199213440988",
       "name": "Snowy",
-      "elo": 1505.3,
+      "elo": 1505.2,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -2390,7 +2398,7 @@
     {
       "steam_id": "76561198396510502",
       "name": "Slice",
-      "elo": 1505.0,
+      "elo": 1504.9,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -2398,41 +2406,9 @@
     {
       "steam_id": "76561198040723193",
       "name": "BlackBullfrog",
-      "elo": 1505.0,
+      "elo": 1504.9,
       "source": "crosscomp",
       "crosscomp_events": 1,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561198844477056",
-      "name": "r4ch3d™",
-      "elo": 1505.0,
-      "source": "crosscomp",
-      "crosscomp_events": 1,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561199091627420",
-      "name": "Drrcp",
-      "elo": 1505.0,
-      "source": "crosscomp",
-      "crosscomp_events": 1,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561198120481916",
-      "name": "TitaniumArc",
-      "elo": 1505.0,
-      "source": "crosscomp",
-      "crosscomp_events": 1,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561198085317266",
-      "name": "[EEN] Hang Chang-Pang",
-      "elo": 1505.0,
-      "source": "crosscomp",
-      "crosscomp_events": 5,
       "crosscomp_wins": 0
     },
     {
@@ -2452,11 +2428,35 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198114267944",
-      "name": "Reamerad",
+      "steam_id": "76561198844477056",
+      "name": "r4ch3d™",
       "elo": 1504.9,
       "source": "crosscomp",
-      "crosscomp_events": 21,
+      "crosscomp_events": 1,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561199091627420",
+      "name": "Drrcp",
+      "elo": 1504.9,
+      "source": "crosscomp",
+      "crosscomp_events": 1,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561198120481916",
+      "name": "TitaniumArc",
+      "elo": 1504.9,
+      "source": "crosscomp",
+      "crosscomp_events": 1,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561198085317266",
+      "name": "[EEN] Hang Chang-Pang",
+      "elo": 1504.9,
+      "source": "crosscomp",
+      "crosscomp_events": 5,
       "crosscomp_wins": 0
     },
     {
@@ -2468,19 +2468,19 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198326232850",
-      "name": "Sky",
+      "steam_id": "76561198809882885",
+      "name": "ItsTemmiTime",
       "elo": 1504.7,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198809882885",
-      "name": "ItsTemmiTime",
+      "steam_id": "76561198114267944",
+      "name": "Reamerad",
       "elo": 1504.7,
       "source": "crosscomp",
-      "crosscomp_events": 1,
+      "crosscomp_events": 22,
       "crosscomp_wins": 0
     },
     {
@@ -2500,9 +2500,17 @@
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561198326232850",
+      "name": "Sky",
+      "elo": 1504.6,
+      "source": "crosscomp",
+      "crosscomp_events": 1,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561198811535392",
       "name": "cyberpunkninja",
-      "elo": 1504.6,
+      "elo": 1504.5,
       "source": "crosscomp",
       "crosscomp_events": 5,
       "crosscomp_wins": 0
@@ -2510,7 +2518,7 @@
     {
       "steam_id": "76561199045725168",
       "name": "SaebR.",
-      "elo": 1504.6,
+      "elo": 1504.5,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -2518,7 +2526,7 @@
     {
       "steam_id": "76561198320835982",
       "name": "GreenCRUZFlaver",
-      "elo": 1504.6,
+      "elo": 1504.5,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -2526,25 +2534,9 @@
     {
       "steam_id": "76561199378866302",
       "name": "Ploddip",
-      "elo": 1504.5,
+      "elo": 1504.4,
       "source": "crosscomp",
       "crosscomp_events": 7,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561199085266774",
-      "name": "Legendgold21",
-      "elo": 1504.4,
-      "source": "crosscomp",
-      "crosscomp_events": 2,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561199696240528",
-      "name": "/\\//'/'/?()",
-      "elo": 1504.4,
-      "source": "crosscomp",
-      "crosscomp_events": 2,
       "crosscomp_wins": 0
     },
     {
@@ -2564,9 +2556,25 @@
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561199085266774",
+      "name": "Legendgold21",
+      "elo": 1504.3,
+      "source": "crosscomp",
+      "crosscomp_events": 2,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561199696240528",
+      "name": "/\\//'/'/?()",
+      "elo": 1504.3,
+      "source": "crosscomp",
+      "crosscomp_events": 2,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561198079775050",
       "name": "/<",
-      "elo": 1504.3,
+      "elo": 1504.2,
       "source": "crosscomp",
       "crosscomp_events": 2,
       "crosscomp_wins": 0
@@ -2574,7 +2582,7 @@
     {
       "steam_id": "76561198098164438",
       "name": "BirdManK3v",
-      "elo": 1504.3,
+      "elo": 1504.2,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -2582,7 +2590,7 @@
     {
       "steam_id": "76561198988284397",
       "name": "bobafet3970",
-      "elo": 1504.3,
+      "elo": 1504.2,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -2620,14 +2628,6 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198257505444",
-      "name": "Sett",
-      "elo": 1504.0,
-      "source": "crosscomp",
-      "crosscomp_events": 1,
-      "crosscomp_wins": 0
-    },
-    {
       "steam_id": "76561198118195123",
       "name": "GandalfSyrup",
       "elo": 1504.0,
@@ -2644,9 +2644,9 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561199468699836",
-      "name": "DoctorDaVnci",
-      "elo": 1504.0,
+      "steam_id": "76561198257505444",
+      "name": "Sett",
+      "elo": 1503.9,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -2665,6 +2665,14 @@
       "elo": 1503.9,
       "source": "crosscomp",
       "crosscomp_events": 4,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561199468699836",
+      "name": "DoctorDaVnci",
+      "elo": 1503.9,
+      "source": "crosscomp",
+      "crosscomp_events": 1,
       "crosscomp_wins": 0
     },
     {
@@ -2700,19 +2708,19 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198868271852",
-      "name": "Bank Waffles",
-      "elo": 1503.8,
-      "source": "crosscomp",
-      "crosscomp_events": 6,
-      "crosscomp_wins": 0
-    },
-    {
       "steam_id": "76561198053798069",
       "name": "JP_pne96",
       "elo": 1503.7,
       "source": "crosscomp",
       "crosscomp_events": 3,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561198868271852",
+      "name": "Bank Waffles",
+      "elo": 1503.7,
+      "source": "crosscomp",
+      "crosscomp_events": 6,
       "crosscomp_wins": 0
     },
     {
@@ -2726,14 +2734,6 @@
     {
       "steam_id": "76561198099832886",
       "name": "Zandirian",
-      "elo": 1503.5,
-      "source": "crosscomp",
-      "crosscomp_events": 1,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561198001016926",
-      "name": "MRJames246YT",
       "elo": 1503.5,
       "source": "crosscomp",
       "crosscomp_events": 1,
@@ -2772,6 +2772,14 @@
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561198001016926",
+      "name": "MRJames246YT",
+      "elo": 1503.4,
+      "source": "crosscomp",
+      "crosscomp_events": 1,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561198074309252",
       "name": "Augis",
       "elo": 1503.4,
@@ -2796,14 +2804,6 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198377247115",
-      "name": "Maple",
-      "elo": 1503.3,
-      "source": "crosscomp",
-      "crosscomp_events": 2,
-      "crosscomp_wins": 0
-    },
-    {
       "steam_id": "76561198062753716",
       "name": "LinguineSticks",
       "elo": 1503.3,
@@ -2812,27 +2812,11 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198156159154",
-      "name": "Trickshøt",
-      "elo": 1503.3,
-      "source": "crosscomp",
-      "crosscomp_events": 1,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561198251692488",
-      "name": "Beanie Boi",
+      "steam_id": "76561198377247115",
+      "name": "Maple",
       "elo": 1503.2,
       "source": "crosscomp",
-      "crosscomp_events": 1,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561199385919187",
-      "name": "xBluntz",
-      "elo": 1503.2,
-      "source": "crosscomp",
-      "crosscomp_events": 1,
+      "crosscomp_events": 2,
       "crosscomp_wins": 0
     },
     {
@@ -2852,8 +2836,8 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198024022805",
-      "name": "Kroete",
+      "steam_id": "76561198156159154",
+      "name": "Trickshøt",
       "elo": 1503.2,
       "source": "crosscomp",
       "crosscomp_events": 1,
@@ -2884,9 +2868,25 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198179915622",
-      "name": "Ultimate Billy",
-      "elo": 1503.0,
+      "steam_id": "76561198251692488",
+      "name": "Beanie Boi",
+      "elo": 1503.1,
+      "source": "crosscomp",
+      "crosscomp_events": 1,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561199385919187",
+      "name": "xBluntz",
+      "elo": 1503.1,
+      "source": "crosscomp",
+      "crosscomp_events": 1,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561198024022805",
+      "name": "Kroete",
+      "elo": 1503.1,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -2894,14 +2894,6 @@
     {
       "steam_id": "76561198185442525",
       "name": "20Jorden01",
-      "elo": 1503.0,
-      "source": "crosscomp",
-      "crosscomp_events": 1,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561198149227096",
-      "name": "Cowontherun",
       "elo": 1503.0,
       "source": "crosscomp",
       "crosscomp_events": 1,
@@ -2916,9 +2908,9 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198408784685",
-      "name": "Cornholio",
-      "elo": 1503.0,
+      "steam_id": "76561198179915622",
+      "name": "Ultimate Billy",
+      "elo": 1502.9,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -2929,6 +2921,14 @@
       "elo": 1502.9,
       "source": "crosscomp",
       "crosscomp_events": 5,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561198149227096",
+      "name": "Cowontherun",
+      "elo": 1502.9,
+      "source": "crosscomp",
+      "crosscomp_events": 1,
       "crosscomp_wins": 0
     },
     {
@@ -2956,9 +2956,17 @@
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561198408784685",
+      "name": "Cornholio",
+      "elo": 1502.9,
+      "source": "crosscomp",
+      "crosscomp_events": 1,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561198096538404",
       "name": "Hellequin",
-      "elo": 1502.8,
+      "elo": 1502.7,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -2972,19 +2980,19 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198968350003",
-      "name": "Acoustic Rooster",
+      "steam_id": "76561199088073424",
+      "name": "JM96.415",
       "elo": 1502.7,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561199088073424",
-      "name": "JM96.415",
+      "steam_id": "76561197972890120",
+      "name": "aizpun",
       "elo": 1502.7,
       "source": "crosscomp",
-      "crosscomp_events": 1,
+      "crosscomp_events": 52,
       "crosscomp_wins": 0
     },
     {
@@ -3012,8 +3020,8 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198098809740",
-      "name": "Panda Pandemic",
+      "steam_id": "76561198968350003",
+      "name": "Acoustic Rooster",
       "elo": 1502.6,
       "source": "crosscomp",
       "crosscomp_events": 1,
@@ -3033,6 +3041,14 @@
       "elo": 1502.5,
       "source": "crosscomp",
       "crosscomp_events": 2,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561198098809740",
+      "name": "Panda Pandemic",
+      "elo": 1502.5,
+      "source": "crosscomp",
+      "crosscomp_events": 1,
       "crosscomp_wins": 0
     },
     {
@@ -3068,27 +3084,11 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198102034280",
-      "name": "Magnum",
-      "elo": 1502.5,
-      "source": "crosscomp",
-      "crosscomp_events": 1,
-      "crosscomp_wins": 0
-    },
-    {
       "steam_id": "76561199247569114",
       "name": "MaxVerstappen9768",
       "elo": 1502.4,
       "source": "crosscomp",
       "crosscomp_events": 8,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561198102164779",
-      "name": "Brettikopter",
-      "elo": 1502.4,
-      "source": "crosscomp",
-      "crosscomp_events": 1,
       "crosscomp_wins": 0
     },
     {
@@ -3116,6 +3116,14 @@
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561198102034280",
+      "name": "Magnum",
+      "elo": 1502.4,
+      "source": "crosscomp",
+      "crosscomp_events": 1,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561199529631435",
       "name": "Zeepkist Showdown",
       "elo": 1502.4,
@@ -3124,11 +3132,11 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198115857790",
-      "name": "Andrei",
+      "steam_id": "76561198102164779",
+      "name": "Brettikopter",
       "elo": 1502.3,
       "source": "crosscomp",
-      "crosscomp_events": 8,
+      "crosscomp_events": 1,
       "crosscomp_wins": 0
     },
     {
@@ -3137,14 +3145,6 @@
       "elo": 1502.3,
       "source": "crosscomp",
       "crosscomp_events": 3,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561198140113859",
-      "name": "Partheniki",
-      "elo": 1502.3,
-      "source": "crosscomp",
-      "crosscomp_events": 1,
       "crosscomp_wins": 0
     },
     {
@@ -3228,8 +3228,16 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198348110100",
-      "name": "Redjaybird10",
+      "steam_id": "76561198115857790",
+      "name": "Andrei",
+      "elo": 1502.2,
+      "source": "crosscomp",
+      "crosscomp_events": 8,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561198140113859",
+      "name": "Partheniki",
       "elo": 1502.2,
       "source": "crosscomp",
       "crosscomp_events": 1,
@@ -3244,16 +3252,16 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561199048581685",
-      "name": "Max onetappen",
+      "steam_id": "76561198348110100",
+      "name": "Redjaybird10",
       "elo": 1502.1,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198815368678",
-      "name": "ahyup",
+      "steam_id": "76561199048581685",
+      "name": "Max onetappen",
       "elo": 1502.1,
       "source": "crosscomp",
       "crosscomp_events": 1,
@@ -3276,11 +3284,11 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198059628222",
-      "name": "zoeShep",
+      "steam_id": "76561198815368678",
+      "name": "ahyup",
       "elo": 1502.0,
       "source": "crosscomp",
-      "crosscomp_events": 7,
+      "crosscomp_events": 1,
       "crosscomp_wins": 0
     },
     {
@@ -3305,6 +3313,14 @@
       "elo": 1502.0,
       "source": "crosscomp",
       "crosscomp_events": 1,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561198059628222",
+      "name": "zoeShep",
+      "elo": 1501.9,
+      "source": "crosscomp",
+      "crosscomp_events": 7,
       "crosscomp_wins": 0
     },
     {
@@ -3388,14 +3404,6 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198102778062",
-      "name": "mrmister39",
-      "elo": 1501.8,
-      "source": "crosscomp",
-      "crosscomp_events": 1,
-      "crosscomp_wins": 0
-    },
-    {
       "steam_id": "76561198030345957",
       "name": "Jakub Vymetal",
       "elo": 1501.7,
@@ -3433,6 +3441,22 @@
       "elo": 1501.7,
       "source": "crosscomp",
       "crosscomp_events": 1,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561198102778062",
+      "name": "mrmister39",
+      "elo": 1501.7,
+      "source": "crosscomp",
+      "crosscomp_events": 1,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561198016904215",
+      "name": "pannekoekbijter",
+      "elo": 1501.7,
+      "source": "crosscomp",
+      "crosscomp_events": 8,
       "crosscomp_wins": 0
     },
     {
@@ -3540,14 +3564,6 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561199048674191",
-      "name": "Vikjor",
-      "elo": 1501.4,
-      "source": "crosscomp",
-      "crosscomp_events": 5,
-      "crosscomp_wins": 0
-    },
-    {
       "steam_id": "76561198081582445",
       "name": "Penguinatic",
       "elo": 1501.4,
@@ -3558,14 +3574,6 @@
     {
       "steam_id": "76561198144316516",
       "name": "VenomDestro14",
-      "elo": 1501.4,
-      "source": "crosscomp",
-      "crosscomp_events": 1,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561199172614794",
-      "name": "Brendan57Reed_",
       "elo": 1501.4,
       "source": "crosscomp",
       "crosscomp_events": 1,
@@ -3628,6 +3636,14 @@
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561199048674191",
+      "name": "Vikjor",
+      "elo": 1501.3,
+      "source": "crosscomp",
+      "crosscomp_events": 5,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561198881238242",
       "name": "Im_Coled",
       "elo": 1501.3,
@@ -3654,6 +3670,14 @@
     {
       "steam_id": "76561198407987269",
       "name": "marterking",
+      "elo": 1501.3,
+      "source": "crosscomp",
+      "crosscomp_events": 1,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561199172614794",
+      "name": "Brendan57Reed_",
       "elo": 1501.3,
       "source": "crosscomp",
       "crosscomp_events": 1,
@@ -3724,14 +3748,6 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561199227281305",
-      "name": "marvelboi04",
-      "elo": 1501.2,
-      "source": "crosscomp",
-      "crosscomp_events": 1,
-      "crosscomp_wins": 0
-    },
-    {
       "steam_id": "76561199245975338",
       "name": "Finexy-Official",
       "elo": 1501.2,
@@ -3796,19 +3812,19 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198188000129",
-      "name": "[MAC-ATTACC] RobertoLamp72323",
+      "steam_id": "76561199227281305",
+      "name": "marvelboi04",
       "elo": 1501.1,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561197972890120",
-      "name": "aizpun",
+      "steam_id": "76561198188000129",
+      "name": "[MAC-ATTACC] RobertoLamp72323",
       "elo": 1501.1,
       "source": "crosscomp",
-      "crosscomp_events": 50,
+      "crosscomp_events": 1,
       "crosscomp_wins": 0
     },
     {
@@ -3924,14 +3940,6 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198384609805",
-      "name": "Grumpy",
-      "elo": 1500.9,
-      "source": "crosscomp",
-      "crosscomp_events": 1,
-      "crosscomp_wins": 0
-    },
-    {
       "steam_id": "76561198085591728",
       "name": "diresong",
       "elo": 1500.9,
@@ -3988,6 +3996,14 @@
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561198384609805",
+      "name": "Grumpy",
+      "elo": 1500.8,
+      "source": "crosscomp",
+      "crosscomp_events": 1,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561197994619506",
       "name": "Rallari",
       "elo": 1500.8,
@@ -4014,14 +4030,6 @@
     {
       "steam_id": "76561199316777120",
       "name": "[MilanoReal] Dølus",
-      "elo": 1500.7,
-      "source": "crosscomp",
-      "crosscomp_events": 1,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561199038458459",
-      "name": "indigo",
       "elo": 1500.7,
       "source": "crosscomp",
       "crosscomp_events": 1,
@@ -4055,6 +4063,14 @@
       "steam_id": "76561199275656870",
       "name": "embalmer",
       "elo": 1500.7,
+      "source": "crosscomp",
+      "crosscomp_events": 1,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561199038458459",
+      "name": "indigo",
+      "elo": 1500.6,
       "source": "crosscomp",
       "crosscomp_events": 1,
       "crosscomp_wins": 0
@@ -6121,14 +6137,6 @@
       "elo": 1492.9,
       "source": "crosscomp",
       "crosscomp_events": 24,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561197961191126",
-      "name": "alpa",
-      "elo": 1492.9,
-      "source": "crosscomp",
-      "crosscomp_events": 38,
       "crosscomp_wins": 0
     },
     {
@@ -8980,14 +8988,6 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198016904215",
-      "name": "pannekoekbijter",
-      "elo": 1484.4,
-      "source": "crosscomp",
-      "crosscomp_events": 7,
-      "crosscomp_wins": 0
-    },
-    {
       "steam_id": "76561199143136844",
       "name": "demon",
       "elo": 1484.3,
@@ -10457,14 +10457,6 @@
       "elo": 1480.5,
       "source": "crosscomp",
       "crosscomp_events": 8,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561198093160301",
-      "name": "Hellmet",
-      "elo": 1480.5,
-      "source": "crosscomp",
-      "crosscomp_events": 25,
       "crosscomp_wins": 0
     },
     {
@@ -12852,6 +12844,14 @@
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561198093160301",
+      "name": "Hellmet",
+      "elo": 1473.4,
+      "source": "crosscomp",
+      "crosscomp_events": 27,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561198218808881",
       "name": "Baked Shark",
       "elo": 1473.3,
@@ -12921,6 +12921,14 @@
       "elo": 1472.3,
       "source": "crosscomp",
       "crosscomp_events": 2,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561198305054806",
+      "name": "wokonbike",
+      "elo": 1472.3,
+      "source": "crosscomp",
+      "crosscomp_events": 46,
       "crosscomp_wins": 0
     },
     {
@@ -13292,14 +13300,6 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198090699898",
-      "name": "gamerkid8",
-      "elo": 1466.6,
-      "source": "crosscomp",
-      "crosscomp_events": 2,
-      "crosscomp_wins": 0
-    },
-    {
       "steam_id": "76561198946416243",
       "name": "CrackerBarrel Gaming",
       "elo": 1466.5,
@@ -13348,14 +13348,6 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198305054806",
-      "name": "wokonbike",
-      "elo": 1465.2,
-      "source": "crosscomp",
-      "crosscomp_events": 45,
-      "crosscomp_wins": 0
-    },
-    {
       "steam_id": "76561198034225963",
       "name": "Toby",
       "elo": 1465.1,
@@ -13369,14 +13361,6 @@
       "elo": 1464.8,
       "source": "crosscomp",
       "crosscomp_events": 2,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561198089612272",
-      "name": "SjorsTea",
-      "elo": 1464.8,
-      "source": "crosscomp",
-      "crosscomp_events": 7,
       "crosscomp_wins": 0
     },
     {
@@ -13572,6 +13556,14 @@
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561198089612272",
+      "name": "SjorsTea",
+      "elo": 1461.7,
+      "source": "crosscomp",
+      "crosscomp_events": 8,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561199345647079",
       "name": "lyra_null",
       "elo": 1461.5,
@@ -13593,14 +13585,6 @@
       "elo": 1461.4,
       "source": "crosscomp",
       "crosscomp_events": 19,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561199842604096",
-      "name": "Dartho Mas",
-      "elo": 1461.3,
-      "source": "crosscomp",
-      "crosscomp_events": 57,
       "crosscomp_wins": 0
     },
     {
@@ -14028,14 +14012,6 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198047727266",
-      "name": "Samueras",
-      "elo": 1453.9,
-      "source": "crosscomp",
-      "crosscomp_events": 12,
-      "crosscomp_wins": 0
-    },
-    {
       "steam_id": "76561199152921323",
       "name": "Babup",
       "elo": 1453.8,
@@ -14049,6 +14025,14 @@
       "elo": 1453.7,
       "source": "crosscomp",
       "crosscomp_events": 5,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561198047727266",
+      "name": "Samueras",
+      "elo": 1453.4,
+      "source": "crosscomp",
+      "crosscomp_events": 13,
       "crosscomp_wins": 0
     },
     {
@@ -14082,6 +14066,22 @@
       "source": "crosscomp",
       "crosscomp_events": 3,
       "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561198090699898",
+      "name": "gamerkid8",
+      "elo": 1451.1,
+      "source": "crosscomp",
+      "crosscomp_events": 3,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561198287630337",
+      "name": "SuperHeavy",
+      "elo": 1450.1,
+      "source": "crosscomp",
+      "crosscomp_events": 18,
+      "crosscomp_wins": 1
     },
     {
       "steam_id": "76561198023561976",
@@ -14140,20 +14140,20 @@
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561199842604096",
+      "name": "Dartho Mas",
+      "elo": 1449.3,
+      "source": "crosscomp",
+      "crosscomp_events": 58,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561198841035992",
       "name": "Jaydark",
       "elo": 1449.0,
       "source": "crosscomp",
       "crosscomp_events": 10,
       "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561198287630337",
-      "name": "SuperHeavy",
-      "elo": 1448.2,
-      "source": "crosscomp",
-      "crosscomp_events": 17,
-      "crosscomp_wins": 1
     },
     {
       "steam_id": "76561199869518481",
@@ -14484,6 +14484,14 @@
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561198748988602",
+      "name": "BrickEdwards",
+      "elo": 1433.5,
+      "source": "crosscomp",
+      "crosscomp_events": 38,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561198026612488",
       "name": "danlamar1",
       "elo": 1432.9,
@@ -14532,27 +14540,11 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198748988602",
-      "name": "BrickEdwards",
-      "elo": 1432.0,
-      "source": "crosscomp",
-      "crosscomp_events": 36,
-      "crosscomp_wins": 0
-    },
-    {
       "steam_id": "76561198976514611",
       "name": "sailingman",
       "elo": 1431.1,
       "source": "crosscomp",
       "crosscomp_events": 9,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561199153054076",
-      "name": "[MMM]Milk Man",
-      "elo": 1431.0,
-      "source": "crosscomp",
-      "crosscomp_events": 10,
       "crosscomp_wins": 0
     },
     {
@@ -14564,6 +14556,14 @@
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561199093841299",
+      "name": "Shinikage221",
+      "elo": 1429.7,
+      "source": "crosscomp",
+      "crosscomp_events": 17,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561198002537059",
       "name": "DarthJohansen",
       "elo": 1428.6,
@@ -14572,11 +14572,11 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561199093841299",
-      "name": "Shinikage221",
-      "elo": 1427.8,
+      "steam_id": "76561199153054076",
+      "name": "[MMM]Milk Man",
+      "elo": 1427.7,
       "source": "crosscomp",
-      "crosscomp_events": 16,
+      "crosscomp_events": 11,
       "crosscomp_wins": 0
     },
     {
@@ -14748,19 +14748,19 @@
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561198383339808",
+      "name": "cucumis conditus solacii animi",
+      "elo": 1423.0,
+      "source": "crosscomp",
+      "crosscomp_events": 8,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561198803005218",
       "name": "PontanVIK",
       "elo": 1421.8,
       "source": "crosscomp",
       "crosscomp_events": 2,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561198383339808",
-      "name": "cucumis conditus solacii animi",
-      "elo": 1420.8,
-      "source": "crosscomp",
-      "crosscomp_events": 7,
       "crosscomp_wins": 0
     },
     {
@@ -14777,14 +14777,6 @@
       "elo": 1420.3,
       "source": "crosscomp",
       "crosscomp_events": 7,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561198010296962",
-      "name": "timesprout",
-      "elo": 1420.3,
-      "source": "crosscomp",
-      "crosscomp_events": 29,
       "crosscomp_wins": 0
     },
     {
@@ -14812,11 +14804,27 @@
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561198010296962",
+      "name": "timesprout",
+      "elo": 1418.6,
+      "source": "crosscomp",
+      "crosscomp_events": 30,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561198071556725",
       "name": "gameface",
       "elo": 1418.3,
       "source": "crosscomp",
       "crosscomp_events": 8,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561198096236961",
+      "name": "koz",
+      "elo": 1417.9,
+      "source": "crosscomp",
+      "crosscomp_events": 39,
       "crosscomp_wins": 0
     },
     {
@@ -14857,14 +14865,6 @@
       "elo": 1415.8,
       "source": "crosscomp",
       "crosscomp_events": 6,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561198096236961",
-      "name": "koz",
-      "elo": 1415.5,
-      "source": "crosscomp",
-      "crosscomp_events": 38,
       "crosscomp_wins": 0
     },
     {
@@ -14932,6 +14932,14 @@
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561198111366624",
+      "name": "Zeus",
+      "elo": 1411.2,
+      "source": "crosscomp",
+      "crosscomp_events": 28,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561198017646676",
       "name": "Squarefish",
       "elo": 1410.8,
@@ -14961,6 +14969,14 @@
       "elo": 1409.4,
       "source": "crosscomp",
       "crosscomp_events": 6,
+      "crosscomp_wins": 0
+    },
+    {
+      "steam_id": "76561199803833690",
+      "name": "[ZET]Sword125",
+      "elo": 1409.4,
+      "source": "crosscomp",
+      "crosscomp_events": 55,
       "crosscomp_wins": 0
     },
     {
@@ -15164,14 +15180,6 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561199803833690",
-      "name": "[ZET]Sword125",
-      "elo": 1400.2,
-      "source": "crosscomp",
-      "crosscomp_events": 53,
-      "crosscomp_wins": 0
-    },
-    {
       "steam_id": "76561199282497311",
       "name": "groovy",
       "elo": 1399.8,
@@ -15185,14 +15193,6 @@
       "elo": 1399.2,
       "source": "crosscomp",
       "crosscomp_events": 6,
-      "crosscomp_wins": 0
-    },
-    {
-      "steam_id": "76561198388963758",
-      "name": "Orb Bee Bob",
-      "elo": 1398.0,
-      "source": "crosscomp",
-      "crosscomp_events": 13,
       "crosscomp_wins": 0
     },
     {
@@ -15284,11 +15284,11 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198111366624",
-      "name": "Zeus",
-      "elo": 1394.9,
+      "steam_id": "76561198388963758",
+      "name": "Orb Bee Bob",
+      "elo": 1393.8,
       "source": "crosscomp",
-      "crosscomp_events": 27,
+      "crosscomp_events": 14,
       "crosscomp_wins": 0
     },
     {
@@ -15372,14 +15372,6 @@
       "crosscomp_wins": 0
     },
     {
-      "steam_id": "76561198027102099",
-      "name": "Fly8oy",
-      "elo": 1372.5,
-      "source": "crosscomp",
-      "crosscomp_events": 30,
-      "crosscomp_wins": 0
-    },
-    {
       "steam_id": "76561198451895679",
       "name": "L3mmy",
       "elo": 1370.4,
@@ -15404,6 +15396,14 @@
       "crosscomp_wins": 0
     },
     {
+      "steam_id": "76561198027102099",
+      "name": "Fly8oy",
+      "elo": 1362.4,
+      "source": "crosscomp",
+      "crosscomp_events": 31,
+      "crosscomp_wins": 0
+    },
+    {
       "steam_id": "76561198070406017",
       "name": "DragonShadow84290",
       "elo": 1354.1,
@@ -15422,82 +15422,82 @@
     {
       "steam_id": "76561198201628170",
       "name": "imagineaclevernamehere",
-      "elo": 1322.9,
+      "elo": 1318.5,
       "source": "crosscomp",
-      "crosscomp_events": 55,
+      "crosscomp_events": 56,
       "crosscomp_wins": 0
     },
     {
       "steam_id": "76561199552333329",
       "name": "vectortrajector",
-      "elo": 1282.3,
+      "elo": 1289.7,
       "source": "crosscomp",
-      "crosscomp_events": 44,
+      "crosscomp_events": 45,
       "crosscomp_wins": 0
     },
     {
       "steam_id": "76561198783865251",
       "name": "del gaming",
-      "elo": 1688.3,
+      "elo": 1686.2,
       "source": "gtr",
       "gtr_rank": 31,
-      "gtr_points": 108514
+      "gtr_points": 108467
     },
     {
       "steam_id": "76561199084192569",
       "name": "SKULL00",
-      "elo": 1593.0,
+      "elo": 1592.0,
       "source": "gtr",
       "gtr_rank": 77,
-      "gtr_points": 97404
+      "gtr_points": 97460
     },
     {
       "steam_id": "76561198294066763",
       "name": "DonDirk",
-      "elo": 1543.0,
+      "elo": 1544.3,
       "source": "gtr",
-      "gtr_rank": 124,
-      "gtr_points": 86769
+      "gtr_rank": 122,
+      "gtr_points": 86479
     },
     {
       "steam_id": "76561198450617537",
       "name": "Agent_Lynx",
-      "elo": 1531.1,
+      "elo": 1531.5,
       "source": "gtr",
-      "gtr_rank": 139,
-      "gtr_points": 83944
-    },
-    {
-      "steam_id": "76561198020771362",
-      "name": "Dracos Vaddern",
-      "elo": 1527.4,
-      "source": "gtr",
-      "gtr_rank": 144,
-      "gtr_points": 82619
+      "gtr_rank": 138,
+      "gtr_points": 83986
     },
     {
       "steam_id": "76561198049600387",
       "name": "Straubz",
-      "elo": 1526.6,
+      "elo": 1527.8,
       "source": "gtr",
-      "gtr_rank": 145,
-      "gtr_points": 82108
+      "gtr_rank": 143,
+      "gtr_points": 82000
+    },
+    {
+      "steam_id": "76561198020771362",
+      "name": "Dracos Vaddern",
+      "elo": 1527.1,
+      "source": "gtr",
+      "gtr_rank": 144,
+      "gtr_points": 81705
     },
     {
       "steam_id": "76561198000950884",
       "name": "Dhalucard",
-      "elo": 1515.0,
+      "elo": 1516.2,
       "source": "gtr",
-      "gtr_rank": 162,
-      "gtr_points": 78224
+      "gtr_rank": 160,
+      "gtr_points": 78130
     },
     {
       "steam_id": "76561198027616694",
       "name": "tumppu",
-      "elo": 1513.7,
+      "elo": 1512.4,
       "source": "gtr",
-      "gtr_rank": 164,
-      "gtr_points": 77588
+      "gtr_rank": 166,
+      "gtr_points": 77073
     },
     {
       "steam_id": "76561197986463414",
@@ -15505,84 +15505,84 @@
       "elo": 1511.8,
       "source": "gtr",
       "gtr_rank": 167,
-      "gtr_points": 76990
+      "gtr_points": 76497
     },
     {
       "steam_id": "76561198129913292",
       "name": "Sahne mit Bohnen",
-      "elo": 1511.2,
+      "elo": 1511.1,
       "source": "gtr",
       "gtr_rank": 168,
-      "gtr_points": 76560
+      "gtr_points": 76382
     },
     {
       "steam_id": "76561198408866688",
       "name": "Toothygaming",
-      "elo": 1495.6,
+      "elo": 1496.8,
       "source": "gtr",
-      "gtr_rank": 195,
-      "gtr_points": 73191
+      "gtr_rank": 193,
+      "gtr_points": 73214
     },
     {
       "steam_id": "76561197961216129",
       "name": "LexLimbo",
-      "elo": 1487.8,
+      "elo": 1487.5,
       "source": "gtr",
-      "gtr_rank": 210,
+      "gtr_rank": 211,
       "gtr_points": 71422
     },
     {
       "steam_id": "76561198894844131",
       "name": "d r a t i n i",
-      "elo": 1487.3,
+      "elo": 1486.6,
       "source": "gtr",
-      "gtr_rank": 211,
-      "gtr_points": 71151
-    },
-    {
-      "steam_id": "76561198383881021",
-      "name": "CrownedKoi",
-      "elo": 1483.4,
-      "source": "gtr",
-      "gtr_rank": 219,
-      "gtr_points": 70279
+      "gtr_rank": 213,
+      "gtr_points": 71141
     },
     {
       "steam_id": "76561199123096930",
       "name": "soap",
-      "elo": 1482.9,
+      "elo": 1482.3,
       "source": "gtr",
-      "gtr_rank": 220,
-      "gtr_points": 70208
+      "gtr_rank": 222,
+      "gtr_points": 69953
     },
     {
       "steam_id": "76561198984933444",
       "name": "VoidLeech",
-      "elo": 1480.1,
+      "elo": 1481.3,
       "source": "gtr",
-      "gtr_rank": 226,
+      "gtr_rank": 224,
       "gtr_points": 69676
     },
     {
       "steam_id": "76561198033713278",
       "name": "crimson",
-      "elo": 1479.6,
+      "elo": 1480.9,
       "source": "gtr",
-      "gtr_rank": 227,
-      "gtr_points": 69583
+      "gtr_rank": 225,
+      "gtr_points": 69582
+    },
+    {
+      "steam_id": "76561198383881021",
+      "name": "CrownedKoi",
+      "elo": 1480.4,
+      "source": "gtr",
+      "gtr_rank": 226,
+      "gtr_points": 69554
     },
     {
       "steam_id": "76561198028157937",
       "name": "Kid Sobek",
-      "elo": 1478.3,
+      "elo": 1478.6,
       "source": "gtr",
       "gtr_rank": 230,
-      "gtr_points": 69254
+      "gtr_points": 69168
     },
     {
       "steam_id": "76561198170201561",
       "name": "Thunderdrome4",
-      "elo": 1477.8,
+      "elo": 1478.2,
       "source": "gtr",
       "gtr_rank": 231,
       "gtr_points": 69076
@@ -15590,71 +15590,71 @@
     {
       "steam_id": "76561197971853578",
       "name": "R3P",
-      "elo": 1477.4,
+      "elo": 1477.7,
       "source": "gtr",
       "gtr_rank": 232,
-      "gtr_points": 69008
-    },
-    {
-      "steam_id": "76561198161591192",
-      "name": "''",
-      "elo": 1476.0,
-      "source": "gtr",
-      "gtr_rank": 235,
-      "gtr_points": 68505
+      "gtr_points": 68991
     },
     {
       "steam_id": "76561198871050719",
       "name": "Kniremijer",
-      "elo": 1475.6,
+      "elo": 1475.9,
       "source": "gtr",
       "gtr_rank": 236,
-      "gtr_points": 68295
+      "gtr_points": 68260
     },
     {
       "steam_id": "76561198202341782",
       "name": "Donkey_Man_Butt",
-      "elo": 1473.4,
+      "elo": 1474.6,
       "source": "gtr",
-      "gtr_rank": 241,
-      "gtr_points": 67845
+      "gtr_rank": 239,
+      "gtr_points": 67669
+    },
+    {
+      "steam_id": "76561198161591192",
+      "name": "''",
+      "elo": 1474.2,
+      "source": "gtr",
+      "gtr_rank": 240,
+      "gtr_points": 67497
     },
     {
       "steam_id": "76561197960619506",
       "name": "Zvenne",
-      "elo": 1470.4,
+      "elo": 1470.8,
       "source": "gtr",
       "gtr_rank": 248,
-      "gtr_points": 66154
-    },
-    {
-      "steam_id": "76561198098866326",
-      "name": "Pat Fenis",
-      "elo": 1467.5,
-      "source": "gtr",
-      "gtr_rank": 255,
-      "gtr_points": 65221
+      "gtr_points": 66155
     },
     {
       "steam_id": "76561199051943706",
       "name": "kingmonkey555",
-      "elo": 1467.0,
+      "elo": 1467.5,
       "source": "gtr",
       "gtr_rank": 256,
-      "gtr_points": 65210
+      "gtr_points": 65249
+    },
+    {
+      "steam_id": "76561198098866326",
+      "name": "Pat Fenis",
+      "elo": 1467.1,
+      "source": "gtr",
+      "gtr_rank": 257,
+      "gtr_points": 65187
     },
     {
       "steam_id": "76561199483629967",
       "name": "michaelhaun27",
-      "elo": 1466.2,
+      "elo": 1465.1,
       "source": "gtr",
-      "gtr_rank": 258,
-      "gtr_points": 64867
+      "gtr_rank": 262,
+      "gtr_points": 64580
     },
     {
       "steam_id": "76561198079414512",
       "name": "buh",
-      "elo": 1462.6,
+      "elo": 1463.1,
       "source": "gtr",
       "gtr_rank": 267,
       "gtr_points": 64190
@@ -15662,1521 +15662,1465 @@
     {
       "steam_id": "76561197961839997",
       "name": "Braininator",
-      "elo": 1461.5,
+      "elo": 1461.2,
       "source": "gtr",
-      "gtr_rank": 270,
-      "gtr_points": 64014
+      "gtr_rank": 272,
+      "gtr_points": 63948
+    },
+    {
+      "steam_id": "76561198140409041",
+      "name": "SkyPromp",
+      "elo": 1460.1,
+      "source": "gtr",
+      "gtr_rank": 275,
+      "gtr_points": 63603
     },
     {
       "steam_id": "76561198079972616",
       "name": "Aeroxit",
-      "elo": 1457.3,
+      "elo": 1457.1,
       "source": "gtr",
-      "gtr_rank": 281,
-      "gtr_points": 62859
+      "gtr_rank": 283,
+      "gtr_points": 62857
     },
     {
       "steam_id": "76561198371897149",
       "name": "Zyrxes",
-      "elo": 1452.2,
+      "elo": 1452.5,
       "source": "gtr",
-      "gtr_rank": 295,
-      "gtr_points": 62003
+      "gtr_rank": 296,
+      "gtr_points": 62001
     },
     {
       "steam_id": "76561198124786532",
       "name": "Reject825",
-      "elo": 1450.8,
+      "elo": 1451.1,
       "source": "gtr",
-      "gtr_rank": 299,
-      "gtr_points": 61609
+      "gtr_rank": 300,
+      "gtr_points": 61590
     },
     {
       "steam_id": "76561198317091382",
       "name": "Tj1611",
-      "elo": 1450.1,
+      "elo": 1450.4,
       "source": "gtr",
-      "gtr_rank": 301,
-      "gtr_points": 61064
+      "gtr_rank": 302,
+      "gtr_points": 61001
     },
     {
       "steam_id": "76561198263625413",
       "name": "kardnic",
-      "elo": 1448.4,
+      "elo": 1449.0,
       "source": "gtr",
       "gtr_rank": 306,
-      "gtr_points": 60606
+      "gtr_points": 60583
     },
     {
       "steam_id": "76561198007633898",
       "name": "Der-KÖ",
-      "elo": 1448.0,
+      "elo": 1448.7,
       "source": "gtr",
       "gtr_rank": 307,
-      "gtr_points": 60510
+      "gtr_points": 60570
     },
     {
       "steam_id": "76561198873227805",
       "name": "damagemechanism",
-      "elo": 1447.7,
+      "elo": 1448.0,
       "source": "gtr",
-      "gtr_rank": 308,
-      "gtr_points": 60495
+      "gtr_rank": 309,
+      "gtr_points": 60437
     },
     {
       "steam_id": "76561198039677046",
       "name": "Rekill",
-      "elo": 1446.0,
+      "elo": 1446.7,
       "source": "gtr",
       "gtr_rank": 313,
-      "gtr_points": 60126
+      "gtr_points": 60044
     },
     {
       "steam_id": "76561198135377787",
       "name": "Felislazuli",
-      "elo": 1444.6,
+      "elo": 1445.7,
       "source": "gtr",
-      "gtr_rank": 317,
-      "gtr_points": 59567
+      "gtr_rank": 316,
+      "gtr_points": 59565
     },
     {
       "steam_id": "76561198211007028",
       "name": "Bjenk4",
-      "elo": 1444.3,
+      "elo": 1444.7,
       "source": "gtr",
-      "gtr_rank": 318,
-      "gtr_points": 59498
+      "gtr_rank": 319,
+      "gtr_points": 59467
     },
     {
       "steam_id": "76561198047886002",
       "name": "Albi",
-      "elo": 1444.0,
+      "elo": 1444.4,
       "source": "gtr",
-      "gtr_rank": 319,
+      "gtr_rank": 320,
       "gtr_points": 59372
     },
     {
       "steam_id": "76561199304782818",
       "name": "mrd_gamer3414",
-      "elo": 1443.7,
+      "elo": 1444.1,
       "source": "gtr",
-      "gtr_rank": 320,
-      "gtr_points": 59313
+      "gtr_rank": 321,
+      "gtr_points": 59306
     },
     {
       "steam_id": "76561198054805282",
       "name": "sixshooter_sam",
-      "elo": 1443.0,
+      "elo": 1443.4,
       "source": "gtr",
-      "gtr_rank": 322,
+      "gtr_rank": 323,
       "gtr_points": 59182
     },
     {
       "steam_id": "76561198846378978",
       "name": "XaJaGa <3",
-      "elo": 1442.7,
+      "elo": 1442.8,
       "source": "gtr",
-      "gtr_rank": 323,
-      "gtr_points": 58944
-    },
-    {
-      "steam_id": "76561198070584839",
-      "name": "SuperSamio",
-      "elo": 1438.2,
-      "source": "gtr",
-      "gtr_rank": 337,
-      "gtr_points": 58223
+      "gtr_rank": 325,
+      "gtr_points": 58924
     },
     {
       "steam_id": "76561197972257803",
       "name": "misa",
-      "elo": 1437.3,
+      "elo": 1437.8,
       "source": "gtr",
-      "gtr_rank": 340,
-      "gtr_points": 58117
+      "gtr_rank": 341,
+      "gtr_points": 58105
     },
     {
       "steam_id": "76561199672891268",
       "name": "lingamer",
-      "elo": 1436.4,
+      "elo": 1437.2,
       "source": "gtr",
       "gtr_rank": 343,
-      "gtr_points": 57724
+      "gtr_points": 57720
+    },
+    {
+      "steam_id": "76561198070584839",
+      "name": "SuperSamio",
+      "elo": 1436.0,
+      "source": "gtr",
+      "gtr_rank": 347,
+      "gtr_points": 57423
     },
     {
       "steam_id": "76561198436518745",
       "name": "Gruselda1",
-      "elo": 1435.2,
+      "elo": 1435.7,
       "source": "gtr",
-      "gtr_rank": 347,
-      "gtr_points": 57470
+      "gtr_rank": 348,
+      "gtr_points": 57391
     },
     {
       "steam_id": "76561198282215354",
       "name": "Toshy",
-      "elo": 1434.3,
+      "elo": 1434.8,
       "source": "gtr",
-      "gtr_rank": 350,
-      "gtr_points": 57064
-    },
-    {
-      "steam_id": "76561198055415835",
-      "name": "Daggtex",
-      "elo": 1432.8,
-      "source": "gtr",
-      "gtr_rank": 355,
-      "gtr_points": 56651
-    },
-    {
-      "steam_id": "76561198361290311",
-      "name": "mikk253u",
-      "elo": 1432.5,
-      "source": "gtr",
-      "gtr_rank": 356,
-      "gtr_points": 56465
-    },
-    {
-      "steam_id": "76561199086048409",
-      "name": "Mount Everest",
-      "elo": 1431.9,
-      "source": "gtr",
-      "gtr_rank": 358,
-      "gtr_points": 55881
+      "gtr_rank": 351,
+      "gtr_points": 57060
     },
     {
       "steam_id": "76561199085459807",
       "name": "Streboli",
-      "elo": 1431.3,
+      "elo": 1433.6,
       "source": "gtr",
-      "gtr_rank": 360,
-      "gtr_points": 55674
+      "gtr_rank": 355,
+      "gtr_points": 56692
+    },
+    {
+      "steam_id": "76561198055415835",
+      "name": "Daggtex",
+      "elo": 1433.1,
+      "source": "gtr",
+      "gtr_rank": 357,
+      "gtr_points": 56647
+    },
+    {
+      "steam_id": "76561199086048409",
+      "name": "Mount Everest",
+      "elo": 1432.8,
+      "source": "gtr",
+      "gtr_rank": 358,
+      "gtr_points": 55884
     },
     {
       "steam_id": "76561199812556396",
       "name": "Kire368",
-      "elo": 1429.9,
+      "elo": 1431.0,
       "source": "gtr",
-      "gtr_rank": 365,
-      "gtr_points": 54502
-    },
-    {
-      "steam_id": "76561198140409041",
-      "name": "SkyPromp",
-      "elo": 1428.7,
-      "source": "gtr",
-      "gtr_rank": 369,
-      "gtr_points": 54205
-    },
-    {
-      "steam_id": "76561198257882767",
-      "name": "Krumpas Endrium",
-      "elo": 1427.6,
-      "source": "gtr",
-      "gtr_rank": 373,
-      "gtr_points": 53349
-    },
-    {
-      "steam_id": "76561199014646093",
-      "name": "Anxietea Fox",
-      "elo": 1427.3,
-      "source": "gtr",
-      "gtr_rank": 374,
-      "gtr_points": 53335
+      "gtr_rank": 364,
+      "gtr_points": 54510
     },
     {
       "steam_id": "76561198042771629",
       "name": "Cruzick",
-      "elo": 1426.5,
+      "elo": 1428.5,
       "source": "gtr",
-      "gtr_rank": 377,
-      "gtr_points": 53130
+      "gtr_rank": 373,
+      "gtr_points": 53379
+    },
+    {
+      "steam_id": "76561199014646093",
+      "name": "Anxietea Fox",
+      "elo": 1428.2,
+      "source": "gtr",
+      "gtr_rank": 374,
+      "gtr_points": 53358
+    },
+    {
+      "steam_id": "76561198257882767",
+      "name": "Krumpas Endrium",
+      "elo": 1428.0,
+      "source": "gtr",
+      "gtr_rank": 375,
+      "gtr_points": 53349
     },
     {
       "steam_id": "76561199222694539",
       "name": "/\\PL",
-      "elo": 1424.3,
+      "elo": 1425.8,
       "source": "gtr",
-      "gtr_rank": 385,
-      "gtr_points": 52261
+      "gtr_rank": 383,
+      "gtr_points": 52255
     },
     {
       "steam_id": "76561198086401089",
       "name": "_Mackey_",
-      "elo": 1422.9,
+      "elo": 1423.9,
       "source": "gtr",
       "gtr_rank": 390,
-      "gtr_points": 51362
-    },
-    {
-      "steam_id": "76561199558912285",
-      "name": "TreeWars",
-      "elo": 1421.9,
-      "source": "gtr",
-      "gtr_rank": 394,
-      "gtr_points": 50757
-    },
-    {
-      "steam_id": "76561198012110624",
-      "name": "calum",
-      "elo": 1421.6,
-      "source": "gtr",
-      "gtr_rank": 395,
-      "gtr_points": 50646
-    },
-    {
-      "steam_id": "76561198049138765",
-      "name": "EyesOnly",
-      "elo": 1421.3,
-      "source": "gtr",
-      "gtr_rank": 396,
-      "gtr_points": 50448
-    },
-    {
-      "steam_id": "76561198093330364",
-      "name": "BoredFreak",
-      "elo": 1421.1,
-      "source": "gtr",
-      "gtr_rank": 397,
-      "gtr_points": 50080
-    },
-    {
-      "steam_id": "76561198022669068",
-      "name": "The_ZA_Badger",
-      "elo": 1420.8,
-      "source": "gtr",
-      "gtr_rank": 398,
-      "gtr_points": 50078
-    },
-    {
-      "steam_id": "76561198097510715",
-      "name": "jaden",
-      "elo": 1420.5,
-      "source": "gtr",
-      "gtr_rank": 399,
-      "gtr_points": 49853
+      "gtr_points": 51218
     },
     {
       "steam_id": "76561198054891524",
       "name": "Maki",
-      "elo": 1420.3,
+      "elo": 1423.1,
       "source": "gtr",
-      "gtr_rank": 400,
-      "gtr_points": 49588
+      "gtr_rank": 393,
+      "gtr_points": 50838
+    },
+    {
+      "steam_id": "76561199558912285",
+      "name": "TreeWars",
+      "elo": 1422.8,
+      "source": "gtr",
+      "gtr_rank": 394,
+      "gtr_points": 50705
+    },
+    {
+      "steam_id": "76561198012110624",
+      "name": "calum",
+      "elo": 1422.6,
+      "source": "gtr",
+      "gtr_rank": 395,
+      "gtr_points": 50567
+    },
+    {
+      "steam_id": "76561198049138765",
+      "name": "EyesOnly",
+      "elo": 1422.3,
+      "source": "gtr",
+      "gtr_rank": 396,
+      "gtr_points": 50344
+    },
+    {
+      "steam_id": "76561198093330364",
+      "name": "BoredFreak",
+      "elo": 1422.0,
+      "source": "gtr",
+      "gtr_rank": 397,
+      "gtr_points": 50130
+    },
+    {
+      "steam_id": "76561198022669068",
+      "name": "The_ZA_Badger",
+      "elo": 1421.8,
+      "source": "gtr",
+      "gtr_rank": 398,
+      "gtr_points": 50032
+    },
+    {
+      "steam_id": "76561198097510715",
+      "name": "jaden",
+      "elo": 1421.5,
+      "source": "gtr",
+      "gtr_rank": 399,
+      "gtr_points": 49740
     },
     {
       "steam_id": "76561198277110852",
       "name": "rosedotpng",
-      "elo": 1419.2,
+      "elo": 1420.5,
       "source": "gtr",
-      "gtr_rank": 404,
-      "gtr_points": 49080
+      "gtr_rank": 403,
+      "gtr_points": 49077
     },
     {
       "steam_id": "76561198014810843",
       "name": "BjoernBaerTv",
-      "elo": 1418.7,
+      "elo": 1420.0,
       "source": "gtr",
-      "gtr_rank": 406,
-      "gtr_points": 49042
+      "gtr_rank": 405,
+      "gtr_points": 49016
     },
     {
       "steam_id": "76561197990268591",
       "name": "Daceda",
-      "elo": 1418.5,
+      "elo": 1419.7,
       "source": "gtr",
-      "gtr_rank": 407,
-      "gtr_points": 48993
-    },
-    {
-      "steam_id": "76561198949291552",
-      "name": "Oscar_Vistrup",
-      "elo": 1418.2,
-      "source": "gtr",
-      "gtr_rank": 408,
-      "gtr_points": 48990
+      "gtr_rank": 406,
+      "gtr_points": 48937
     },
     {
       "steam_id": "76561198019625761",
       "name": "AesirMouse",
-      "elo": 1417.7,
+      "elo": 1419.2,
       "source": "gtr",
-      "gtr_rank": 410,
-      "gtr_points": 48464
+      "gtr_rank": 408,
+      "gtr_points": 48407
     },
     {
       "steam_id": "76561198070472929",
       "name": "PewX [.de]",
-      "elo": 1416.9,
+      "elo": 1418.5,
       "source": "gtr",
-      "gtr_rank": 413,
-      "gtr_points": 47185
-    },
-    {
-      "steam_id": "76561198313484529",
-      "name": "Red! (She/It)",
-      "elo": 1416.7,
-      "source": "gtr",
-      "gtr_rank": 414,
-      "gtr_points": 47013
+      "gtr_rank": 411,
+      "gtr_points": 47024
     },
     {
       "steam_id": "76561198256954860",
       "name": "Tobi-Wan91",
-      "elo": 1416.4,
+      "elo": 1418.2,
       "source": "gtr",
-      "gtr_rank": 415,
-      "gtr_points": 46965
+      "gtr_rank": 412,
+      "gtr_points": 46855
+    },
+    {
+      "steam_id": "76561198313484529",
+      "name": "Red! (She/It)",
+      "elo": 1418.0,
+      "source": "gtr",
+      "gtr_rank": 413,
+      "gtr_points": 46734
     },
     {
       "steam_id": "76561198958881478",
       "name": "phrogrock",
-      "elo": 1416.2,
+      "elo": 1417.7,
       "source": "gtr",
-      "gtr_rank": 416,
-      "gtr_points": 46910
-    },
-    {
-      "steam_id": "76561198038173323",
-      "name": "FabinhoI7",
-      "elo": 1415.9,
-      "source": "gtr",
-      "gtr_rank": 417,
-      "gtr_points": 46312
-    },
-    {
-      "steam_id": "76561198437928196",
-      "name": "Taris",
-      "elo": 1415.7,
-      "source": "gtr",
-      "gtr_rank": 418,
-      "gtr_points": 46214
+      "gtr_rank": 414,
+      "gtr_points": 46625
     },
     {
       "steam_id": "76561198743425933",
       "name": "CantFindTheGround",
-      "elo": 1415.4,
+      "elo": 1417.5,
       "source": "gtr",
-      "gtr_rank": 419,
-      "gtr_points": 45840
+      "gtr_rank": 415,
+      "gtr_points": 46372
+    },
+    {
+      "steam_id": "76561198038173323",
+      "name": "FabinhoI7",
+      "elo": 1417.2,
+      "source": "gtr",
+      "gtr_rank": 416,
+      "gtr_points": 46308
+    },
+    {
+      "steam_id": "76561198437928196",
+      "name": "Taris",
+      "elo": 1417.0,
+      "source": "gtr",
+      "gtr_rank": 417,
+      "gtr_points": 46215
     },
     {
       "steam_id": "76561198130389660",
       "name": "Waterlemon147",
-      "elo": 1414.9,
+      "elo": 1416.5,
       "source": "gtr",
-      "gtr_rank": 421,
-      "gtr_points": 45084
+      "gtr_rank": 419,
+      "gtr_points": 45024
     },
     {
       "steam_id": "76561199115219698",
       "name": "NyxTheVixen",
-      "elo": 1414.2,
+      "elo": 1415.7,
       "source": "gtr",
-      "gtr_rank": 424,
-      "gtr_points": 44181
+      "gtr_rank": 422,
+      "gtr_points": 44143
     },
     {
       "steam_id": "76561198175680590",
       "name": "Kamajirou",
-      "elo": 1413.9,
+      "elo": 1415.2,
       "source": "gtr",
-      "gtr_rank": 425,
-      "gtr_points": 44033
+      "gtr_rank": 424,
+      "gtr_points": 43794
     },
     {
       "steam_id": "76561198843048305",
       "name": "gren",
-      "elo": 1413.4,
+      "elo": 1415.0,
       "source": "gtr",
-      "gtr_rank": 427,
-      "gtr_points": 43809
+      "gtr_rank": 425,
+      "gtr_points": 43697
     },
     {
       "steam_id": "76561198004413616",
       "name": "SpinkyDinkyDonky",
-      "elo": 1413.2,
+      "elo": 1414.7,
       "source": "gtr",
-      "gtr_rank": 428,
-      "gtr_points": 43497
+      "gtr_rank": 426,
+      "gtr_points": 43470
     },
     {
       "steam_id": "76561199534813413",
       "name": "LegacySK",
-      "elo": 1412.9,
+      "elo": 1414.5,
       "source": "gtr",
-      "gtr_rank": 429,
-      "gtr_points": 43404
+      "gtr_rank": 427,
+      "gtr_points": 43386
     },
     {
       "steam_id": "76561199078828160",
       "name": "logang",
-      "elo": 1412.5,
+      "elo": 1414.0,
       "source": "gtr",
-      "gtr_rank": 431,
-      "gtr_points": 43230
+      "gtr_rank": 429,
+      "gtr_points": 43227
     },
     {
       "steam_id": "76561199224332390",
       "name": "Shlabe",
-      "elo": 1412.2,
+      "elo": 1413.8,
       "source": "gtr",
-      "gtr_rank": 432,
-      "gtr_points": 42856
+      "gtr_rank": 430,
+      "gtr_points": 42693
     },
     {
       "steam_id": "76561197999123785",
       "name": "NightHawk475",
-      "elo": 1412.0,
+      "elo": 1413.5,
       "source": "gtr",
-      "gtr_rank": 433,
-      "gtr_points": 42566
+      "gtr_rank": 431,
+      "gtr_points": 42560
     },
     {
       "steam_id": "76561198871823002",
       "name": "Lazi",
-      "elo": 1411.7,
+      "elo": 1413.3,
       "source": "gtr",
-      "gtr_rank": 434,
-      "gtr_points": 41673
+      "gtr_rank": 432,
+      "gtr_points": 41672
     },
     {
       "steam_id": "76561198079648302",
       "name": "Zeref",
-      "elo": 1411.2,
+      "elo": 1413.1,
       "source": "gtr",
-      "gtr_rank": 436,
-      "gtr_points": 40531
+      "gtr_rank": 433,
+      "gtr_points": 40522
     },
     {
       "steam_id": "76561199023322702",
       "name": "Detiic",
-      "elo": 1411.0,
+      "elo": 1412.6,
       "source": "gtr",
-      "gtr_rank": 437,
-      "gtr_points": 40339
-    },
-    {
-      "steam_id": "76561199072402373",
-      "name": "LucidLucy",
-      "elo": 1410.5,
-      "source": "gtr",
-      "gtr_rank": 439,
-      "gtr_points": 39231
+      "gtr_rank": 435,
+      "gtr_points": 40326
     },
     {
       "steam_id": "76561198068613908",
       "name": "f33x",
-      "elo": 1410.3,
+      "elo": 1412.1,
       "source": "gtr",
-      "gtr_rank": 440,
-      "gtr_points": 39221
+      "gtr_rank": 437,
+      "gtr_points": 39178
     },
     {
       "steam_id": "76561199681211675",
       "name": "MicahNike",
-      "elo": 1410.0,
+      "elo": 1411.9,
       "source": "gtr",
-      "gtr_rank": 441,
-      "gtr_points": 39188
+      "gtr_rank": 438,
+      "gtr_points": 39171
+    },
+    {
+      "steam_id": "76561199072402373",
+      "name": "LucidLucy",
+      "elo": 1411.6,
+      "source": "gtr",
+      "gtr_rank": 439,
+      "gtr_points": 39081
     },
     {
       "steam_id": "76561198148461031",
       "name": "TheSuperGamer20578",
-      "elo": 1409.6,
+      "elo": 1411.4,
       "source": "gtr",
-      "gtr_rank": 443,
-      "gtr_points": 39059
+      "gtr_rank": 440,
+      "gtr_points": 39001
     },
     {
       "steam_id": "76561198016802607",
       "name": "Saif_91",
-      "elo": 1409.1,
+      "elo": 1410.7,
       "source": "gtr",
-      "gtr_rank": 445,
-      "gtr_points": 38800
+      "gtr_rank": 443,
+      "gtr_points": 38753
     },
     {
       "steam_id": "76561198024241170",
       "name": "Namo ツ",
-      "elo": 1408.9,
+      "elo": 1410.2,
       "source": "gtr",
-      "gtr_rank": 446,
-      "gtr_points": 38738
+      "gtr_rank": 445,
+      "gtr_points": 38545
     },
     {
       "steam_id": "76561198069833764",
       "name": "Panfi",
-      "elo": 1408.4,
+      "elo": 1410.0,
       "source": "gtr",
-      "gtr_rank": 448,
-      "gtr_points": 38463
+      "gtr_rank": 446,
+      "gtr_points": 38307
     },
     {
       "steam_id": "76561198075429274",
       "name": "PrincessPon3",
-      "elo": 1407.7,
+      "elo": 1409.3,
       "source": "gtr",
-      "gtr_rank": 451,
-      "gtr_points": 37870
+      "gtr_rank": 449,
+      "gtr_points": 37729
     },
     {
       "steam_id": "76561198253344254",
       "name": "Master",
-      "elo": 1407.5,
+      "elo": 1409.1,
       "source": "gtr",
-      "gtr_rank": 452,
-      "gtr_points": 37694
+      "gtr_rank": 450,
+      "gtr_points": 37697
     },
     {
       "steam_id": "76561198714739796",
       "name": "Rubberbandpig",
-      "elo": 1407.2,
+      "elo": 1408.8,
       "source": "gtr",
-      "gtr_rank": 453,
-      "gtr_points": 37619
+      "gtr_rank": 451,
+      "gtr_points": 37571
     },
     {
       "steam_id": "76561198796982756",
       "name": "JayDaRippar",
-      "elo": 1406.8,
+      "elo": 1408.4,
       "source": "gtr",
-      "gtr_rank": 455,
-      "gtr_points": 36958
-    },
-    {
-      "steam_id": "76561198725117658",
-      "name": "xREAPERx",
-      "elo": 1406.5,
-      "source": "gtr",
-      "gtr_rank": 456,
-      "gtr_points": 36747
+      "gtr_rank": 453,
+      "gtr_points": 36928
     },
     {
       "steam_id": "76561198126778879",
       "name": "Gleitsi™",
-      "elo": 1406.3,
+      "elo": 1408.1,
       "source": "gtr",
-      "gtr_rank": 457,
-      "gtr_points": 36590
+      "gtr_rank": 454,
+      "gtr_points": 36589
     },
     {
-      "steam_id": "76561199849151971",
-      "name": "ZzPaty",
-      "elo": 1406.1,
+      "steam_id": "76561198725117658",
+      "name": "xREAPERx",
+      "elo": 1407.9,
       "source": "gtr",
-      "gtr_rank": 458,
-      "gtr_points": 35984
+      "gtr_rank": 455,
+      "gtr_points": 36465
     },
     {
       "steam_id": "76561198446744032",
       "name": "Edward",
-      "elo": 1405.9,
+      "elo": 1407.7,
       "source": "gtr",
-      "gtr_rank": 459,
-      "gtr_points": 35936
+      "gtr_rank": 456,
+      "gtr_points": 35933
+    },
+    {
+      "steam_id": "76561199849151971",
+      "name": "ZzPaty",
+      "elo": 1407.5,
+      "source": "gtr",
+      "gtr_rank": 457,
+      "gtr_points": 35884
     },
     {
       "steam_id": "76561199243964036",
       "name": "Gamer_boi9164",
-      "elo": 1405.6,
+      "elo": 1407.2,
       "source": "gtr",
-      "gtr_rank": 460,
-      "gtr_points": 35710
+      "gtr_rank": 458,
+      "gtr_points": 35701
     },
     {
       "steam_id": "76561198262407406",
       "name": "<u> <i> <#DE3163> |͓̽Draugur",
-      "elo": 1404.9,
+      "elo": 1406.3,
       "source": "gtr",
-      "gtr_rank": 463,
-      "gtr_points": 34564
+      "gtr_rank": 462,
+      "gtr_points": 34705
     },
     {
       "steam_id": "76561198057525734",
       "name": "Mr. Bean PhD",
-      "elo": 1404.7,
+      "elo": 1406.1,
       "source": "gtr",
-      "gtr_rank": 464,
-      "gtr_points": 34122
+      "gtr_rank": 463,
+      "gtr_points": 34106
     },
     {
       "steam_id": "76561198179988345",
       "name": "Onigirikatze",
-      "elo": 1404.5,
+      "elo": 1405.9,
       "source": "gtr",
-      "gtr_rank": 465,
-      "gtr_points": 33892
+      "gtr_rank": 464,
+      "gtr_points": 33797
     },
     {
       "steam_id": "76561199633196994",
       "name": "pokuszer0",
-      "elo": 1403.8,
+      "elo": 1405.2,
       "source": "gtr",
-      "gtr_rank": 468,
-      "gtr_points": 32816
+      "gtr_rank": 467,
+      "gtr_points": 32788
     },
     {
       "steam_id": "76561198364899294",
       "name": "[HRTMT]kompi",
-      "elo": 1403.4,
+      "elo": 1404.8,
       "source": "gtr",
-      "gtr_rank": 470,
-      "gtr_points": 31989
+      "gtr_rank": 469,
+      "gtr_points": 31970
+    },
+    {
+      "steam_id": "76561198111292771",
+      "name": "volker0815",
+      "elo": 1404.1,
+      "source": "gtr",
+      "gtr_rank": 472,
+      "gtr_points": 31324
     },
     {
       "steam_id": "76561198907410596",
       "name": "Inkats",
-      "elo": 1402.7,
+      "elo": 1403.9,
       "source": "gtr",
       "gtr_rank": 473,
-      "gtr_points": 31273
+      "gtr_points": 31210
     },
     {
       "steam_id": "76561198134135118",
       "name": "Bendz2012",
-      "elo": 1402.5,
+      "elo": 1403.7,
       "source": "gtr",
       "gtr_rank": 474,
-      "gtr_points": 30856
+      "gtr_points": 30495
     },
     {
       "steam_id": "76561198052738789",
       "name": "Franky1811",
-      "elo": 1402.3,
+      "elo": 1403.5,
       "source": "gtr",
       "gtr_rank": 475,
-      "gtr_points": 30357
-    },
-    {
-      "steam_id": "76561199059626674",
-      "name": "23_Aspect",
-      "elo": 1401.4,
-      "source": "gtr",
-      "gtr_rank": 479,
-      "gtr_points": 29043
+      "gtr_points": 30358
     },
     {
       "steam_id": "76561198081123275",
       "name": "Gr33Nature",
-      "elo": 1401.2,
+      "elo": 1402.6,
       "source": "gtr",
-      "gtr_rank": 480,
-      "gtr_points": 28876
+      "gtr_rank": 479,
+      "gtr_points": 28875
     },
     {
       "steam_id": "76561198134618548",
       "name": "Mansion",
-      "elo": 1400.9,
+      "elo": 1402.4,
       "source": "gtr",
-      "gtr_rank": 481,
-      "gtr_points": 28726
+      "gtr_rank": 480,
+      "gtr_points": 28667
     },
     {
       "steam_id": "76561198868222874",
       "name": "silverrose89",
-      "elo": 1400.7,
+      "elo": 1402.2,
+      "source": "gtr",
+      "gtr_rank": 481,
+      "gtr_points": 28646
+    },
+    {
+      "steam_id": "76561199059626674",
+      "name": "23_Aspect",
+      "elo": 1401.9,
       "source": "gtr",
       "gtr_rank": 482,
-      "gtr_points": 28717
+      "gtr_points": 28621
     },
     {
       "steam_id": "76561198289191941",
       "name": "knet56",
-      "elo": 1400.3,
+      "elo": 1401.5,
       "source": "gtr",
       "gtr_rank": 484,
-      "gtr_points": 28600
+      "gtr_points": 28594
     },
     {
       "steam_id": "76561199059744340",
       "name": "B1gManM1ke",
-      "elo": 1400.1,
+      "elo": 1401.3,
       "source": "gtr",
       "gtr_rank": 485,
-      "gtr_points": 28432
+      "gtr_points": 28433
     },
     {
       "steam_id": "76561198017867935",
       "name": "1uk3",
-      "elo": 1399.9,
+      "elo": 1401.1,
       "source": "gtr",
       "gtr_rank": 486,
-      "gtr_points": 27622
-    },
-    {
-      "steam_id": "76561199807074878",
-      "name": "calebmcr",
-      "elo": 1399.6,
-      "source": "gtr",
-      "gtr_rank": 487,
-      "gtr_points": 27191
+      "gtr_points": 27465
     },
     {
       "steam_id": "76561198292311772",
       "name": "Mandala Manfred",
-      "elo": 1399.4,
+      "elo": 1400.9,
+      "source": "gtr",
+      "gtr_rank": 487,
+      "gtr_points": 27178
+    },
+    {
+      "steam_id": "76561199807074878",
+      "name": "calebmcr",
+      "elo": 1400.7,
       "source": "gtr",
       "gtr_rank": 488,
-      "gtr_points": 27178
+      "gtr_points": 27046
     },
     {
       "steam_id": "76561197984916849",
       "name": "Fat Lenny",
-      "elo": 1399.2,
+      "elo": 1400.5,
       "source": "gtr",
       "gtr_rank": 489,
-      "gtr_points": 26685
+      "gtr_points": 26653
     },
     {
       "steam_id": "76561198035786764",
       "name": "Xabi",
-      "elo": 1399.0,
+      "elo": 1400.2,
       "source": "gtr",
       "gtr_rank": 490,
-      "gtr_points": 26651
+      "gtr_points": 26635
     },
     {
       "steam_id": "76561198294435762",
       "name": "Sherlock Homeless",
-      "elo": 1398.8,
+      "elo": 1400.0,
       "source": "gtr",
       "gtr_rank": 491,
-      "gtr_points": 26501
+      "gtr_points": 26449
     },
     {
       "steam_id": "76561198062925684",
       "name": "死神 - Fetso",
-      "elo": 1398.2,
+      "elo": 1399.4,
       "source": "gtr",
       "gtr_rank": 494,
-      "gtr_points": 25625
+      "gtr_points": 25618
     },
     {
       "steam_id": "76561199749888853",
       "name": "It's Meeeeeeeeeeeeeeeeeee!",
-      "elo": 1397.7,
+      "elo": 1399.2,
       "source": "gtr",
-      "gtr_rank": 496,
-      "gtr_points": 24820
+      "gtr_rank": 495,
+      "gtr_points": 24803
     },
     {
       "steam_id": "76561198280322429",
       "name": "QBach",
-      "elo": 1397.5,
+      "elo": 1398.8,
       "source": "gtr",
       "gtr_rank": 497,
-      "gtr_points": 24770
+      "gtr_points": 24725
     },
     {
       "steam_id": "76561198397415733",
       "name": "DNFplays",
-      "elo": 1397.1,
+      "elo": 1398.6,
       "source": "gtr",
-      "gtr_rank": 499,
-      "gtr_points": 24424
+      "gtr_rank": 498,
+      "gtr_points": 24397
     },
     {
       "steam_id": "76561198400915865",
       "name": "JGR",
-      "elo": 1396.9,
+      "elo": 1398.4,
       "source": "gtr",
-      "gtr_rank": 500,
-      "gtr_points": 24350
+      "gtr_rank": 499,
+      "gtr_points": 24253
     },
     {
       "steam_id": "76561198129909222",
       "name": "Cr4zZySlick",
-      "elo": 1396.7,
+      "elo": 1398.1,
       "source": "gtr",
-      "gtr_rank": 501,
-      "gtr_points": 24122
+      "gtr_rank": 500,
+      "gtr_points": 24094
     },
     {
       "steam_id": "76561198417815826",
       "name": "zauber_apfel",
-      "elo": 1395.8,
+      "elo": 1397.3,
       "source": "gtr",
-      "gtr_rank": 505,
-      "gtr_points": 23307
+      "gtr_rank": 504,
+      "gtr_points": 23262
     },
     {
       "steam_id": "76561198161246221",
       "name": "HarukoG",
-      "elo": 1395.6,
+      "elo": 1396.9,
       "source": "gtr",
       "gtr_rank": 506,
-      "gtr_points": 23227
+      "gtr_points": 23083
     },
     {
       "steam_id": "76561198014702667",
       "name": "Sigma Richards",
-      "elo": 1395.4,
+      "elo": 1396.7,
       "source": "gtr",
       "gtr_rank": 507,
-      "gtr_points": 22699
+      "gtr_points": 22690
     },
     {
       "steam_id": "76561198054177763",
       "name": "MadZitrone",
-      "elo": 1395.0,
+      "elo": 1396.3,
       "source": "gtr",
       "gtr_rank": 509,
-      "gtr_points": 22581
+      "gtr_points": 22398
     },
     {
       "steam_id": "76561199048919798",
       "name": "DragonTacoSauce",
-      "elo": 1394.8,
+      "elo": 1396.1,
       "source": "gtr",
       "gtr_rank": 510,
-      "gtr_points": 22113
-    },
-    {
-      "steam_id": "76561198129846339",
-      "name": "Mikyu9468",
-      "elo": 1394.4,
-      "source": "gtr",
-      "gtr_rank": 512,
-      "gtr_points": 21504
+      "gtr_points": 22100
     },
     {
       "steam_id": "76561199122064400",
       "name": "<#FC6A03>TheActualSun",
-      "elo": 1394.2,
+      "elo": 1395.5,
       "source": "gtr",
       "gtr_rank": 513,
-      "gtr_points": 21406
-    },
-    {
-      "steam_id": "76561198028111042",
-      "name": "Voltage",
-      "elo": 1394.0,
-      "source": "gtr",
-      "gtr_rank": 514,
-      "gtr_points": 21191
+      "gtr_points": 21399
     },
     {
       "steam_id": "76561199184447373",
       "name": "I_LikeBurntSoup",
-      "elo": 1393.8,
+      "elo": 1395.3,
+      "source": "gtr",
+      "gtr_rank": 514,
+      "gtr_points": 21177
+    },
+    {
+      "steam_id": "76561198028111042",
+      "name": "Voltage",
+      "elo": 1395.1,
       "source": "gtr",
       "gtr_rank": 515,
-      "gtr_points": 21180
+      "gtr_points": 21115
     },
     {
       "steam_id": "76561198075660285",
       "name": "Wigtertainment",
-      "elo": 1393.6,
+      "elo": 1394.9,
       "source": "gtr",
       "gtr_rank": 516,
-      "gtr_points": 20701
-    },
-    {
-      "steam_id": "76561198887271796",
-      "name": "Tobiboii1",
-      "elo": 1393.4,
-      "source": "gtr",
-      "gtr_rank": 517,
-      "gtr_points": 19526
+      "gtr_points": 20626
     },
     {
       "steam_id": "76561198189922306",
       "name": "GamingKlex",
-      "elo": 1393.2,
+      "elo": 1394.7,
       "source": "gtr",
-      "gtr_rank": 518,
-      "gtr_points": 19048
+      "gtr_rank": 517,
+      "gtr_points": 19001
     },
     {
       "steam_id": "76561198264248652",
       "name": "stealthswor1",
-      "elo": 1393.0,
+      "elo": 1394.5,
       "source": "gtr",
-      "gtr_rank": 519,
+      "gtr_rank": 518,
       "gtr_points": 17723
     },
     {
       "steam_id": "76561198320531165",
       "name": "Banana Joe",
-      "elo": 1392.8,
+      "elo": 1394.3,
       "source": "gtr",
-      "gtr_rank": 520,
-      "gtr_points": 17708
+      "gtr_rank": 519,
+      "gtr_points": 17705
     },
     {
       "steam_id": "76561197976648611",
       "name": "fuesselpueh",
-      "elo": 1392.6,
+      "elo": 1394.1,
       "source": "gtr",
-      "gtr_rank": 521,
-      "gtr_points": 17076
+      "gtr_rank": 520,
+      "gtr_points": 17071
     },
     {
       "steam_id": "76561199013473044",
       "name": "mutleyboy99",
-      "elo": 1392.4,
+      "elo": 1393.9,
       "source": "gtr",
-      "gtr_rank": 522,
-      "gtr_points": 17039
+      "gtr_rank": 521,
+      "gtr_points": 17018
     },
     {
       "steam_id": "76561198105894037",
       "name": "CalmestRaccoon",
-      "elo": 1392.2,
+      "elo": 1393.7,
       "source": "gtr",
-      "gtr_rank": 523,
-      "gtr_points": 16995
-    },
-    {
-      "steam_id": "76561198118002570",
-      "name": "Snowritz",
-      "elo": 1391.8,
-      "source": "gtr",
-      "gtr_rank": 525,
-      "gtr_points": 16339
+      "gtr_rank": 522,
+      "gtr_points": 16983
     },
     {
       "steam_id": "76561199085755730",
       "name": "[CTR] YOYOKING47",
-      "elo": 1391.6,
+      "elo": 1393.3,
       "source": "gtr",
-      "gtr_rank": 526,
-      "gtr_points": 16322
+      "gtr_rank": 524,
+      "gtr_points": 16308
+    },
+    {
+      "steam_id": "76561198118002570",
+      "name": "Snowritz",
+      "elo": 1393.1,
+      "source": "gtr",
+      "gtr_rank": 525,
+      "gtr_points": 16295
     },
     {
       "steam_id": "76561198017993853",
       "name": "eXeLuis",
-      "elo": 1391.4,
+      "elo": 1392.9,
       "source": "gtr",
-      "gtr_rank": 527,
+      "gtr_rank": 526,
       "gtr_points": 15731
     },
     {
       "steam_id": "76561198047120857",
       "name": "Luffy",
-      "elo": 1391.2,
+      "elo": 1392.7,
       "source": "gtr",
-      "gtr_rank": 528,
+      "gtr_rank": 527,
       "gtr_points": 15722
     },
     {
       "steam_id": "76561197974307406",
       "name": "Zeberon",
-      "elo": 1390.8,
+      "elo": 1392.3,
       "source": "gtr",
-      "gtr_rank": 530,
-      "gtr_points": 15610
+      "gtr_rank": 529,
+      "gtr_points": 15591
     },
     {
       "steam_id": "76561198209946185",
       "name": "Diaspielt",
-      "elo": 1390.6,
+      "elo": 1392.1,
       "source": "gtr",
-      "gtr_rank": 531,
-      "gtr_points": 15474
+      "gtr_rank": 530,
+      "gtr_points": 15432
     },
     {
       "steam_id": "76561198069001879",
       "name": "IceTech13",
-      "elo": 1390.4,
+      "elo": 1391.9,
       "source": "gtr",
-      "gtr_rank": 532,
-      "gtr_points": 15060
+      "gtr_rank": 531,
+      "gtr_points": 15027
     },
     {
       "steam_id": "76561199150037473",
       "name": "Felis Timon Felix",
-      "elo": 1390.2,
+      "elo": 1391.7,
       "source": "gtr",
-      "gtr_rank": 533,
+      "gtr_rank": 532,
       "gtr_points": 14994
-    },
-    {
-      "steam_id": "76561198029726080",
-      "name": "Haern",
-      "elo": 1390.0,
-      "source": "gtr",
-      "gtr_rank": 534,
-      "gtr_points": 14296
     },
     {
       "steam_id": "76561197989677513",
       "name": "ValenVanHel",
-      "elo": 1389.8,
+      "elo": 1391.5,
       "source": "gtr",
-      "gtr_rank": 535,
-      "gtr_points": 14221
+      "gtr_rank": 533,
+      "gtr_points": 14201
+    },
+    {
+      "steam_id": "76561198029726080",
+      "name": "Haern",
+      "elo": 1391.3,
+      "source": "gtr",
+      "gtr_rank": 534,
+      "gtr_points": 14190
     },
     {
       "steam_id": "76561198114380937",
       "name": "Brudersteffen©",
-      "elo": 1389.6,
+      "elo": 1391.1,
       "source": "gtr",
-      "gtr_rank": 536,
-      "gtr_points": 14160
+      "gtr_rank": 535,
+      "gtr_points": 14153
     },
     {
       "steam_id": "76561198017214995",
       "name": "Walter",
-      "elo": 1389.4,
+      "elo": 1390.9,
       "source": "gtr",
-      "gtr_rank": 537,
+      "gtr_rank": 536,
       "gtr_points": 14025
     },
     {
       "steam_id": "76561199875492259",
       "name": "grpierce515",
-      "elo": 1389.2,
+      "elo": 1390.8,
       "source": "gtr",
-      "gtr_rank": 538,
-      "gtr_points": 13569
+      "gtr_rank": 537,
+      "gtr_points": 13567
     },
     {
       "steam_id": "76561198026556065",
       "name": "Wraith",
-      "elo": 1389.0,
+      "elo": 1390.6,
       "source": "gtr",
-      "gtr_rank": 539,
-      "gtr_points": 13539
+      "gtr_rank": 538,
+      "gtr_points": 13518
     },
     {
       "steam_id": "76561198994944452",
       "name": "Sevi",
-      "elo": 1388.8,
+      "elo": 1390.4,
       "source": "gtr",
-      "gtr_rank": 540,
-      "gtr_points": 12750
+      "gtr_rank": 539,
+      "gtr_points": 13056
     },
     {
       "steam_id": "76561198326183338",
       "name": "archerman64",
-      "elo": 1388.6,
+      "elo": 1390.2,
       "source": "gtr",
-      "gtr_rank": 541,
-      "gtr_points": 12734
+      "gtr_rank": 540,
+      "gtr_points": 12685
     },
     {
       "steam_id": "76561198148601607",
       "name": "._.",
-      "elo": 1388.4,
+      "elo": 1390.0,
       "source": "gtr",
-      "gtr_rank": 542,
-      "gtr_points": 12690
-    },
-    {
-      "steam_id": "76561198274155207",
-      "name": "delet yourself",
-      "elo": 1388.2,
-      "source": "gtr",
-      "gtr_rank": 543,
-      "gtr_points": 12599
+      "gtr_rank": 541,
+      "gtr_points": 12677
     },
     {
       "steam_id": "76561199133498345",
       "name": "D3_Sail0R",
-      "elo": 1387.7,
+      "elo": 1389.4,
       "source": "gtr",
-      "gtr_rank": 546,
-      "gtr_points": 11138
+      "gtr_rank": 544,
+      "gtr_points": 11105
     },
     {
       "steam_id": "76561198123708732",
       "name": "KILLER_K0CH",
-      "elo": 1387.5,
+      "elo": 1389.2,
       "source": "gtr",
-      "gtr_rank": 547,
-      "gtr_points": 11112
+      "gtr_rank": 545,
+      "gtr_points": 11103
     },
     {
       "steam_id": "76561197996197343",
       "name": "Vaulter White",
-      "elo": 1387.3,
+      "elo": 1389.0,
       "source": "gtr",
-      "gtr_rank": 548,
+      "gtr_rank": 546,
       "gtr_points": 10950
     },
     {
       "steam_id": "76561198267722522",
       "name": "GameBear",
-      "elo": 1386.9,
+      "elo": 1388.7,
       "source": "gtr",
-      "gtr_rank": 550,
-      "gtr_points": 10298
-    },
-    {
-      "steam_id": "76561198311657362",
-      "name": "AreS",
-      "elo": 1386.7,
-      "source": "gtr",
-      "gtr_rank": 551,
-      "gtr_points": 10192
+      "gtr_rank": 548,
+      "gtr_points": 10166
     },
     {
       "steam_id": "76561198139304458",
       "name": "plantox.",
-      "elo": 1386.5,
+      "elo": 1388.5,
       "source": "gtr",
-      "gtr_rank": 552,
-      "gtr_points": 10064
-    },
-    {
-      "steam_id": "76561198749161990",
-      "name": "I_ernninja",
-      "elo": 1386.3,
-      "source": "gtr",
-      "gtr_rank": 553,
-      "gtr_points": 9650
+      "gtr_rank": 549,
+      "gtr_points": 9861
     },
     {
       "steam_id": "76561198330610866",
       "name": "Radicalgray93",
-      "elo": 1386.1,
+      "elo": 1388.3,
       "source": "gtr",
-      "gtr_rank": 554,
-      "gtr_points": 9539
+      "gtr_rank": 550,
+      "gtr_points": 9525
+    },
+    {
+      "steam_id": "76561198749161990",
+      "name": "I_ernninja",
+      "elo": 1388.1,
+      "source": "gtr",
+      "gtr_rank": 551,
+      "gtr_points": 9285
+    },
+    {
+      "steam_id": "76561198076530307",
+      "name": "Shuffle21",
+      "elo": 1387.9,
+      "source": "gtr",
+      "gtr_rank": 552,
+      "gtr_points": 9181
     },
     {
       "steam_id": "76561198010189904",
       "name": "VipermitSniper",
-      "elo": 1385.8,
+      "elo": 1387.5,
       "source": "gtr",
-      "gtr_rank": 556,
+      "gtr_rank": 554,
       "gtr_points": 8846
     },
     {
       "steam_id": "76561198024494523",
       "name": "MarthXT",
-      "elo": 1385.6,
+      "elo": 1387.3,
       "source": "gtr",
-      "gtr_rank": 557,
+      "gtr_rank": 555,
       "gtr_points": 8714
     },
     {
       "steam_id": "76561198070892510",
       "name": "phaseq",
-      "elo": 1385.4,
+      "elo": 1387.1,
       "source": "gtr",
-      "gtr_rank": 558,
+      "gtr_rank": 556,
       "gtr_points": 8691
-    },
-    {
-      "steam_id": "76561197981814766",
-      "name": "☜ Unkl4r ☞",
-      "elo": 1385.2,
-      "source": "gtr",
-      "gtr_rank": 559,
-      "gtr_points": 8593
     },
     {
       "steam_id": "76561199137713381",
       "name": "Cronus",
-      "elo": 1385.0,
+      "elo": 1387.0,
       "source": "gtr",
-      "gtr_rank": 560,
-      "gtr_points": 8539
+      "gtr_rank": 557,
+      "gtr_points": 8531
     },
     {
       "steam_id": "76561198424456730",
       "name": "TChapman500",
-      "elo": 1384.8,
+      "elo": 1386.8,
       "source": "gtr",
-      "gtr_rank": 561,
+      "gtr_rank": 558,
       "gtr_points": 8261
+    },
+    {
+      "steam_id": "76561197981814766",
+      "name": "☜ Unkl4r ☞",
+      "elo": 1386.6,
+      "source": "gtr",
+      "gtr_rank": 559,
+      "gtr_points": 8172
     },
     {
       "steam_id": "76561198063208247",
       "name": "sod mansion",
-      "elo": 1384.6,
+      "elo": 1386.4,
       "source": "gtr",
-      "gtr_rank": 562,
+      "gtr_rank": 560,
       "gtr_points": 8100
     },
     {
       "steam_id": "76561198972173968",
       "name": "countducky",
-      "elo": 1384.5,
+      "elo": 1386.2,
       "source": "gtr",
-      "gtr_rank": 563,
-      "gtr_points": 8069
+      "gtr_rank": 561,
+      "gtr_points": 8043
     },
     {
       "steam_id": "76561199143689433",
       "name": "yolkev",
-      "elo": 1384.3,
+      "elo": 1386.0,
       "source": "gtr",
-      "gtr_rank": 564,
-      "gtr_points": 8054
+      "gtr_rank": 562,
+      "gtr_points": 8039
     },
     {
       "steam_id": "76561198274158960",
       "name": "Dauthdaertya",
-      "elo": 1384.1,
+      "elo": 1385.9,
       "source": "gtr",
-      "gtr_rank": 565,
+      "gtr_rank": 563,
       "gtr_points": 7895
     },
     {
       "steam_id": "76561198250142228",
       "name": "CatMint",
-      "elo": 1383.9,
+      "elo": 1385.7,
       "source": "gtr",
-      "gtr_rank": 566,
+      "gtr_rank": 564,
       "gtr_points": 7683
-    },
-    {
-      "steam_id": "76561199494187699",
-      "name": "ownstyleez",
-      "elo": 1383.7,
-      "source": "gtr",
-      "gtr_rank": 567,
-      "gtr_points": 6981
     },
     {
       "steam_id": "76561198030686493",
       "name": "Lughor",
-      "elo": 1383.5,
+      "elo": 1385.5,
       "source": "gtr",
-      "gtr_rank": 568,
-      "gtr_points": 6820
-    },
-    {
-      "steam_id": "76561198290575808",
-      "name": "vp",
-      "elo": 1383.3,
-      "source": "gtr",
-      "gtr_rank": 569,
-      "gtr_points": 6811
+      "gtr_rank": 565,
+      "gtr_points": 6807
     },
     {
       "steam_id": "76561199750464295",
       "name": "frederik.boss15",
-      "elo": 1383.2,
+      "elo": 1385.3,
       "source": "gtr",
-      "gtr_rank": 570,
-      "gtr_points": 6507
+      "gtr_rank": 566,
+      "gtr_points": 6500
     },
     {
       "steam_id": "76561198406215018",
       "name": "DamNation",
-      "elo": 1383.0,
+      "elo": 1385.1,
       "source": "gtr",
-      "gtr_rank": 571,
+      "gtr_rank": 567,
       "gtr_points": 6231
     },
     {
       "steam_id": "76561198069020364",
       "name": "Andi",
-      "elo": 1382.8,
+      "elo": 1384.9,
       "source": "gtr",
-      "gtr_rank": 572,
+      "gtr_rank": 568,
       "gtr_points": 5992
     },
     {
       "steam_id": "76561199286847400",
       "name": "NoelOfSpace",
-      "elo": 1382.4,
+      "elo": 1384.6,
       "source": "gtr",
-      "gtr_rank": 574,
-      "gtr_points": 5218
+      "gtr_rank": 570,
+      "gtr_points": 5217
     },
     {
       "steam_id": "76561198288699268",
       "name": "Thanatos",
-      "elo": 1382.2,
+      "elo": 1384.4,
       "source": "gtr",
-      "gtr_rank": 575,
+      "gtr_rank": 571,
       "gtr_points": 5136
     },
     {
       "steam_id": "76561198680182170",
       "name": "_mellifera",
-      "elo": 1382.1,
+      "elo": 1384.2,
       "source": "gtr",
-      "gtr_rank": 576,
+      "gtr_rank": 572,
       "gtr_points": 4645
     },
     {
       "steam_id": "76561199700009913",
       "name": "cactuzhead",
-      "elo": 1381.9,
+      "elo": 1384.0,
       "source": "gtr",
-      "gtr_rank": 577,
-      "gtr_points": 4617
+      "gtr_rank": 573,
+      "gtr_points": 4574
     },
     {
       "steam_id": "76561198377215080",
       "name": "Chiquasa",
-      "elo": 1381.7,
+      "elo": 1383.8,
       "source": "gtr",
-      "gtr_rank": 578,
+      "gtr_rank": 574,
       "gtr_points": 4429
-    },
-    {
-      "steam_id": "76561198271161364",
-      "name": "GodlyJagex",
-      "elo": 1381.5,
-      "source": "gtr",
-      "gtr_rank": 579,
-      "gtr_points": 4069
     },
     {
       "steam_id": "76561199769295432",
       "name": "Packard Bell Legend 10CD",
-      "elo": 1381.3,
+      "elo": 1383.7,
       "source": "gtr",
-      "gtr_rank": 580,
-      "gtr_points": 3912
+      "gtr_rank": 575,
+      "gtr_points": 3774
     },
     {
       "steam_id": "76561198048126718",
       "name": "Adnre",
-      "elo": 1381.2,
+      "elo": 1383.5,
       "source": "gtr",
-      "gtr_rank": 581,
+      "gtr_rank": 576,
       "gtr_points": 3480
     },
     {
       "steam_id": "76561199073337243",
       "name": "Al Mighty",
-      "elo": 1381.0,
+      "elo": 1383.3,
       "source": "gtr",
-      "gtr_rank": 582,
+      "gtr_rank": 577,
       "gtr_points": 3469
     },
     {
       "steam_id": "76561199021217517",
       "name": "Jessyiie",
-      "elo": 1380.8,
+      "elo": 1383.1,
       "source": "gtr",
-      "gtr_rank": 583,
-      "gtr_points": 3421
+      "gtr_rank": 578,
+      "gtr_points": 3400
     },
     {
       "steam_id": "76561198011182308",
       "name": "Hextro",
-      "elo": 1380.4,
+      "elo": 1382.8,
       "source": "gtr",
-      "gtr_rank": 585,
-      "gtr_points": 3145
+      "gtr_rank": 580,
+      "gtr_points": 3133
     },
     {
       "steam_id": "76561198746974442",
       "name": "ikkirkitty",
-      "elo": 1380.3,
+      "elo": 1382.6,
       "source": "gtr",
-      "gtr_rank": 586,
+      "gtr_rank": 581,
       "gtr_points": 2433
     },
     {
       "steam_id": "76561199521248636",
       "name": "Lord Luci XIII.",
-      "elo": 1380.1,
+      "elo": 1382.4,
       "source": "gtr",
-      "gtr_rank": 587,
+      "gtr_rank": 582,
       "gtr_points": 2387
     },
     {
       "steam_id": "76561199211927169",
       "name": "xtuov_",
-      "elo": 1379.9,
+      "elo": 1382.2,
       "source": "gtr",
-      "gtr_rank": 588,
+      "gtr_rank": 583,
       "gtr_points": 2001
     },
     {
       "steam_id": "76561198053911653",
       "name": "TheBeserkah",
-      "elo": 1379.7,
+      "elo": 1382.1,
       "source": "gtr",
-      "gtr_rank": 589,
+      "gtr_rank": 584,
       "gtr_points": 1702
     },
     {
       "steam_id": "76561198358942515",
       "name": "2Tap / Gibsy",
-      "elo": 1379.5,
+      "elo": 1381.9,
       "source": "gtr",
-      "gtr_rank": 590,
-      "gtr_points": 1669
+      "gtr_rank": 585,
+      "gtr_points": 1652
     },
     {
       "steam_id": "76561198847091588",
       "name": "MossRover",
-      "elo": 1379.4,
+      "elo": 1381.7,
       "source": "gtr",
-      "gtr_rank": 591,
+      "gtr_rank": 586,
       "gtr_points": 1615
-    },
-    {
-      "steam_id": "76561199547051910",
-      "name": "theHumanBanan.",
-      "elo": 1379.2,
-      "source": "gtr",
-      "gtr_rank": 592,
-      "gtr_points": 1255
     },
     {
       "steam_id": "76561199350602531",
       "name": "lynsamson",
-      "elo": 1379.0,
+      "elo": 1381.5,
       "source": "gtr",
-      "gtr_rank": 593,
+      "gtr_rank": 587,
       "gtr_points": 1244
+    },
+    {
+      "steam_id": "76561199547051910",
+      "name": "theHumanBanan.",
+      "elo": 1381.4,
+      "source": "gtr",
+      "gtr_rank": 588,
+      "gtr_points": 1241
+    },
+    {
+      "steam_id": "76561198096997553",
+      "name": "F34st",
+      "elo": 1381.2,
+      "source": "gtr",
+      "gtr_rank": 589,
+      "gtr_points": 1029
     },
     {
       "steam_id": "76561197997671603",
       "name": "Coreymill",
-      "elo": 1378.8,
+      "elo": 1381.0,
       "source": "gtr",
-      "gtr_rank": 594,
+      "gtr_rank": 590,
       "gtr_points": 834
     },
     {
       "steam_id": "76561198009967547",
       "name": "マイゴデス",
-      "elo": 1378.7,
+      "elo": 1380.8,
       "source": "gtr",
-      "gtr_rank": 595,
+      "gtr_rank": 591,
       "gtr_points": 504
     },
     {
       "steam_id": "76561197979212660",
       "name": "OJKenobi",
-      "elo": 1378.5,
+      "elo": 1380.6,
       "source": "gtr",
-      "gtr_rank": 596,
+      "gtr_rank": 592,
       "gtr_points": 448
     },
     {
       "steam_id": "76561199540657692",
       "name": "Scrumbo",
-      "elo": 1378.3,
+      "elo": 1380.5,
       "source": "gtr",
-      "gtr_rank": 597,
+      "gtr_rank": 593,
       "gtr_points": 269
-    },
-    {
-      "steam_id": "76561198089382257",
-      "name": "Abrask",
-      "elo": 1378.1,
-      "source": "gtr",
-      "gtr_rank": 598,
-      "gtr_points": 229
     },
     {
       "steam_id": "76561199650443351",
       "name": "Cherux",
-      "elo": 1378.0,
+      "elo": 1380.3,
       "source": "gtr",
-      "gtr_rank": 599,
+      "gtr_rank": 594,
       "gtr_points": 100
     },
     {
       "steam_id": "76561198842097976",
       "name": "Miss_Okamii",
-      "elo": 1377.8,
+      "elo": 1380.1,
       "source": "gtr",
-      "gtr_rank": 600,
+      "gtr_rank": 595,
       "gtr_points": 3
     }
   ]
