@@ -1,10 +1,10 @@
 {
-  "version": "2026-07-25",
+  "version": "2026-08-01",
   "regression": {
     "form": "ELO = a + b * log(gtr_rank)",
-    "intercept": 2160.7063,
-    "slope": -141.37,
-    "r_squared": 0.8513,
+    "intercept": 2165.7578,
+    "slope": -142.2594,
+    "r_squared": 0.859,
     "n_fit": 116,
     "n_excluded": 59,
     "excluded_named": [
@@ -15,14 +15,14 @@
     "min_cups_for_fit": 10,
     "fit_target": "COTD weighted ELO"
   },
-  "sof_divisor": 2033,
+  "sof_divisor": 2035,
   "players": [
     {
       "steam_id": "76561199024808939",
       "name": "Kernkob",
-      "elo": 2197.4,
+      "elo": 2200.3,
       "source": "cotd",
-      "cotd_cups": 95,
+      "cotd_cups": 96,
       "cotd_rank": 1
     },
     {
@@ -36,17 +36,17 @@
     {
       "steam_id": "76561199126724675",
       "name": "ZOMAN",
-      "elo": 2098.0,
+      "elo": 2107.0,
       "source": "cotd",
-      "cotd_cups": 103,
+      "cotd_cups": 104,
       "cotd_rank": 3
     },
     {
       "steam_id": "76561198149636594",
       "name": "Quickracer10",
-      "elo": 2034.8,
+      "elo": 2026.1,
       "source": "cotd",
-      "cotd_cups": 102,
+      "cotd_cups": 103,
       "cotd_rank": 4
     },
     {
@@ -60,26 +60,18 @@
     {
       "steam_id": "76561198851912263",
       "name": "Lexer",
-      "elo": 1990.8,
+      "elo": 1988.8,
       "source": "cotd",
-      "cotd_cups": 161,
+      "cotd_cups": 162,
       "cotd_rank": 6
     },
     {
       "steam_id": "76561198081356099",
       "name": "Sandals",
-      "elo": 1936.4,
+      "elo": 1948.3,
       "source": "cotd",
-      "cotd_cups": 103,
+      "cotd_cups": 104,
       "cotd_rank": 7
-    },
-    {
-      "steam_id": "76561198896246339",
-      "name": "RoundNzt",
-      "elo": 1894.8,
-      "source": "cotd",
-      "cotd_cups": 136,
-      "cotd_rank": 8
     },
     {
       "steam_id": "76561198877428244",
@@ -87,6 +79,14 @@
       "elo": 1893.4,
       "source": "cotd",
       "cotd_cups": 23,
+      "cotd_rank": 8
+    },
+    {
+      "steam_id": "76561198896246339",
+      "name": "RoundNzt",
+      "elo": 1885.5,
+      "source": "cotd",
+      "cotd_cups": 137,
       "cotd_rank": 9
     },
     {
@@ -108,9 +108,9 @@
     {
       "steam_id": "76561198253679880",
       "name": "PandaMane",
-      "elo": 1821.6,
+      "elo": 1816.1,
       "source": "cotd",
-      "cotd_cups": 67,
+      "cotd_cups": 68,
       "cotd_rank": 12
     },
     {
@@ -143,6 +143,14 @@
       "elo": 1742.5,
       "source": "cotd",
       "cotd_cups": 16,
+      "cotd_rank": 16
+    },
+    {
+      "steam_id": "76561198125435428",
+      "name": "JobW",
+      "elo": 1742.3,
+      "source": "cotd",
+      "cotd_cups": 52,
       "cotd_rank": 17
     },
     {
@@ -178,27 +186,27 @@
       "cotd_rank": 21
     },
     {
-      "steam_id": "76561198357638671",
-      "name": "Murrl",
-      "elo": 1703.5,
+      "steam_id": "76561199448462477",
+      "name": "microways",
+      "elo": 1708.2,
       "source": "cotd",
-      "cotd_cups": 31,
+      "cotd_cups": 28,
       "cotd_rank": 22
     },
     {
       "steam_id": "76561198357858848",
       "name": "MALIYO",
-      "elo": 1703.3,
+      "elo": 1706.8,
       "source": "cotd",
-      "cotd_cups": 18,
+      "cotd_cups": 19,
       "cotd_rank": 23
     },
     {
-      "steam_id": "76561199187327002",
-      "name": "Tommygaming",
-      "elo": 1699.8,
+      "steam_id": "76561198357638671",
+      "name": "Murrl",
+      "elo": 1703.5,
       "source": "cotd",
-      "cotd_cups": 54,
+      "cotd_cups": 31,
       "cotd_rank": 24
     },
     {
@@ -218,11 +226,11 @@
       "cotd_rank": 26
     },
     {
-      "steam_id": "76561199448462477",
-      "name": "microways",
-      "elo": 1692.8,
+      "steam_id": "76561199187327002",
+      "name": "Tommygaming",
+      "elo": 1693.4,
       "source": "cotd",
-      "cotd_cups": 27,
+      "cotd_cups": 55,
       "cotd_rank": 27
     },
     {
@@ -234,12 +242,20 @@
       "cotd_rank": 28
     },
     {
+      "steam_id": "76561198160604987",
+      "name": "Northwind/Noweki",
+      "elo": 1687.6,
+      "source": "cotd",
+      "cotd_cups": 51,
+      "cotd_rank": 29
+    },
+    {
       "steam_id": "76561199208124083",
       "name": "rtube",
       "elo": 1684.0,
       "source": "cotd",
       "cotd_cups": 55,
-      "cotd_rank": 29
+      "cotd_rank": 30
     },
     {
       "steam_id": "76561199644142984",
@@ -247,7 +263,15 @@
       "elo": 1679.1,
       "source": "cotd",
       "cotd_cups": 4,
-      "cotd_rank": 31
+      "cotd_rank": 32
+    },
+    {
+      "steam_id": "76561198430273427",
+      "name": "Redstony",
+      "elo": 1666.1,
+      "source": "cotd",
+      "cotd_cups": 19,
+      "cotd_rank": 33
     },
     {
       "steam_id": "76561199115313906",
@@ -255,15 +279,7 @@
       "elo": 1661.1,
       "source": "cotd",
       "cotd_cups": 7,
-      "cotd_rank": 32
-    },
-    {
-      "steam_id": "76561199109206781",
-      "name": "ping",
-      "elo": 1660.7,
-      "source": "cotd",
-      "cotd_cups": 63,
-      "cotd_rank": 33
+      "cotd_rank": 34
     },
     {
       "steam_id": "76561199590715014",
@@ -271,15 +287,15 @@
       "elo": 1659.1,
       "source": "cotd",
       "cotd_cups": 52,
-      "cotd_rank": 34
+      "cotd_rank": 35
     },
     {
-      "steam_id": "76561198430273427",
-      "name": "Redstony",
-      "elo": 1658.6,
+      "steam_id": "76561199109206781",
+      "name": "ping",
+      "elo": 1657.7,
       "source": "cotd",
-      "cotd_cups": 18,
-      "cotd_rank": 35
+      "cotd_cups": 64,
+      "cotd_rank": 36
     },
     {
       "steam_id": "76561199129302746",
@@ -287,14 +303,6 @@
       "elo": 1656.9,
       "source": "cotd",
       "cotd_cups": 38,
-      "cotd_rank": 36
-    },
-    {
-      "steam_id": "76561198160604987",
-      "name": "Northwind/Noweki",
-      "elo": 1655.8,
-      "source": "cotd",
-      "cotd_cups": 50,
       "cotd_rank": 37
     },
     {
@@ -306,12 +314,20 @@
       "cotd_rank": 38
     },
     {
+      "steam_id": "76561198041494034",
+      "name": "Mμ",
+      "elo": 1651.7,
+      "source": "cotd",
+      "cotd_cups": 75,
+      "cotd_rank": 39
+    },
+    {
       "steam_id": "76561198159073318",
       "name": "GuAlexItar",
       "elo": 1649.9,
       "source": "cotd",
       "cotd_cups": 115,
-      "cotd_rank": 39
+      "cotd_rank": 40
     },
     {
       "steam_id": "76561197999431502",
@@ -319,7 +335,7 @@
       "elo": 1648.9,
       "source": "cotd",
       "cotd_cups": 20,
-      "cotd_rank": 40
+      "cotd_rank": 41
     },
     {
       "steam_id": "76561197996872205",
@@ -327,7 +343,15 @@
       "elo": 1648.2,
       "source": "cotd",
       "cotd_cups": 16,
-      "cotd_rank": 41
+      "cotd_rank": 42
+    },
+    {
+      "steam_id": "76561199082360966",
+      "name": "B_ES",
+      "elo": 1645.2,
+      "source": "cotd",
+      "cotd_cups": 15,
+      "cotd_rank": 43
     },
     {
       "steam_id": "76561198001387193",
@@ -335,7 +359,7 @@
       "elo": 1638.1,
       "source": "cotd",
       "cotd_cups": 14,
-      "cotd_rank": 42
+      "cotd_rank": 44
     },
     {
       "steam_id": "76561198067925412",
@@ -343,15 +367,7 @@
       "elo": 1637.6,
       "source": "cotd",
       "cotd_cups": 47,
-      "cotd_rank": 43
-    },
-    {
-      "steam_id": "76561199082360966",
-      "name": "B_ES",
-      "elo": 1635.7,
-      "source": "cotd",
-      "cotd_cups": 14,
-      "cotd_rank": 44
+      "cotd_rank": 45
     },
     {
       "steam_id": "76561198290668879",
@@ -359,7 +375,7 @@
       "elo": 1633.9,
       "source": "cotd",
       "cotd_cups": 8,
-      "cotd_rank": 45
+      "cotd_rank": 46
     },
     {
       "steam_id": "76561197988996330",
@@ -367,7 +383,7 @@
       "elo": 1632.6,
       "source": "cotd",
       "cotd_cups": 7,
-      "cotd_rank": 46
+      "cotd_rank": 47
     },
     {
       "steam_id": "76561198021974488",
@@ -375,23 +391,7 @@
       "elo": 1630.8,
       "source": "cotd",
       "cotd_cups": 12,
-      "cotd_rank": 47
-    },
-    {
-      "steam_id": "76561198041494034",
-      "name": "Mμ",
-      "elo": 1630.8,
-      "source": "cotd",
-      "cotd_cups": 74,
       "cotd_rank": 48
-    },
-    {
-      "steam_id": "76561198974231691",
-      "name": "agix",
-      "elo": 1624.1,
-      "source": "cotd",
-      "cotd_cups": 98,
-      "cotd_rank": 49
     },
     {
       "steam_id": "76561198842622746",
@@ -399,7 +399,7 @@
       "elo": 1621.9,
       "source": "cotd",
       "cotd_cups": 19,
-      "cotd_rank": 50
+      "cotd_rank": 49
     },
     {
       "steam_id": "76561199173536675",
@@ -407,7 +407,7 @@
       "elo": 1621.5,
       "source": "cotd",
       "cotd_cups": 44,
-      "cotd_rank": 51
+      "cotd_rank": 50
     },
     {
       "steam_id": "76561198991237382",
@@ -415,6 +415,14 @@
       "elo": 1618.6,
       "source": "cotd",
       "cotd_cups": 6,
+      "cotd_rank": 51
+    },
+    {
+      "steam_id": "76561198974231691",
+      "name": "agix",
+      "elo": 1616.5,
+      "source": "cotd",
+      "cotd_cups": 99,
       "cotd_rank": 52
     },
     {
@@ -594,20 +602,20 @@
       "cotd_rank": 74
     },
     {
+      "steam_id": "76561199186342067",
+      "name": "PlusMicron",
+      "elo": 1543.3,
+      "source": "cotd",
+      "cotd_cups": 25,
+      "cotd_rank": 75
+    },
+    {
       "steam_id": "76561198359568548",
       "name": "Kodiak",
       "elo": 1537.9,
       "source": "cotd",
       "cotd_cups": 5,
-      "cotd_rank": 76
-    },
-    {
-      "steam_id": "76561199186342067",
-      "name": "PlusMicron",
-      "elo": 1532.2,
-      "source": "cotd",
-      "cotd_cups": 24,
-      "cotd_rank": 78
+      "cotd_rank": 77
     },
     {
       "steam_id": "76561199380118922",
@@ -674,12 +682,28 @@
       "cotd_rank": 86
     },
     {
+      "steam_id": "76561197997929590",
+      "name": "Gimpel",
+      "elo": 1521.3,
+      "source": "cotd",
+      "cotd_cups": 26,
+      "cotd_rank": 87
+    },
+    {
       "steam_id": "76561198314320065",
       "name": "DeeDeeNaNaNa",
       "elo": 1519.5,
       "source": "cotd",
       "cotd_cups": 61,
-      "cotd_rank": 87
+      "cotd_rank": 88
+    },
+    {
+      "steam_id": "76561198213715297",
+      "name": "stindt",
+      "elo": 1519.2,
+      "source": "cotd",
+      "cotd_cups": 20,
+      "cotd_rank": 89
     },
     {
       "steam_id": "76561198117035460",
@@ -687,15 +711,15 @@
       "elo": 1518.8,
       "source": "cotd",
       "cotd_cups": 18,
-      "cotd_rank": 88
+      "cotd_rank": 90
     },
     {
-      "steam_id": "76561198213715297",
-      "name": "stindt",
-      "elo": 1517.3,
+      "steam_id": "76561198072185237",
+      "name": "Nails",
+      "elo": 1518.3,
       "source": "cotd",
-      "cotd_cups": 19,
-      "cotd_rank": 89
+      "cotd_cups": 27,
+      "cotd_rank": 91
     },
     {
       "steam_id": "76561199477437324",
@@ -703,7 +727,7 @@
       "elo": 1517.1,
       "source": "cotd",
       "cotd_cups": 16,
-      "cotd_rank": 90
+      "cotd_rank": 92
     },
     {
       "steam_id": "76561198296530885",
@@ -711,22 +735,6 @@
       "elo": 1516.6,
       "source": "cotd",
       "cotd_cups": 6,
-      "cotd_rank": 92
-    },
-    {
-      "steam_id": "76561197997929590",
-      "name": "Gimpel",
-      "elo": 1516.3,
-      "source": "cotd",
-      "cotd_cups": 25,
-      "cotd_rank": 93
-    },
-    {
-      "steam_id": "76561198072185237",
-      "name": "Nails",
-      "elo": 1514.2,
-      "source": "cotd",
-      "cotd_cups": 26,
       "cotd_rank": 94
     },
     {
@@ -752,14 +760,6 @@
       "source": "cotd",
       "cotd_cups": 16,
       "cotd_rank": 98
-    },
-    {
-      "steam_id": "76561198259463003",
-      "name": "R0nanC",
-      "elo": 1507.3,
-      "source": "cotd",
-      "cotd_cups": 95,
-      "cotd_rank": 99
     },
     {
       "steam_id": "76561199321598731",
@@ -810,20 +810,12 @@
       "cotd_rank": 105
     },
     {
-      "steam_id": "76561198056113005",
-      "name": "Six",
-      "elo": 1501.1,
-      "source": "cotd",
-      "cotd_cups": 35,
-      "cotd_rank": 106
-    },
-    {
       "steam_id": "76561197989028539",
       "name": "Diabler",
       "elo": 1500.3,
       "source": "cotd",
       "cotd_cups": 19,
-      "cotd_rank": 107
+      "cotd_rank": 106
     },
     {
       "steam_id": "76561198834019863",
@@ -831,7 +823,7 @@
       "elo": 1498.7,
       "source": "cotd",
       "cotd_cups": 6,
-      "cotd_rank": 108
+      "cotd_rank": 107
     },
     {
       "steam_id": "76561199278221929",
@@ -839,7 +831,7 @@
       "elo": 1498.7,
       "source": "cotd",
       "cotd_cups": 45,
-      "cotd_rank": 109
+      "cotd_rank": 108
     },
     {
       "steam_id": "76561198027023975",
@@ -847,7 +839,7 @@
       "elo": 1497.6,
       "source": "cotd",
       "cotd_cups": 5,
-      "cotd_rank": 110
+      "cotd_rank": 109
     },
     {
       "steam_id": "76561198016904215",
@@ -855,6 +847,14 @@
       "elo": 1497.6,
       "source": "cotd",
       "cotd_cups": 6,
+      "cotd_rank": 110
+    },
+    {
+      "steam_id": "76561198056113005",
+      "name": "Six",
+      "elo": 1497.4,
+      "source": "cotd",
+      "cotd_cups": 36,
       "cotd_rank": 111
     },
     {
@@ -922,12 +922,20 @@
       "cotd_rank": 119
     },
     {
+      "steam_id": "76561198149810833",
+      "name": "ferinine",
+      "elo": 1490.9,
+      "source": "cotd",
+      "cotd_cups": 46,
+      "cotd_rank": 120
+    },
+    {
       "steam_id": "76561199133892176",
       "name": "Ender",
       "elo": 1490.5,
       "source": "cotd",
       "cotd_cups": 5,
-      "cotd_rank": 120
+      "cotd_rank": 121
     },
     {
       "steam_id": "76561198250994428",
@@ -935,7 +943,7 @@
       "elo": 1489.3,
       "source": "cotd",
       "cotd_cups": 11,
-      "cotd_rank": 121
+      "cotd_rank": 122
     },
     {
       "steam_id": "76561198859311447",
@@ -943,7 +951,7 @@
       "elo": 1488.9,
       "source": "cotd",
       "cotd_cups": 7,
-      "cotd_rank": 122
+      "cotd_rank": 123
     },
     {
       "steam_id": "76561198262438672",
@@ -951,14 +959,6 @@
       "elo": 1488.3,
       "source": "cotd",
       "cotd_cups": 7,
-      "cotd_rank": 123
-    },
-    {
-      "steam_id": "76561198149810833",
-      "name": "ferinine",
-      "elo": 1486.9,
-      "source": "cotd",
-      "cotd_cups": 45,
       "cotd_rank": 124
     },
     {
@@ -1058,12 +1058,20 @@
       "cotd_rank": 137
     },
     {
+      "steam_id": "76561197961191126",
+      "name": "alpa",
+      "elo": 1474.4,
+      "source": "cotd",
+      "cotd_cups": 28,
+      "cotd_rank": 138
+    },
+    {
       "steam_id": "76561198074584552",
       "name": "MarcSubstitute",
       "elo": 1473.9,
       "source": "cotd",
       "cotd_cups": 7,
-      "cotd_rank": 138
+      "cotd_rank": 139
     },
     {
       "steam_id": "76561199046555647",
@@ -1071,7 +1079,7 @@
       "elo": 1473.1,
       "source": "cotd",
       "cotd_cups": 5,
-      "cotd_rank": 139
+      "cotd_rank": 140
     },
     {
       "steam_id": "76561197969805328",
@@ -1079,7 +1087,7 @@
       "elo": 1472.7,
       "source": "cotd",
       "cotd_cups": 5,
-      "cotd_rank": 140
+      "cotd_rank": 141
     },
     {
       "steam_id": "76561198177623035",
@@ -1087,7 +1095,7 @@
       "elo": 1472.7,
       "source": "cotd",
       "cotd_cups": 7,
-      "cotd_rank": 141
+      "cotd_rank": 142
     },
     {
       "steam_id": "76561199602234412",
@@ -1095,7 +1103,7 @@
       "elo": 1472.3,
       "source": "cotd",
       "cotd_cups": 19,
-      "cotd_rank": 142
+      "cotd_rank": 143
     },
     {
       "steam_id": "76561198315900248",
@@ -1103,7 +1111,7 @@
       "elo": 1472.2,
       "source": "cotd",
       "cotd_cups": 5,
-      "cotd_rank": 143
+      "cotd_rank": 144
     },
     {
       "steam_id": "76561199508833687",
@@ -1111,7 +1119,7 @@
       "elo": 1471.0,
       "source": "cotd",
       "cotd_cups": 9,
-      "cotd_rank": 144
+      "cotd_rank": 145
     },
     {
       "steam_id": "76561198838593572",
@@ -1119,22 +1127,14 @@
       "elo": 1470.9,
       "source": "cotd",
       "cotd_cups": 6,
-      "cotd_rank": 145
-    },
-    {
-      "steam_id": "76561198126038296",
-      "name": "Noxitu",
-      "elo": 1469.9,
-      "source": "cotd",
-      "cotd_cups": 74,
       "cotd_rank": 146
     },
     {
-      "steam_id": "76561197961191126",
-      "name": "alpa",
-      "elo": 1469.3,
+      "steam_id": "76561198083300332",
+      "name": "K410K3N",
+      "elo": 1468.9,
       "source": "cotd",
-      "cotd_cups": 27,
+      "cotd_cups": 30,
       "cotd_rank": 147
     },
     {
@@ -1146,11 +1146,11 @@
       "cotd_rank": 148
     },
     {
-      "steam_id": "76561198083300332",
-      "name": "K410K3N",
-      "elo": 1467.3,
+      "steam_id": "76561198126038296",
+      "name": "Noxitu",
+      "elo": 1468.4,
       "source": "cotd",
-      "cotd_cups": 29,
+      "cotd_cups": 75,
       "cotd_rank": 149
     },
     {
@@ -1250,11 +1250,11 @@
       "cotd_rank": 161
     },
     {
-      "steam_id": "76561198758353504",
-      "name": "M4DSCOTSM4N",
-      "elo": 1461.5,
+      "steam_id": "76561198043268277",
+      "name": "A Broken Forklift",
+      "elo": 1461.6,
       "source": "cotd",
-      "cotd_cups": 8,
+      "cotd_cups": 19,
       "cotd_rank": 162
     },
     {
@@ -1306,19 +1306,19 @@
       "cotd_rank": 170
     },
     {
+      "steam_id": "76561198758353504",
+      "name": "M4DSCOTSM4N",
+      "elo": 1458.5,
+      "source": "cotd",
+      "cotd_cups": 9,
+      "cotd_rank": 171
+    },
+    {
       "steam_id": "76561198041670380",
       "name": "Weside",
       "elo": 1458.4,
       "source": "cotd",
       "cotd_cups": 6,
-      "cotd_rank": 171
-    },
-    {
-      "steam_id": "76561198043268277",
-      "name": "A Broken Forklift",
-      "elo": 1458.2,
-      "source": "cotd",
-      "cotd_cups": 18,
       "cotd_rank": 172
     },
     {
@@ -1346,20 +1346,12 @@
       "cotd_rank": 176
     },
     {
-      "steam_id": "76561198156460805",
-      "name": "Kiprosa",
-      "elo": 1457.1,
-      "source": "cotd",
-      "cotd_cups": 45,
-      "cotd_rank": 177
-    },
-    {
       "steam_id": "76561198050258888",
       "name": "Movvgli",
       "elo": 1456.7,
       "source": "cotd",
       "cotd_cups": 5,
-      "cotd_rank": 178
+      "cotd_rank": 177
     },
     {
       "steam_id": "76561198065985016",
@@ -1367,15 +1359,7 @@
       "elo": 1456.2,
       "source": "cotd",
       "cotd_cups": 7,
-      "cotd_rank": 180
-    },
-    {
-      "steam_id": "76561198176178279",
-      "name": "[Err] Veneficus",
-      "elo": 1455.8,
-      "source": "cotd",
-      "cotd_cups": 7,
-      "cotd_rank": 181
+      "cotd_rank": 179
     },
     {
       "steam_id": "76561198031919228",
@@ -1383,7 +1367,7 @@
       "elo": 1455.7,
       "source": "cotd",
       "cotd_cups": 18,
-      "cotd_rank": 182
+      "cotd_rank": 180
     },
     {
       "steam_id": "76561198159335356",
@@ -1391,7 +1375,7 @@
       "elo": 1455.5,
       "source": "cotd",
       "cotd_cups": 7,
-      "cotd_rank": 183
+      "cotd_rank": 181
     },
     {
       "steam_id": "76561198289573395",
@@ -1399,15 +1383,7 @@
       "elo": 1454.0,
       "source": "cotd",
       "cotd_cups": 9,
-      "cotd_rank": 184
-    },
-    {
-      "steam_id": "76561198287630337",
-      "name": "SuperHeavy",
-      "elo": 1452.8,
-      "source": "cotd",
-      "cotd_cups": 10,
-      "cotd_rank": 185
+      "cotd_rank": 182
     },
     {
       "steam_id": "76561198015595906",
@@ -1415,7 +1391,7 @@
       "elo": 1452.1,
       "source": "cotd",
       "cotd_cups": 20,
-      "cotd_rank": 186
+      "cotd_rank": 183
     },
     {
       "steam_id": "76561198052872868",
@@ -1423,7 +1399,7 @@
       "elo": 1451.3,
       "source": "cotd",
       "cotd_cups": 7,
-      "cotd_rank": 187
+      "cotd_rank": 184
     },
     {
       "steam_id": "76561197972536476",
@@ -1431,7 +1407,23 @@
       "elo": 1450.1,
       "source": "cotd",
       "cotd_cups": 7,
-      "cotd_rank": 188
+      "cotd_rank": 185
+    },
+    {
+      "steam_id": "76561198156460805",
+      "name": "Kiprosa",
+      "elo": 1449.9,
+      "source": "cotd",
+      "cotd_cups": 46,
+      "cotd_rank": 186
+    },
+    {
+      "steam_id": "76561198176178279",
+      "name": "[Err] Veneficus",
+      "elo": 1449.5,
+      "source": "cotd",
+      "cotd_cups": 8,
+      "cotd_rank": 187
     },
     {
       "steam_id": "76561197996376845",
@@ -1439,7 +1431,7 @@
       "elo": 1448.6,
       "source": "cotd",
       "cotd_cups": 6,
-      "cotd_rank": 189
+      "cotd_rank": 188
     },
     {
       "steam_id": "76561198988960546",
@@ -1447,6 +1439,14 @@
       "elo": 1448.6,
       "source": "cotd",
       "cotd_cups": 6,
+      "cotd_rank": 189
+    },
+    {
+      "steam_id": "76561198287630337",
+      "name": "SuperHeavy",
+      "elo": 1447.9,
+      "source": "cotd",
+      "cotd_cups": 11,
       "cotd_rank": 190
     },
     {
@@ -1466,20 +1466,12 @@
       "cotd_rank": 193
     },
     {
-      "steam_id": "76561198136572067",
-      "name": "Tudge Boat",
-      "elo": 1447.0,
-      "source": "cotd",
-      "cotd_cups": 24,
-      "cotd_rank": 194
-    },
-    {
       "steam_id": "76561198360335411",
       "name": "[KURK] lil_zwimpie",
       "elo": 1446.8,
       "source": "cotd",
       "cotd_cups": 9,
-      "cotd_rank": 195
+      "cotd_rank": 194
     },
     {
       "steam_id": "76561199472626759",
@@ -1487,7 +1479,7 @@
       "elo": 1446.2,
       "source": "cotd",
       "cotd_cups": 6,
-      "cotd_rank": 196
+      "cotd_rank": 195
     },
     {
       "steam_id": "76561198097442190",
@@ -1495,15 +1487,7 @@
       "elo": 1445.3,
       "source": "cotd",
       "cotd_cups": 7,
-      "cotd_rank": 198
-    },
-    {
-      "steam_id": "76561198114267944",
-      "name": "Reamerad",
-      "elo": 1444.4,
-      "source": "cotd",
-      "cotd_cups": 22,
-      "cotd_rank": 199
+      "cotd_rank": 197
     },
     {
       "steam_id": "76561199807320700",
@@ -1511,7 +1495,15 @@
       "elo": 1443.8,
       "source": "cotd",
       "cotd_cups": 13,
-      "cotd_rank": 200
+      "cotd_rank": 198
+    },
+    {
+      "steam_id": "76561198136572067",
+      "name": "Tudge Boat",
+      "elo": 1443.7,
+      "source": "cotd",
+      "cotd_cups": 25,
+      "cotd_rank": 199
     },
     {
       "steam_id": "76561198243000904",
@@ -1519,7 +1511,7 @@
       "elo": 1443.3,
       "source": "cotd",
       "cotd_cups": 6,
-      "cotd_rank": 201
+      "cotd_rank": 200
     },
     {
       "steam_id": "76561199705922244",
@@ -1527,7 +1519,7 @@
       "elo": 1441.5,
       "source": "cotd",
       "cotd_cups": 12,
-      "cotd_rank": 202
+      "cotd_rank": 201
     },
     {
       "steam_id": "76561198052262761",
@@ -1535,7 +1527,7 @@
       "elo": 1441.3,
       "source": "cotd",
       "cotd_cups": 42,
-      "cotd_rank": 203
+      "cotd_rank": 202
     },
     {
       "steam_id": "76561199610654729",
@@ -1543,6 +1535,14 @@
       "elo": 1440.4,
       "source": "cotd",
       "cotd_cups": 13,
+      "cotd_rank": 203
+    },
+    {
+      "steam_id": "76561198114267944",
+      "name": "Reamerad",
+      "elo": 1440.2,
+      "source": "cotd",
+      "cotd_cups": 23,
       "cotd_rank": 204
     },
     {
@@ -1554,28 +1554,20 @@
       "cotd_rank": 205
     },
     {
-      "steam_id": "76561199218214543",
-      "name": "Wheelie",
-      "elo": 1438.3,
-      "source": "cotd",
-      "cotd_cups": 80,
-      "cotd_rank": 207
-    },
-    {
       "steam_id": "76561197993793009",
       "name": "Kilandor",
       "elo": 1438.2,
       "source": "cotd",
       "cotd_cups": 8,
-      "cotd_rank": 208
+      "cotd_rank": 207
     },
     {
-      "steam_id": "76561198388963758",
-      "name": "Orb Bee Bob",
-      "elo": 1437.2,
+      "steam_id": "76561199218214543",
+      "name": "Wheelie",
+      "elo": 1437.4,
       "source": "cotd",
-      "cotd_cups": 10,
-      "cotd_rank": 209
+      "cotd_cups": 81,
+      "cotd_rank": 208
     },
     {
       "steam_id": "76561198093160301",
@@ -1583,7 +1575,7 @@
       "elo": 1435.5,
       "source": "cotd",
       "cotd_cups": 16,
-      "cotd_rank": 210
+      "cotd_rank": 209
     },
     {
       "steam_id": "76561198846673916",
@@ -1591,6 +1583,14 @@
       "elo": 1431.6,
       "source": "cotd",
       "cotd_cups": 59,
+      "cotd_rank": 210
+    },
+    {
+      "steam_id": "76561198388963758",
+      "name": "Orb Bee Bob",
+      "elo": 1430.6,
+      "source": "cotd",
+      "cotd_cups": 11,
       "cotd_rank": 211
     },
     {
@@ -1610,20 +1610,20 @@
       "cotd_rank": 213
     },
     {
-      "steam_id": "76561198010296962",
-      "name": "timesprout",
-      "elo": 1412.4,
-      "source": "cotd",
-      "cotd_cups": 19,
-      "cotd_rank": 214
-    },
-    {
       "steam_id": "76561198374140179",
       "name": "[OR] TNTArrow",
       "elo": 1409.9,
       "source": "cotd",
       "cotd_cups": 6,
-      "cotd_rank": 215
+      "cotd_rank": 214
+    },
+    {
+      "steam_id": "76561198010296962",
+      "name": "timesprout",
+      "elo": 1408.2,
+      "source": "cotd",
+      "cotd_cups": 20,
+      "cotd_rank": 216
     },
     {
       "steam_id": "76561198169339323",
@@ -1634,28 +1634,20 @@
       "cotd_rank": 217
     },
     {
-      "steam_id": "76561198027102099",
-      "name": "Fly8oy",
-      "elo": 1404.3,
-      "source": "cotd",
-      "cotd_cups": 18,
-      "cotd_rank": 218
-    },
-    {
       "steam_id": "76561197972890120",
       "name": "aizpun",
-      "elo": 1404.0,
+      "elo": 1402.8,
       "source": "cotd",
-      "cotd_cups": 26,
-      "cotd_rank": 219
+      "cotd_cups": 27,
+      "cotd_rank": 218
     },
     {
       "steam_id": "76561198748988602",
       "name": "BrickEdwards",
-      "elo": 1402.7,
+      "elo": 1400.9,
       "source": "cotd",
-      "cotd_cups": 25,
-      "cotd_rank": 220
+      "cotd_cups": 26,
+      "cotd_rank": 219
     },
     {
       "steam_id": "76561198364662649",
@@ -1663,14 +1655,22 @@
       "elo": 1400.5,
       "source": "cotd",
       "cotd_cups": 27,
+      "cotd_rank": 220
+    },
+    {
+      "steam_id": "76561198027102099",
+      "name": "Fly8oy",
+      "elo": 1398.1,
+      "source": "cotd",
+      "cotd_cups": 19,
       "cotd_rank": 221
     },
     {
       "steam_id": "76561198111366624",
       "name": "Zeus",
-      "elo": 1393.1,
+      "elo": 1396.6,
       "source": "cotd",
-      "cotd_cups": 24,
+      "cotd_cups": 25,
       "cotd_rank": 222
     },
     {
@@ -1700,34 +1700,26 @@
     {
       "steam_id": "76561198305054806",
       "name": "wokonbike",
-      "elo": 1381.8,
+      "elo": 1379.6,
       "source": "cotd",
-      "cotd_cups": 35,
+      "cotd_cups": 36,
       "cotd_rank": 226
     },
     {
       "steam_id": "76561199842604096",
       "name": "Dartho Mas",
-      "elo": 1357.4,
+      "elo": 1357.0,
       "source": "cotd",
-      "cotd_cups": 38,
+      "cotd_cups": 39,
       "cotd_rank": 227
     },
     {
       "steam_id": "76561197963702040",
       "name": "Chinpokomon",
-      "elo": 1346.5,
+      "elo": 1343.6,
       "source": "cotd",
-      "cotd_cups": 66,
+      "cotd_cups": 67,
       "cotd_rank": 228
-    },
-    {
-      "steam_id": "76561199803833690",
-      "name": "[ZET]Sword125",
-      "elo": 1328.2,
-      "source": "cotd",
-      "cotd_cups": 47,
-      "cotd_rank": 229
     },
     {
       "steam_id": "76561198091994639",
@@ -1735,6 +1727,14 @@
       "elo": 1327.8,
       "source": "cotd",
       "cotd_cups": 46,
+      "cotd_rank": 229
+    },
+    {
+      "steam_id": "76561199803833690",
+      "name": "[ZET]Sword125",
+      "elo": 1325.5,
+      "source": "cotd",
+      "cotd_cups": 48,
       "cotd_rank": 230
     },
     {
@@ -1746,41 +1746,41 @@
       "cotd_rank": 231
     },
     {
-      "steam_id": "76561198201628170",
-      "name": "imagineaclevernamehere",
-      "elo": 1283.4,
-      "source": "cotd",
-      "cotd_cups": 44,
-      "cotd_rank": 232
-    },
-    {
       "steam_id": "76561199552333329",
       "name": "vectortrajector",
       "elo": 1282.5,
       "source": "cotd",
       "cotd_cups": 39,
-      "cotd_rank": 233
+      "cotd_rank": 232
     },
     {
-      "steam_id": "76561198125435428",
-      "name": "BobW",
-      "elo": 1768.7,
-      "source": "gtr",
-      "gtr_rank": 16,
-      "gtr_points": 160938
+      "steam_id": "76561198201628170",
+      "name": "imagineaclevernamehere",
+      "elo": 1279.5,
+      "source": "cotd",
+      "cotd_cups": 45,
+      "cotd_rank": 233
     },
     {
       "steam_id": "76561199366940380",
       "name": "Clowny",
-      "elo": 1679.9,
+      "elo": 1681.9,
       "source": "gtr",
       "gtr_rank": 30,
       "gtr_points": 153445
     },
     {
+      "steam_id": "76561198259463003",
+      "name": "RonanGeck",
+      "elo": 1641.0,
+      "source": "gtr",
+      "gtr_rank": 40,
+      "gtr_points": 151669
+    },
+    {
       "steam_id": "76561198019659175",
       "name": "Revenger_19",
-      "elo": 1619.5,
+      "elo": 1621.1,
       "source": "gtr",
       "gtr_rank": 46,
       "gtr_points": 149362
@@ -1788,7 +1788,7 @@
     {
       "steam_id": "76561198000593151",
       "name": "Triton",
-      "elo": 1572.8,
+      "elo": 1574.1,
       "source": "gtr",
       "gtr_rank": 64,
       "gtr_points": 143525
@@ -1796,7 +1796,7 @@
     {
       "steam_id": "76561198111967925",
       "name": "lerollman",
-      "elo": 1554.2,
+      "elo": 1555.4,
       "source": "gtr",
       "gtr_rank": 73,
       "gtr_points": 138121
@@ -1804,7 +1804,7 @@
     {
       "steam_id": "76561199002720572",
       "name": "[VK] Redeemed Vortex",
-      "elo": 1552.2,
+      "elo": 1553.5,
       "source": "gtr",
       "gtr_rank": 74,
       "gtr_points": 137802
@@ -1812,7 +1812,7 @@
     {
       "steam_id": "76561198167592418",
       "name": "GazBond",
-      "elo": 1550.3,
+      "elo": 1551.6,
       "source": "gtr",
       "gtr_rank": 75,
       "gtr_points": 137480
@@ -1820,7 +1820,7 @@
     {
       "steam_id": "76561197996506229",
       "name": "felix",
-      "elo": 1539.5,
+      "elo": 1540.6,
       "source": "gtr",
       "gtr_rank": 81,
       "gtr_points": 134649
@@ -1828,7 +1828,7 @@
     {
       "steam_id": "76561198015736943",
       "name": "Drunkshinobi",
-      "elo": 1537.7,
+      "elo": 1538.9,
       "source": "gtr",
       "gtr_rank": 82,
       "gtr_points": 134338
@@ -1836,7 +1836,7 @@
     {
       "steam_id": "76561198934033785",
       "name": "OgelGames",
-      "elo": 1534.3,
+      "elo": 1535.4,
       "source": "gtr",
       "gtr_rank": 84,
       "gtr_points": 133391
@@ -1844,7 +1844,7 @@
     {
       "steam_id": "76561198080117545",
       "name": "AnIntenseMoist",
-      "elo": 1531.0,
+      "elo": 1532.1,
       "source": "gtr",
       "gtr_rank": 86,
       "gtr_points": 132321
@@ -1852,7 +1852,7 @@
     {
       "steam_id": "76561198364836379",
       "name": "Arctic_XpERt",
-      "elo": 1529.4,
+      "elo": 1530.4,
       "source": "gtr",
       "gtr_rank": 87,
       "gtr_points": 132133
@@ -1860,7 +1860,7 @@
     {
       "steam_id": "76561199084192569",
       "name": "SKULL00",
-      "elo": 1527.7,
+      "elo": 1528.8,
       "source": "gtr",
       "gtr_rank": 88,
       "gtr_points": 131546
@@ -1868,7 +1868,7 @@
     {
       "steam_id": "76561199144056798",
       "name": "ArmchairPolymath",
-      "elo": 1524.6,
+      "elo": 1525.6,
       "source": "gtr",
       "gtr_rank": 90,
       "gtr_points": 130398
@@ -1876,7 +1876,7 @@
     {
       "steam_id": "76561198305626875",
       "name": "Vei bean",
-      "elo": 1523.0,
+      "elo": 1524.0,
       "source": "gtr",
       "gtr_rank": 91,
       "gtr_points": 130142
@@ -1884,7 +1884,7 @@
     {
       "steam_id": "76561198080629453",
       "name": "TudBungus",
-      "elo": 1521.5,
+      "elo": 1522.5,
       "source": "gtr",
       "gtr_rank": 92,
       "gtr_points": 129987
@@ -1892,7 +1892,7 @@
     {
       "steam_id": "76561198093513150",
       "name": "CantFindTheSky",
-      "elo": 1519.9,
+      "elo": 1521.0,
       "source": "gtr",
       "gtr_rank": 93,
       "gtr_points": 129954
@@ -1900,7 +1900,7 @@
     {
       "steam_id": "76561198040861578",
       "name": "wunderBarr",
-      "elo": 1514.0,
+      "elo": 1515.0,
       "source": "gtr",
       "gtr_rank": 97,
       "gtr_points": 128996
@@ -1908,7 +1908,7 @@
     {
       "steam_id": "76561199028380903",
       "name": "johnglorp2002",
-      "elo": 1512.5,
+      "elo": 1513.5,
       "source": "gtr",
       "gtr_rank": 98,
       "gtr_points": 128907
@@ -1916,7 +1916,7 @@
     {
       "steam_id": "76561198178960505",
       "name": "SharKy",
-      "elo": 1509.7,
+      "elo": 1510.6,
       "source": "gtr",
       "gtr_rank": 100,
       "gtr_points": 128117
@@ -1924,7 +1924,7 @@
     {
       "steam_id": "76561198819018242",
       "name": "TheBestMaidens",
-      "elo": 1497.5,
+      "elo": 1498.4,
       "source": "gtr",
       "gtr_rank": 109,
       "gtr_points": 127343
@@ -1932,7 +1932,7 @@
     {
       "steam_id": "76561198225327104",
       "name": "Sol",
-      "elo": 1489.9,
+      "elo": 1490.7,
       "source": "gtr",
       "gtr_rank": 115,
       "gtr_points": 126120
@@ -1940,7 +1940,7 @@
     {
       "steam_id": "76561198072837360",
       "name": "Orblets",
-      "elo": 1481.6,
+      "elo": 1482.3,
       "source": "gtr",
       "gtr_rank": 122,
       "gtr_points": 122862
@@ -1948,7 +1948,7 @@
     {
       "steam_id": "76561198428660617",
       "name": "BB_Benji",
-      "elo": 1478.1,
+      "elo": 1478.9,
       "source": "gtr",
       "gtr_rank": 125,
       "gtr_points": 122175
@@ -1956,7 +1956,7 @@
     {
       "steam_id": "76561198285710168",
       "name": "dencar85",
-      "elo": 1477.0,
+      "elo": 1477.8,
       "source": "gtr",
       "gtr_rank": 126,
       "gtr_points": 122158
@@ -1964,7 +1964,7 @@
     {
       "steam_id": "76561198857826561",
       "name": "Junkmas",
-      "elo": 1475.9,
+      "elo": 1476.6,
       "source": "gtr",
       "gtr_rank": 127,
       "gtr_points": 122004
@@ -1972,7 +1972,7 @@
     {
       "steam_id": "76561199583579393",
       "name": "Tigerplaysonpc",
-      "elo": 1473.7,
+      "elo": 1474.4,
       "source": "gtr",
       "gtr_rank": 129,
       "gtr_points": 121666
@@ -1980,7 +1980,7 @@
     {
       "steam_id": "76561198369128224",
       "name": "rose",
-      "elo": 1472.6,
+      "elo": 1473.3,
       "source": "gtr",
       "gtr_rank": 130,
       "gtr_points": 120960
@@ -1988,7 +1988,7 @@
     {
       "steam_id": "76561198115077065",
       "name": "Khord",
-      "elo": 1470.4,
+      "elo": 1471.1,
       "source": "gtr",
       "gtr_rank": 132,
       "gtr_points": 120620
@@ -1996,7 +1996,7 @@
     {
       "steam_id": "76561198049600387",
       "name": "Straubz",
-      "elo": 1469.4,
+      "elo": 1470.1,
       "source": "gtr",
       "gtr_rank": 133,
       "gtr_points": 120372
@@ -2004,7 +2004,7 @@
     {
       "steam_id": "76561198019079245",
       "name": "MOW BIG T",
-      "elo": 1468.3,
+      "elo": 1469.0,
       "source": "gtr",
       "gtr_rank": 134,
       "gtr_points": 120329
@@ -2012,7 +2012,7 @@
     {
       "steam_id": "76561199121464627",
       "name": "rsgold",
-      "elo": 1466.2,
+      "elo": 1466.9,
       "source": "gtr",
       "gtr_rank": 136,
       "gtr_points": 119752
@@ -2020,7 +2020,7 @@
     {
       "steam_id": "76561198125000151",
       "name": "Irisdice",
-      "elo": 1463.1,
+      "elo": 1463.8,
       "source": "gtr",
       "gtr_rank": 139,
       "gtr_points": 118883
@@ -2028,7 +2028,7 @@
     {
       "steam_id": "76561198076209946",
       "name": "maskeddog",
-      "elo": 1461.1,
+      "elo": 1461.8,
       "source": "gtr",
       "gtr_rank": 141,
       "gtr_points": 117789
@@ -2036,7 +2036,7 @@
     {
       "steam_id": "76561198136137440",
       "name": "rtm_lover2007",
-      "elo": 1460.1,
+      "elo": 1460.7,
       "source": "gtr",
       "gtr_rank": 142,
       "gtr_points": 117327
@@ -2044,7 +2044,7 @@
     {
       "steam_id": "76561198085317266",
       "name": "Hang Chang-Pang",
-      "elo": 1459.1,
+      "elo": 1459.7,
       "source": "gtr",
       "gtr_rank": 143,
       "gtr_points": 117314
@@ -2052,7 +2052,7 @@
     {
       "steam_id": "76561198868271852",
       "name": "Bank Waffles",
-      "elo": 1457.1,
+      "elo": 1457.8,
       "source": "gtr",
       "gtr_rank": 145,
       "gtr_points": 116809
@@ -2060,7 +2060,7 @@
     {
       "steam_id": "76561198294066763",
       "name": "DonDirk",
-      "elo": 1455.2,
+      "elo": 1455.8,
       "source": "gtr",
       "gtr_rank": 147,
       "gtr_points": 116273
@@ -2068,7 +2068,7 @@
     {
       "steam_id": "76561198287320070",
       "name": "[KRS] Trash Salad",
-      "elo": 1454.3,
+      "elo": 1454.9,
       "source": "gtr",
       "gtr_rank": 148,
       "gtr_points": 115788
@@ -2076,7 +2076,7 @@
     {
       "steam_id": "76561198040976717",
       "name": "Lilly Fenn",
-      "elo": 1451.4,
+      "elo": 1452.0,
       "source": "gtr",
       "gtr_rank": 151,
       "gtr_points": 114861
@@ -2084,7 +2084,7 @@
     {
       "steam_id": "76561198210248213",
       "name": "CodeingerCat",
-      "elo": 1447.7,
+      "elo": 1448.3,
       "source": "gtr",
       "gtr_rank": 155,
       "gtr_points": 114500
@@ -2092,7 +2092,7 @@
     {
       "steam_id": "76561198256811489",
       "name": "Joe Beidl",
-      "elo": 1445.0,
+      "elo": 1445.6,
       "source": "gtr",
       "gtr_rank": 158,
       "gtr_points": 113709
@@ -2100,7 +2100,7 @@
     {
       "steam_id": "76561199221722167",
       "name": "Mirror .-.",
-      "elo": 1442.3,
+      "elo": 1442.9,
       "source": "gtr",
       "gtr_rank": 161,
       "gtr_points": 113279
@@ -2108,7 +2108,7 @@
     {
       "steam_id": "76561199032318188",
       "name": "OccasionallyAmazingGamer",
-      "elo": 1441.5,
+      "elo": 1442.0,
       "source": "gtr",
       "gtr_rank": 162,
       "gtr_points": 113178
@@ -2116,7 +2116,7 @@
     {
       "steam_id": "76561199095914675",
       "name": "Icey",
-      "elo": 1440.6,
+      "elo": 1441.1,
       "source": "gtr",
       "gtr_rank": 163,
       "gtr_points": 112748
@@ -2124,7 +2124,7 @@
     {
       "steam_id": "76561198147923445",
       "name": "Aetherhead",
-      "elo": 1439.7,
+      "elo": 1440.3,
       "source": "gtr",
       "gtr_rank": 164,
       "gtr_points": 112665
@@ -2132,7 +2132,7 @@
     {
       "steam_id": "76561198006061436",
       "name": "bees",
-      "elo": 1438.9,
+      "elo": 1439.4,
       "source": "gtr",
       "gtr_rank": 165,
       "gtr_points": 112551
@@ -2140,7 +2140,7 @@
     {
       "steam_id": "76561198027616694",
       "name": "tumppu",
-      "elo": 1437.2,
+      "elo": 1437.7,
       "source": "gtr",
       "gtr_rank": 167,
       "gtr_points": 112056
@@ -2148,7 +2148,7 @@
     {
       "steam_id": "76561197979087520",
       "name": "Mokster",
-      "elo": 1435.5,
+      "elo": 1436.0,
       "source": "gtr",
       "gtr_rank": 169,
       "gtr_points": 111930
@@ -2156,7 +2156,7 @@
     {
       "steam_id": "76561197986463414",
       "name": "Xertz",
-      "elo": 1434.7,
+      "elo": 1435.1,
       "source": "gtr",
       "gtr_rank": 170,
       "gtr_points": 111467
@@ -2164,7 +2164,7 @@
     {
       "steam_id": "76561198129913292",
       "name": "Sahne mit Bohnen",
-      "elo": 1433.8,
+      "elo": 1434.3,
       "source": "gtr",
       "gtr_rank": 171,
       "gtr_points": 111081
@@ -2172,7 +2172,7 @@
     {
       "steam_id": "76561198450617537",
       "name": "Agent_Lynx",
-      "elo": 1425.8,
+      "elo": 1426.2,
       "source": "gtr",
       "gtr_rank": 181,
       "gtr_points": 109205
@@ -2180,7 +2180,7 @@
     {
       "steam_id": "76561198855034411",
       "name": "DOA | Grimmlon",
-      "elo": 1425.0,
+      "elo": 1425.4,
       "source": "gtr",
       "gtr_rank": 182,
       "gtr_points": 109108
@@ -2188,7 +2188,7 @@
     {
       "steam_id": "76561198037649622",
       "name": "Hairybroness",
-      "elo": 1424.2,
+      "elo": 1424.7,
       "source": "gtr",
       "gtr_rank": 183,
       "gtr_points": 108948
@@ -2196,7 +2196,7 @@
     {
       "steam_id": "76561198031026580",
       "name": "WotterBytes",
-      "elo": 1421.9,
+      "elo": 1422.3,
       "source": "gtr",
       "gtr_rank": 186,
       "gtr_points": 108494
@@ -2204,7 +2204,7 @@
     {
       "steam_id": "76561198000950884",
       "name": "Dhalucard",
-      "elo": 1421.2,
+      "elo": 1421.6,
       "source": "gtr",
       "gtr_rank": 187,
       "gtr_points": 108253
@@ -2212,7 +2212,7 @@
     {
       "steam_id": "76561197961216129",
       "name": "LexLimbo",
-      "elo": 1419.7,
+      "elo": 1420.1,
       "source": "gtr",
       "gtr_rank": 189,
       "gtr_points": 108176
@@ -2220,7 +2220,7 @@
     {
       "steam_id": "76561198115857790",
       "name": "Andrei",
-      "elo": 1418.9,
+      "elo": 1419.3,
       "source": "gtr",
       "gtr_rank": 190,
       "gtr_points": 108174
@@ -2228,7 +2228,7 @@
     {
       "steam_id": "76561199112560691",
       "name": "BaasBallas",
-      "elo": 1416.7,
+      "elo": 1417.1,
       "source": "gtr",
       "gtr_rank": 193,
       "gtr_points": 107894
@@ -2236,7 +2236,7 @@
     {
       "steam_id": "76561198314583077",
       "name": "ShyGirlyRaccoon",
-      "elo": 1416.0,
+      "elo": 1416.4,
       "source": "gtr",
       "gtr_rank": 194,
       "gtr_points": 107541
@@ -2244,7 +2244,7 @@
     {
       "steam_id": "76561198408866688",
       "name": "Toothygaming",
-      "elo": 1415.3,
+      "elo": 1415.6,
       "source": "gtr",
       "gtr_rank": 195,
       "gtr_points": 107319
@@ -2252,7 +2252,7 @@
     {
       "steam_id": "76561198100712511",
       "name": "TTV/BlackHawkXNL",
-      "elo": 1414.5,
+      "elo": 1414.9,
       "source": "gtr",
       "gtr_rank": 196,
       "gtr_points": 107213
@@ -2260,7 +2260,7 @@
     {
       "steam_id": "76561198020771362",
       "name": "Dracos Vaddern",
-      "elo": 1413.8,
+      "elo": 1414.2,
       "source": "gtr",
       "gtr_rank": 197,
       "gtr_points": 107131
@@ -2268,7 +2268,7 @@
     {
       "steam_id": "76561198325331655",
       "name": "Jorts",
-      "elo": 1413.1,
+      "elo": 1413.5,
       "source": "gtr",
       "gtr_rank": 198,
       "gtr_points": 106748
@@ -2276,7 +2276,7 @@
     {
       "steam_id": "76561198847191844",
       "name": "Meowbee",
-      "elo": 1411.7,
+      "elo": 1412.0,
       "source": "gtr",
       "gtr_rank": 200,
       "gtr_points": 106233
@@ -2284,7 +2284,7 @@
     {
       "steam_id": "76561198414815154",
       "name": "Ooohbilly",
-      "elo": 1411.0,
+      "elo": 1411.3,
       "source": "gtr",
       "gtr_rank": 201,
       "gtr_points": 106148
@@ -2292,7 +2292,7 @@
     {
       "steam_id": "76561198894844131",
       "name": "d r a t i n i",
-      "elo": 1408.9,
+      "elo": 1409.2,
       "source": "gtr",
       "gtr_rank": 204,
       "gtr_points": 104314
@@ -2300,7 +2300,7 @@
     {
       "steam_id": "76561198033713278",
       "name": "crimson",
-      "elo": 1408.2,
+      "elo": 1408.5,
       "source": "gtr",
       "gtr_rank": 205,
       "gtr_points": 104282
@@ -2308,7 +2308,7 @@
     {
       "steam_id": "76561199580052002",
       "name": "TheRockingSheep",
-      "elo": 1406.8,
+      "elo": 1407.1,
       "source": "gtr",
       "gtr_rank": 207,
       "gtr_points": 103845
@@ -2316,7 +2316,7 @@
     {
       "steam_id": "76561198051058993",
       "name": "MAGS3",
-      "elo": 1406.1,
+      "elo": 1406.4,
       "source": "gtr",
       "gtr_rank": 208,
       "gtr_points": 103820
@@ -2324,7 +2324,7 @@
     {
       "steam_id": "76561199164422086",
       "name": "[CHZB]Willow!",
-      "elo": 1405.5,
+      "elo": 1405.8,
       "source": "gtr",
       "gtr_rank": 209,
       "gtr_points": 103751
@@ -2332,7 +2332,7 @@
     {
       "steam_id": "76561198272722888",
       "name": "huhconduct",
-      "elo": 1403.4,
+      "elo": 1403.7,
       "source": "gtr",
       "gtr_rank": 212,
       "gtr_points": 103517
@@ -2340,7 +2340,7 @@
     {
       "steam_id": "76561199523936149",
       "name": "incredulouspotato",
-      "elo": 1402.8,
+      "elo": 1403.1,
       "source": "gtr",
       "gtr_rank": 213,
       "gtr_points": 103111
@@ -2348,7 +2348,7 @@
     {
       "steam_id": "76561197971853578",
       "name": "R3P",
-      "elo": 1400.8,
+      "elo": 1401.1,
       "source": "gtr",
       "gtr_rank": 216,
       "gtr_points": 102827
@@ -2356,7 +2356,7 @@
     {
       "steam_id": "76561198116359397",
       "name": "[CTR]Rourie13",
-      "elo": 1400.2,
+      "elo": 1400.4,
       "source": "gtr",
       "gtr_rank": 217,
       "gtr_points": 102737
@@ -2364,7 +2364,7 @@
     {
       "steam_id": "76561198044311728",
       "name": "ezzie",
-      "elo": 1399.5,
+      "elo": 1399.8,
       "source": "gtr",
       "gtr_rank": 218,
       "gtr_points": 102180
@@ -2372,7 +2372,7 @@
     {
       "steam_id": "76561198984933444",
       "name": "VoidLeech",
-      "elo": 1398.9,
+      "elo": 1399.1,
       "source": "gtr",
       "gtr_rank": 219,
       "gtr_points": 102086
@@ -2380,7 +2380,7 @@
     {
       "steam_id": "76561198043217796",
       "name": "Berry",
-      "elo": 1398.2,
+      "elo": 1398.5,
       "source": "gtr",
       "gtr_rank": 220,
       "gtr_points": 101012
@@ -2388,7 +2388,7 @@
     {
       "steam_id": "76561198109773525",
       "name": "Valco",
-      "elo": 1397.6,
+      "elo": 1397.8,
       "source": "gtr",
       "gtr_rank": 221,
       "gtr_points": 100941
@@ -2396,7 +2396,7 @@
     {
       "steam_id": "76561198870312435",
       "name": "[VK] Redeemed Ulv_RaVn",
-      "elo": 1396.9,
+      "elo": 1397.2,
       "source": "gtr",
       "gtr_rank": 222,
       "gtr_points": 100700
@@ -2404,7 +2404,7 @@
     {
       "steam_id": "76561198824105813",
       "name": "CCrider",
-      "elo": 1396.3,
+      "elo": 1396.5,
       "source": "gtr",
       "gtr_rank": 223,
       "gtr_points": 100614
@@ -2412,7 +2412,7 @@
     {
       "steam_id": "76561198013828574",
       "name": "ioi8",
-      "elo": 1395.7,
+      "elo": 1395.9,
       "source": "gtr",
       "gtr_rank": 224,
       "gtr_points": 100120
@@ -2420,7 +2420,7 @@
     {
       "steam_id": "76561197997866088",
       "name": "Pilaf",
-      "elo": 1395.0,
+      "elo": 1395.3,
       "source": "gtr",
       "gtr_rank": 225,
       "gtr_points": 100074
@@ -2428,7 +2428,7 @@
     {
       "steam_id": "76561198964959447",
       "name": "lokja",
-      "elo": 1394.4,
+      "elo": 1394.6,
       "source": "gtr",
       "gtr_rank": 226,
       "gtr_points": 100063
@@ -2436,7 +2436,7 @@
     {
       "steam_id": "76561198107216213",
       "name": "13Silvers",
-      "elo": 1393.8,
+      "elo": 1394.0,
       "source": "gtr",
       "gtr_rank": 227,
       "gtr_points": 99856
@@ -2444,7 +2444,7 @@
     {
       "steam_id": "76561199385621747",
       "name": "DinoDeano",
-      "elo": 1393.2,
+      "elo": 1393.4,
       "source": "gtr",
       "gtr_rank": 228,
       "gtr_points": 99732
@@ -2452,7 +2452,7 @@
     {
       "steam_id": "76561198134781036",
       "name": "dudeeitsraymond",
-      "elo": 1392.5,
+      "elo": 1392.8,
       "source": "gtr",
       "gtr_rank": 229,
       "gtr_points": 99361
@@ -2460,7 +2460,7 @@
     {
       "steam_id": "76561198161591192",
       "name": "''",
-      "elo": 1391.9,
+      "elo": 1392.1,
       "source": "gtr",
       "gtr_rank": 230,
       "gtr_points": 99289
@@ -2468,7 +2468,7 @@
     {
       "steam_id": "76561198871050719",
       "name": "Kniremijer",
-      "elo": 1390.7,
+      "elo": 1390.9,
       "source": "gtr",
       "gtr_rank": 232,
       "gtr_points": 99062
@@ -2476,7 +2476,7 @@
     {
       "steam_id": "76561198158497194",
       "name": "mori_cinis",
-      "elo": 1390.1,
+      "elo": 1390.3,
       "source": "gtr",
       "gtr_rank": 233,
       "gtr_points": 98581
@@ -2484,7 +2484,7 @@
     {
       "steam_id": "76561197960619506",
       "name": "Zvenne",
-      "elo": 1389.5,
+      "elo": 1389.7,
       "source": "gtr",
       "gtr_rank": 234,
       "gtr_points": 98321
@@ -2492,7 +2492,7 @@
     {
       "steam_id": "76561199046850342",
       "name": "Cool",
-      "elo": 1388.9,
+      "elo": 1389.1,
       "source": "gtr",
       "gtr_rank": 235,
       "gtr_points": 98066
@@ -2500,7 +2500,7 @@
     {
       "steam_id": "76561199086890807",
       "name": "AmusedApple",
-      "elo": 1387.7,
+      "elo": 1387.9,
       "source": "gtr",
       "gtr_rank": 237,
       "gtr_points": 97798
@@ -2508,7 +2508,7 @@
     {
       "steam_id": "76561198383881021",
       "name": "CrownedKoi",
-      "elo": 1387.1,
+      "elo": 1387.3,
       "source": "gtr",
       "gtr_rank": 238,
       "gtr_points": 97654
@@ -2516,7 +2516,7 @@
     {
       "steam_id": "76561198104669751",
       "name": "buppo",
-      "elo": 1386.5,
+      "elo": 1386.7,
       "source": "gtr",
       "gtr_rank": 239,
       "gtr_points": 97447
@@ -2524,7 +2524,7 @@
     {
       "steam_id": "76561198202341782",
       "name": "Donkey_Man_Butt",
-      "elo": 1385.9,
+      "elo": 1386.1,
       "source": "gtr",
       "gtr_rank": 240,
       "gtr_points": 96874
@@ -2532,7 +2532,7 @@
     {
       "steam_id": "76561198039621545",
       "name": "edge1123",
-      "elo": 1384.7,
+      "elo": 1384.9,
       "source": "gtr",
       "gtr_rank": 242,
       "gtr_points": 96320
@@ -2540,7 +2540,7 @@
     {
       "steam_id": "76561198121234834",
       "name": "Wiwiknight",
-      "elo": 1384.2,
+      "elo": 1384.3,
       "source": "gtr",
       "gtr_rank": 243,
       "gtr_points": 96300
@@ -2548,7 +2548,7 @@
     {
       "steam_id": "76561199018156733",
       "name": "NeonW1zard",
-      "elo": 1383.6,
+      "elo": 1383.7,
       "source": "gtr",
       "gtr_rank": 244,
       "gtr_points": 96107
@@ -2556,7 +2556,7 @@
     {
       "steam_id": "76561199840967484",
       "name": "Aurum",
-      "elo": 1383.0,
+      "elo": 1383.2,
       "source": "gtr",
       "gtr_rank": 245,
       "gtr_points": 96027
@@ -2564,7 +2564,7 @@
     {
       "steam_id": "76561198408784685",
       "name": "Cornholio",
-      "elo": 1382.4,
+      "elo": 1382.6,
       "source": "gtr",
       "gtr_rank": 246,
       "gtr_points": 95691
@@ -2572,7 +2572,7 @@
     {
       "steam_id": "76561199123096930",
       "name": "soap",
-      "elo": 1381.8,
+      "elo": 1382.0,
       "source": "gtr",
       "gtr_rank": 247,
       "gtr_points": 95669
@@ -2580,7 +2580,7 @@
     {
       "steam_id": "76561198447684490",
       "name": "Rige-e",
-      "elo": 1381.3,
+      "elo": 1381.4,
       "source": "gtr",
       "gtr_rank": 248,
       "gtr_points": 95489
@@ -2588,7 +2588,7 @@
     {
       "steam_id": "76561198174686486",
       "name": "MacroMelon",
-      "elo": 1380.7,
+      "elo": 1380.8,
       "source": "gtr",
       "gtr_rank": 249,
       "gtr_points": 95283
@@ -2596,7 +2596,7 @@
     {
       "steam_id": "76561197997447955",
       "name": "lordarnoud",
-      "elo": 1379.6,
+      "elo": 1379.7,
       "source": "gtr",
       "gtr_rank": 251,
       "gtr_points": 94714
@@ -2604,7 +2604,7 @@
     {
       "steam_id": "76561199402432855",
       "name": "[KBR]Panda",
-      "elo": 1379.0,
+      "elo": 1379.1,
       "source": "gtr",
       "gtr_rank": 252,
       "gtr_points": 94628
@@ -2612,7 +2612,7 @@
     {
       "steam_id": "76561198170201561",
       "name": "Thunderdrome4",
-      "elo": 1378.5,
+      "elo": 1378.6,
       "source": "gtr",
       "gtr_rank": 253,
       "gtr_points": 94547
@@ -2620,7 +2620,7 @@
     {
       "steam_id": "76561198028157937",
       "name": "Kid Sobek",
-      "elo": 1377.9,
+      "elo": 1378.0,
       "source": "gtr",
       "gtr_rank": 254,
       "gtr_points": 94340
@@ -2628,7 +2628,7 @@
     {
       "steam_id": "76561198010680611",
       "name": "Diabolous Glorior",
-      "elo": 1377.3,
+      "elo": 1377.5,
       "source": "gtr",
       "gtr_rank": 255,
       "gtr_points": 94304
@@ -2636,7 +2636,7 @@
     {
       "steam_id": "76561199490883002",
       "name": "Juanita Sanchez",
-      "elo": 1376.8,
+      "elo": 1376.9,
       "source": "gtr",
       "gtr_rank": 256,
       "gtr_points": 94294
@@ -2644,7 +2644,7 @@
     {
       "steam_id": "76561198005377042",
       "name": "[Slow] SkyWaver",
-      "elo": 1375.1,
+      "elo": 1375.2,
       "source": "gtr",
       "gtr_rank": 259,
       "gtr_points": 93352
@@ -2652,7 +2652,7 @@
     {
       "steam_id": "76561199046913177",
       "name": "Leech",
-      "elo": 1374.6,
+      "elo": 1374.7,
       "source": "gtr",
       "gtr_rank": 260,
       "gtr_points": 92949
@@ -2660,7 +2660,7 @@
     {
       "steam_id": "76561198051435874",
       "name": "H3draut3r",
-      "elo": 1374.1,
+      "elo": 1374.2,
       "source": "gtr",
       "gtr_rank": 261,
       "gtr_points": 92915
@@ -2668,7 +2668,7 @@
     {
       "steam_id": "76561198098866326",
       "name": "Pat Fenis",
-      "elo": 1373.5,
+      "elo": 1373.6,
       "source": "gtr",
       "gtr_rank": 262,
       "gtr_points": 92824
@@ -2676,7 +2676,7 @@
     {
       "steam_id": "76561198122154036",
       "name": "DragonBlood91D",
-      "elo": 1373.0,
+      "elo": 1373.1,
       "source": "gtr",
       "gtr_rank": 263,
       "gtr_points": 92498
@@ -2684,7 +2684,7 @@
     {
       "steam_id": "76561199438289155",
       "name": "SingerOfDeath",
-      "elo": 1372.4,
+      "elo": 1372.5,
       "source": "gtr",
       "gtr_rank": 264,
       "gtr_points": 92234
@@ -2692,7 +2692,7 @@
     {
       "steam_id": "76561199483629967",
       "name": "michaelhaun27",
-      "elo": 1371.9,
+      "elo": 1372.0,
       "source": "gtr",
       "gtr_rank": 265,
       "gtr_points": 92106
@@ -2700,7 +2700,7 @@
     {
       "steam_id": "76561198030296976",
       "name": "Kyn",
-      "elo": 1370.8,
+      "elo": 1370.9,
       "source": "gtr",
       "gtr_rank": 267,
       "gtr_points": 91972
@@ -2708,7 +2708,7 @@
     {
       "steam_id": "76561198087920415",
       "name": "aardvarkjon",
-      "elo": 1369.8,
+      "elo": 1369.9,
       "source": "gtr",
       "gtr_rank": 269,
       "gtr_points": 91542
@@ -2724,7 +2724,7 @@
     {
       "steam_id": "76561198253561586",
       "name": "Memphis Strangler",
-      "elo": 1368.7,
+      "elo": 1368.8,
       "source": "gtr",
       "gtr_rank": 271,
       "gtr_points": 91368
@@ -2732,7 +2732,7 @@
     {
       "steam_id": "76561199093841299",
       "name": "Shinikage221",
-      "elo": 1367.7,
+      "elo": 1367.8,
       "source": "gtr",
       "gtr_rank": 273,
       "gtr_points": 90466
@@ -2740,7 +2740,7 @@
     {
       "steam_id": "76561198118195123",
       "name": "GandalfSyrup",
-      "elo": 1365.6,
+      "elo": 1365.7,
       "source": "gtr",
       "gtr_rank": 277,
       "gtr_points": 90064
@@ -2748,7 +2748,7 @@
     {
       "steam_id": "76561199445295521",
       "name": "tws20so",
-      "elo": 1364.6,
+      "elo": 1364.7,
       "source": "gtr",
       "gtr_rank": 279,
       "gtr_points": 89780
@@ -2756,7 +2756,7 @@
     {
       "steam_id": "76561199521440061",
       "name": "An actual Bear",
-      "elo": 1364.1,
+      "elo": 1364.2,
       "source": "gtr",
       "gtr_rank": 280,
       "gtr_points": 89557
@@ -2820,7 +2820,7 @@
     {
       "steam_id": "76561198120917242",
       "name": "DiamonDoughnut",
-      "elo": 1359.6,
+      "elo": 1359.7,
       "source": "gtr",
       "gtr_rank": 289,
       "gtr_points": 87364
@@ -2892,7 +2892,7 @@
     {
       "steam_id": "76561199002621651",
       "name": "Lunarbunny",
-      "elo": 1354.4,
+      "elo": 1354.3,
       "source": "gtr",
       "gtr_rank": 300,
       "gtr_points": 85976
@@ -2916,7 +2916,7 @@
     {
       "steam_id": "76561198135377787",
       "name": "Felislazuli",
-      "elo": 1353.0,
+      "elo": 1352.9,
       "source": "gtr",
       "gtr_rank": 303,
       "gtr_points": 85437
@@ -2940,7 +2940,7 @@
     {
       "steam_id": "76561197999607109",
       "name": "jjwoznia",
-      "elo": 1351.6,
+      "elo": 1351.5,
       "source": "gtr",
       "gtr_rank": 306,
       "gtr_points": 84656
@@ -2964,7 +2964,7 @@
     {
       "steam_id": "76561198436518745",
       "name": "Gruselda1",
-      "elo": 1350.2,
+      "elo": 1350.1,
       "source": "gtr",
       "gtr_rank": 309,
       "gtr_points": 84523
@@ -2980,7 +2980,7 @@
     {
       "steam_id": "76561199334332457",
       "name": "dapper_duck",
-      "elo": 1349.3,
+      "elo": 1349.2,
       "source": "gtr",
       "gtr_rank": 311,
       "gtr_points": 83902
@@ -2996,7 +2996,7 @@
     {
       "steam_id": "76561198039677046",
       "name": "Rekill",
-      "elo": 1348.4,
+      "elo": 1348.3,
       "source": "gtr",
       "gtr_rank": 313,
       "gtr_points": 83556
@@ -3004,7 +3004,7 @@
     {
       "steam_id": "76561198190766586",
       "name": "Cubic_daredevil",
-      "elo": 1347.5,
+      "elo": 1347.4,
       "source": "gtr",
       "gtr_rank": 315,
       "gtr_points": 83404
@@ -3012,7 +3012,7 @@
     {
       "steam_id": "76561198338812990",
       "name": "Half-Qilin",
-      "elo": 1347.0,
+      "elo": 1346.9,
       "source": "gtr",
       "gtr_rank": 316,
       "gtr_points": 83062
@@ -3020,7 +3020,7 @@
     {
       "steam_id": "76561197975007714",
       "name": "ArrrT",
-      "elo": 1346.6,
+      "elo": 1346.5,
       "source": "gtr",
       "gtr_rank": 317,
       "gtr_points": 82786
@@ -3036,7 +3036,7 @@
     {
       "steam_id": "76561198042535008",
       "name": "󠀡󠀡 ⁧⁧:3pacalypse :TheD",
-      "elo": 1345.7,
+      "elo": 1345.6,
       "source": "gtr",
       "gtr_rank": 319,
       "gtr_points": 82748
@@ -3052,7 +3052,7 @@
     {
       "steam_id": "76561198034266798",
       "name": "True Chaotic Neutral",
-      "elo": 1344.8,
+      "elo": 1344.7,
       "source": "gtr",
       "gtr_rank": 321,
       "gtr_points": 81775
@@ -3060,7 +3060,7 @@
     {
       "steam_id": "76561197970453665",
       "name": "Viice",
-      "elo": 1344.4,
+      "elo": 1344.3,
       "source": "gtr",
       "gtr_rank": 322,
       "gtr_points": 81739
@@ -3068,7 +3068,7 @@
     {
       "steam_id": "76561198130056087",
       "name": "Amystika",
-      "elo": 1343.9,
+      "elo": 1343.8,
       "source": "gtr",
       "gtr_rank": 323,
       "gtr_points": 81439
@@ -3076,7 +3076,7 @@
     {
       "steam_id": "76561199672891268",
       "name": "lingamer",
-      "elo": 1343.5,
+      "elo": 1343.4,
       "source": "gtr",
       "gtr_rank": 324,
       "gtr_points": 80620
@@ -3084,7 +3084,7 @@
     {
       "steam_id": "76561197972257803",
       "name": "misa",
-      "elo": 1342.2,
+      "elo": 1342.1,
       "source": "gtr",
       "gtr_rank": 327,
       "gtr_points": 80132
@@ -3092,7 +3092,7 @@
     {
       "steam_id": "76561198171222118",
       "name": "b17bobby",
-      "elo": 1341.7,
+      "elo": 1341.6,
       "source": "gtr",
       "gtr_rank": 328,
       "gtr_points": 80097
@@ -3100,7 +3100,7 @@
     {
       "steam_id": "76561198140409041",
       "name": "SkyPromp",
-      "elo": 1340.5,
+      "elo": 1340.4,
       "source": "gtr",
       "gtr_rank": 331,
       "gtr_points": 79696
@@ -3108,7 +3108,7 @@
     {
       "steam_id": "76561198056329815",
       "name": "TrubP02",
-      "elo": 1340.0,
+      "elo": 1339.9,
       "source": "gtr",
       "gtr_rank": 332,
       "gtr_points": 79358
@@ -3116,7 +3116,7 @@
     {
       "steam_id": "76561199014646093",
       "name": "Anxietea Fox",
-      "elo": 1339.6,
+      "elo": 1339.5,
       "source": "gtr",
       "gtr_rank": 333,
       "gtr_points": 79350
@@ -3124,7 +3124,7 @@
     {
       "steam_id": "76561198348911001",
       "name": "Kreeeeee",
-      "elo": 1339.2,
+      "elo": 1339.1,
       "source": "gtr",
       "gtr_rank": 334,
       "gtr_points": 78909
@@ -3132,7 +3132,7 @@
     {
       "steam_id": "76561198070584839",
       "name": "SuperSamio",
-      "elo": 1338.8,
+      "elo": 1338.6,
       "source": "gtr",
       "gtr_rank": 335,
       "gtr_points": 78014
@@ -3140,7 +3140,7 @@
     {
       "steam_id": "76561198054805282",
       "name": "sixshooter_sam",
-      "elo": 1338.3,
+      "elo": 1338.2,
       "source": "gtr",
       "gtr_rank": 336,
       "gtr_points": 77603
@@ -3148,7 +3148,7 @@
     {
       "steam_id": "76561198420124760",
       "name": "liz1rd",
-      "elo": 1337.5,
+      "elo": 1337.4,
       "source": "gtr",
       "gtr_rank": 338,
       "gtr_points": 77363
@@ -3156,7 +3156,7 @@
     {
       "steam_id": "76561198005979287",
       "name": "KingKerf",
-      "elo": 1337.1,
+      "elo": 1337.0,
       "source": "gtr",
       "gtr_rank": 339,
       "gtr_points": 76573
@@ -3164,7 +3164,7 @@
     {
       "steam_id": "76561199415583817",
       "name": "Assassin294",
-      "elo": 1336.7,
+      "elo": 1336.5,
       "source": "gtr",
       "gtr_rank": 340,
       "gtr_points": 76227
@@ -3172,7 +3172,7 @@
     {
       "steam_id": "76561198017646676",
       "name": "Squarefish",
-      "elo": 1336.3,
+      "elo": 1336.1,
       "source": "gtr",
       "gtr_rank": 341,
       "gtr_points": 76129
@@ -3180,7 +3180,7 @@
     {
       "steam_id": "76561197973063523",
       "name": "A Bad Gamer",
-      "elo": 1335.4,
+      "elo": 1335.3,
       "source": "gtr",
       "gtr_rank": 343,
       "gtr_points": 75929
@@ -3188,7 +3188,7 @@
     {
       "steam_id": "76561198140981823",
       "name": "Minixerces2116",
-      "elo": 1335.0,
+      "elo": 1334.9,
       "source": "gtr",
       "gtr_rank": 344,
       "gtr_points": 75669
@@ -3196,7 +3196,7 @@
     {
       "steam_id": "76561198156955177",
       "name": "LocalDerpFace",
-      "elo": 1334.2,
+      "elo": 1334.0,
       "source": "gtr",
       "gtr_rank": 346,
       "gtr_points": 75348
@@ -3204,7 +3204,7 @@
     {
       "steam_id": "76561198047886002",
       "name": "Albi",
-      "elo": 1333.8,
+      "elo": 1333.6,
       "source": "gtr",
       "gtr_rank": 347,
       "gtr_points": 75164
@@ -3212,7 +3212,7 @@
     {
       "steam_id": "76561198257882767",
       "name": "Krumpas Endrium",
-      "elo": 1333.4,
+      "elo": 1333.2,
       "source": "gtr",
       "gtr_rank": 348,
       "gtr_points": 75093
@@ -3220,7 +3220,7 @@
     {
       "steam_id": "76561198846378978",
       "name": "XaJaGa <3",
-      "elo": 1333.0,
+      "elo": 1332.8,
       "source": "gtr",
       "gtr_rank": 349,
       "gtr_points": 74884
@@ -3228,7 +3228,7 @@
     {
       "steam_id": "76561198086401089",
       "name": "_Mackey_",
-      "elo": 1332.6,
+      "elo": 1332.4,
       "source": "gtr",
       "gtr_rank": 350,
       "gtr_points": 74835
@@ -3236,7 +3236,7 @@
     {
       "steam_id": "76561198354122361",
       "name": "dtmittens",
-      "elo": 1332.2,
+      "elo": 1332.0,
       "source": "gtr",
       "gtr_rank": 351,
       "gtr_points": 74498
@@ -3244,7 +3244,7 @@
     {
       "steam_id": "76561199589289774",
       "name": "breadcrumb_",
-      "elo": 1331.8,
+      "elo": 1331.6,
       "source": "gtr",
       "gtr_rank": 352,
       "gtr_points": 74400
@@ -3252,7 +3252,7 @@
     {
       "steam_id": "76561199048674191",
       "name": "Vikjor",
-      "elo": 1331.4,
+      "elo": 1331.2,
       "source": "gtr",
       "gtr_rank": 353,
       "gtr_points": 74112
@@ -3260,7 +3260,7 @@
     {
       "steam_id": "76561198070406017",
       "name": "DragonShadow84290",
-      "elo": 1331.0,
+      "elo": 1330.8,
       "source": "gtr",
       "gtr_rank": 354,
       "gtr_points": 74032
@@ -3268,7 +3268,7 @@
     {
       "steam_id": "76561198958881478",
       "name": "phrogrock",
-      "elo": 1330.6,
+      "elo": 1330.4,
       "source": "gtr",
       "gtr_rank": 355,
       "gtr_points": 73614
@@ -3276,7 +3276,7 @@
     {
       "steam_id": "76561198020578451",
       "name": "thelolrus",
-      "elo": 1330.2,
+      "elo": 1330.0,
       "source": "gtr",
       "gtr_rank": 356,
       "gtr_points": 73458
@@ -3284,7 +3284,7 @@
     {
       "steam_id": "76561199086048409",
       "name": "Mount Everest",
-      "elo": 1329.4,
+      "elo": 1329.2,
       "source": "gtr",
       "gtr_rank": 358,
       "gtr_points": 71945
@@ -3292,7 +3292,7 @@
     {
       "steam_id": "76561198082902698",
       "name": "DorJis",
-      "elo": 1329.0,
+      "elo": 1328.8,
       "source": "gtr",
       "gtr_rank": 359,
       "gtr_points": 71624
@@ -3300,7 +3300,7 @@
     {
       "steam_id": "76561198000675141",
       "name": "Squirrel",
-      "elo": 1328.6,
+      "elo": 1328.4,
       "source": "gtr",
       "gtr_rank": 360,
       "gtr_points": 71558
@@ -3308,7 +3308,7 @@
     {
       "steam_id": "76561198991002114",
       "name": "Sir Ragdollot",
-      "elo": 1328.2,
+      "elo": 1328.0,
       "source": "gtr",
       "gtr_rank": 361,
       "gtr_points": 71401
@@ -3316,7 +3316,7 @@
     {
       "steam_id": "76561197998425411",
       "name": "Telumehtar",
-      "elo": 1327.8,
+      "elo": 1327.6,
       "source": "gtr",
       "gtr_rank": 362,
       "gtr_points": 71394
@@ -3324,7 +3324,7 @@
     {
       "steam_id": "76561198451895679",
       "name": "L3mmy",
-      "elo": 1327.4,
+      "elo": 1327.2,
       "source": "gtr",
       "gtr_rank": 363,
       "gtr_points": 71222
@@ -3332,7 +3332,7 @@
     {
       "steam_id": "76561199814934076",
       "name": "Milkaholic",
-      "elo": 1327.0,
+      "elo": 1326.8,
       "source": "gtr",
       "gtr_rank": 364,
       "gtr_points": 70697
@@ -3340,7 +3340,7 @@
     {
       "steam_id": "76561198346101658",
       "name": "shwayam",
-      "elo": 1326.6,
+      "elo": 1326.4,
       "source": "gtr",
       "gtr_rank": 365,
       "gtr_points": 70168
@@ -3348,7 +3348,7 @@
     {
       "steam_id": "76561198018907930",
       "name": "Prattable",
-      "elo": 1326.3,
+      "elo": 1326.1,
       "source": "gtr",
       "gtr_rank": 366,
       "gtr_points": 70101
@@ -3356,7 +3356,7 @@
     {
       "steam_id": "76561198124786532",
       "name": "Reject825",
-      "elo": 1325.9,
+      "elo": 1325.7,
       "source": "gtr",
       "gtr_rank": 367,
       "gtr_points": 69996
@@ -3364,7 +3364,7 @@
     {
       "steam_id": "76561199812556396",
       "name": "Kire368",
-      "elo": 1325.5,
+      "elo": 1325.3,
       "source": "gtr",
       "gtr_rank": 368,
       "gtr_points": 69247
@@ -3372,7 +3372,7 @@
     {
       "steam_id": "76561198308080027",
       "name": "Avidos",
-      "elo": 1325.1,
+      "elo": 1324.9,
       "source": "gtr",
       "gtr_rank": 369,
       "gtr_points": 69105
@@ -3380,7 +3380,7 @@
     {
       "steam_id": "76561198097510715",
       "name": "jaden",
-      "elo": 1324.7,
+      "elo": 1324.5,
       "source": "gtr",
       "gtr_rank": 370,
       "gtr_points": 68701
@@ -3388,7 +3388,7 @@
     {
       "steam_id": "76561198054891524",
       "name": "Maki",
-      "elo": 1324.3,
+      "elo": 1324.1,
       "source": "gtr",
       "gtr_rank": 371,
       "gtr_points": 68535
@@ -3396,7 +3396,7 @@
     {
       "steam_id": "76561198042771629",
       "name": "Cruzick",
-      "elo": 1324.0,
+      "elo": 1323.7,
       "source": "gtr",
       "gtr_rank": 372,
       "gtr_points": 68381
@@ -3404,7 +3404,7 @@
     {
       "steam_id": "76561199536251255",
       "name": "Ollie_May13",
-      "elo": 1323.6,
+      "elo": 1323.4,
       "source": "gtr",
       "gtr_rank": 373,
       "gtr_points": 68016
@@ -3412,7 +3412,7 @@
     {
       "steam_id": "76561198019625761",
       "name": "AesirMouse",
-      "elo": 1323.2,
+      "elo": 1323.0,
       "source": "gtr",
       "gtr_rank": 374,
       "gtr_points": 67796
@@ -3420,7 +3420,7 @@
     {
       "steam_id": "76561199072156888",
       "name": "Pug FRL",
-      "elo": 1322.8,
+      "elo": 1322.6,
       "source": "gtr",
       "gtr_rank": 375,
       "gtr_points": 67544
@@ -3428,7 +3428,7 @@
     {
       "steam_id": "76561198743425933",
       "name": "CantFindTheGround",
-      "elo": 1322.4,
+      "elo": 1322.2,
       "source": "gtr",
       "gtr_rank": 376,
       "gtr_points": 67137
@@ -3436,7 +3436,7 @@
     {
       "steam_id": "76561198175680590",
       "name": "Kamajirou",
-      "elo": 1322.1,
+      "elo": 1321.8,
       "source": "gtr",
       "gtr_rank": 377,
       "gtr_points": 67130
@@ -3444,7 +3444,7 @@
     {
       "steam_id": "76561198055415835",
       "name": "Daggtex",
-      "elo": 1321.7,
+      "elo": 1321.5,
       "source": "gtr",
       "gtr_rank": 378,
       "gtr_points": 65969
@@ -3452,7 +3452,7 @@
     {
       "steam_id": "76561198048057332",
       "name": "Drewcifer344",
-      "elo": 1321.3,
+      "elo": 1321.1,
       "source": "gtr",
       "gtr_rank": 379,
       "gtr_points": 65697
@@ -3460,7 +3460,7 @@
     {
       "steam_id": "76561198004413616",
       "name": "SpinkyDinkyDonky",
-      "elo": 1320.9,
+      "elo": 1320.7,
       "source": "gtr",
       "gtr_rank": 380,
       "gtr_points": 65592
@@ -3468,7 +3468,7 @@
     {
       "steam_id": "76561198022669068",
       "name": "The_ZA_Badger",
-      "elo": 1320.6,
+      "elo": 1320.3,
       "source": "gtr",
       "gtr_rank": 381,
       "gtr_points": 65283
@@ -3476,7 +3476,7 @@
     {
       "steam_id": "76561199310788521",
       "name": "Gamerwolf821",
-      "elo": 1320.2,
+      "elo": 1320.0,
       "source": "gtr",
       "gtr_rank": 382,
       "gtr_points": 64422
@@ -3484,7 +3484,7 @@
     {
       "steam_id": "76561198049138765",
       "name": "EyesOnly",
-      "elo": 1319.8,
+      "elo": 1319.6,
       "source": "gtr",
       "gtr_rank": 383,
       "gtr_points": 64364
@@ -3492,7 +3492,7 @@
     {
       "steam_id": "76561199731808063",
       "name": "Yksdjcj",
-      "elo": 1319.5,
+      "elo": 1319.2,
       "source": "gtr",
       "gtr_rank": 384,
       "gtr_points": 64311
@@ -3500,7 +3500,7 @@
     {
       "steam_id": "76561197960574823",
       "name": "racemaniac",
-      "elo": 1319.1,
+      "elo": 1318.9,
       "source": "gtr",
       "gtr_rank": 385,
       "gtr_points": 64086
@@ -3508,7 +3508,7 @@
     {
       "steam_id": "76561199385811515",
       "name": "Goldenfire644",
-      "elo": 1318.7,
+      "elo": 1318.5,
       "source": "gtr",
       "gtr_rank": 386,
       "gtr_points": 63669
@@ -3516,7 +3516,7 @@
     {
       "steam_id": "76561198387331400",
       "name": "HighPing_Enjoyer",
-      "elo": 1318.4,
+      "elo": 1318.1,
       "source": "gtr",
       "gtr_rank": 387,
       "gtr_points": 63601
@@ -3524,7 +3524,7 @@
     {
       "steam_id": "76561198256954860",
       "name": "Tobi-Wan91",
-      "elo": 1316.9,
+      "elo": 1316.7,
       "source": "gtr",
       "gtr_rank": 391,
       "gtr_points": 62701
@@ -3532,7 +3532,7 @@
     {
       "steam_id": "76561197970302700",
       "name": "Wyz1324",
-      "elo": 1316.5,
+      "elo": 1316.3,
       "source": "gtr",
       "gtr_rank": 392,
       "gtr_points": 62636
@@ -3540,7 +3540,7 @@
     {
       "steam_id": "76561198074771805",
       "name": "Moudy",
-      "elo": 1316.2,
+      "elo": 1315.9,
       "source": "gtr",
       "gtr_rank": 393,
       "gtr_points": 62592
@@ -3548,7 +3548,7 @@
     {
       "steam_id": "76561198437928196",
       "name": "Taris",
-      "elo": 1315.8,
+      "elo": 1315.6,
       "source": "gtr",
       "gtr_rank": 394,
       "gtr_points": 62586
@@ -3556,7 +3556,7 @@
     {
       "steam_id": "76561198130389660",
       "name": "Waterlemon147",
-      "elo": 1315.5,
+      "elo": 1315.2,
       "source": "gtr",
       "gtr_rank": 395,
       "gtr_points": 62515
@@ -3564,7 +3564,7 @@
     {
       "steam_id": "76561199558912285",
       "name": "TreeWars",
-      "elo": 1315.1,
+      "elo": 1314.8,
       "source": "gtr",
       "gtr_rank": 396,
       "gtr_points": 62465
@@ -3572,7 +3572,7 @@
     {
       "steam_id": "76561198093330364",
       "name": "BoredFreak",
-      "elo": 1314.8,
+      "elo": 1314.5,
       "source": "gtr",
       "gtr_rank": 397,
       "gtr_points": 62266
@@ -3580,7 +3580,7 @@
     {
       "steam_id": "76561198062448294",
       "name": "PhantomOfDaPizza",
-      "elo": 1314.4,
+      "elo": 1314.1,
       "source": "gtr",
       "gtr_rank": 398,
       "gtr_points": 61827
@@ -3588,7 +3588,7 @@
     {
       "steam_id": "76561198070472929",
       "name": "PewX [.de]",
-      "elo": 1314.0,
+      "elo": 1313.8,
       "source": "gtr",
       "gtr_rank": 399,
       "gtr_points": 61824
@@ -3596,7 +3596,7 @@
     {
       "steam_id": "76561198084622273",
       "name": "Vampiro21",
-      "elo": 1313.7,
+      "elo": 1313.4,
       "source": "gtr",
       "gtr_rank": 400,
       "gtr_points": 61478
@@ -3604,7 +3604,7 @@
     {
       "steam_id": "76561199085459807",
       "name": "Streboli",
-      "elo": 1313.3,
+      "elo": 1313.1,
       "source": "gtr",
       "gtr_rank": 401,
       "gtr_points": 61249
@@ -3612,7 +3612,7 @@
     {
       "steam_id": "76561199222694539",
       "name": "/\\PL",
-      "elo": 1313.0,
+      "elo": 1312.7,
       "source": "gtr",
       "gtr_rank": 402,
       "gtr_points": 61197
@@ -3620,7 +3620,7 @@
     {
       "steam_id": "76561198253344254",
       "name": "Master",
-      "elo": 1312.6,
+      "elo": 1312.4,
       "source": "gtr",
       "gtr_rank": 403,
       "gtr_points": 61131
@@ -3628,7 +3628,7 @@
     {
       "steam_id": "76561198012110624",
       "name": "calum",
-      "elo": 1312.3,
+      "elo": 1312.0,
       "source": "gtr",
       "gtr_rank": 404,
       "gtr_points": 60843
@@ -3636,7 +3636,7 @@
     {
       "steam_id": "76561198014810843",
       "name": "BjoernBaerTv",
-      "elo": 1311.9,
+      "elo": 1311.6,
       "source": "gtr",
       "gtr_rank": 405,
       "gtr_points": 59657
@@ -3644,7 +3644,7 @@
     {
       "steam_id": "76561198115930842",
       "name": "Swords",
-      "elo": 1311.6,
+      "elo": 1311.3,
       "source": "gtr",
       "gtr_rank": 406,
       "gtr_points": 59426
@@ -3652,7 +3652,7 @@
     {
       "steam_id": "76561198383339808",
       "name": "cucumis conditus solacii animi",
-      "elo": 1311.2,
+      "elo": 1310.9,
       "source": "gtr",
       "gtr_rank": 407,
       "gtr_points": 59372
@@ -3660,7 +3660,7 @@
     {
       "steam_id": "76561198126467050",
       "name": "it_is_nic",
-      "elo": 1310.9,
+      "elo": 1310.6,
       "source": "gtr",
       "gtr_rank": 408,
       "gtr_points": 59121
@@ -3668,7 +3668,7 @@
     {
       "steam_id": "76561199224332390",
       "name": "Shlabe",
-      "elo": 1310.5,
+      "elo": 1310.3,
       "source": "gtr",
       "gtr_rank": 409,
       "gtr_points": 59049
@@ -3676,7 +3676,7 @@
     {
       "steam_id": "76561198037156446",
       "name": "JStudios6118",
-      "elo": 1310.2,
+      "elo": 1309.9,
       "source": "gtr",
       "gtr_rank": 410,
       "gtr_points": 58582
@@ -3684,7 +3684,7 @@
     {
       "steam_id": "76561198094653583",
       "name": "Epic_Doughnut",
-      "elo": 1309.9,
+      "elo": 1309.6,
       "source": "gtr",
       "gtr_rank": 411,
       "gtr_points": 58424
@@ -3692,7 +3692,7 @@
     {
       "steam_id": "76561197990268591",
       "name": "Daceda",
-      "elo": 1309.5,
+      "elo": 1309.2,
       "source": "gtr",
       "gtr_rank": 412,
       "gtr_points": 58308
@@ -3700,7 +3700,7 @@
     {
       "steam_id": "76561199224149635",
       "name": "magostinho20",
-      "elo": 1309.2,
+      "elo": 1308.9,
       "source": "gtr",
       "gtr_rank": 413,
       "gtr_points": 57871
@@ -3708,7 +3708,7 @@
     {
       "steam_id": "76561199078828160",
       "name": "logang",
-      "elo": 1308.8,
+      "elo": 1308.5,
       "source": "gtr",
       "gtr_rank": 414,
       "gtr_points": 57395
@@ -3716,7 +3716,7 @@
     {
       "steam_id": "76561198277110852",
       "name": "rosedotpng",
-      "elo": 1308.5,
+      "elo": 1308.2,
       "source": "gtr",
       "gtr_rank": 415,
       "gtr_points": 57147
@@ -3724,7 +3724,7 @@
     {
       "steam_id": "76561198282215354",
       "name": "Toshy",
-      "elo": 1308.1,
+      "elo": 1307.8,
       "source": "gtr",
       "gtr_rank": 416,
       "gtr_points": 56952
@@ -3732,7 +3732,7 @@
     {
       "steam_id": "76561198038173323",
       "name": "FabinhoI7",
-      "elo": 1307.8,
+      "elo": 1307.5,
       "source": "gtr",
       "gtr_rank": 417,
       "gtr_points": 56653
@@ -3740,7 +3740,7 @@
     {
       "steam_id": "76561198313484529",
       "name": "Red! (She/It)",
-      "elo": 1307.5,
+      "elo": 1307.2,
       "source": "gtr",
       "gtr_rank": 418,
       "gtr_points": 56300
@@ -3748,7 +3748,7 @@
     {
       "steam_id": "76561198068613908",
       "name": "f33x",
-      "elo": 1307.1,
+      "elo": 1306.8,
       "source": "gtr",
       "gtr_rank": 419,
       "gtr_points": 55372
@@ -3756,7 +3756,7 @@
     {
       "steam_id": "76561198843048305",
       "name": "gren",
-      "elo": 1306.8,
+      "elo": 1306.5,
       "source": "gtr",
       "gtr_rank": 420,
       "gtr_points": 55338
@@ -3764,7 +3764,7 @@
     {
       "steam_id": "76561199681211675",
       "name": "MicahNike",
-      "elo": 1306.5,
+      "elo": 1306.1,
       "source": "gtr",
       "gtr_rank": 421,
       "gtr_points": 55087
@@ -3772,7 +3772,7 @@
     {
       "steam_id": "76561199534813413",
       "name": "LegacySK",
-      "elo": 1306.1,
+      "elo": 1305.8,
       "source": "gtr",
       "gtr_rank": 422,
       "gtr_points": 54819
@@ -3780,7 +3780,7 @@
     {
       "steam_id": "76561199736254953",
       "name": "AAredstone",
-      "elo": 1305.8,
+      "elo": 1305.5,
       "source": "gtr",
       "gtr_rank": 423,
       "gtr_points": 54403
@@ -3788,7 +3788,7 @@
     {
       "steam_id": "76561198024241170",
       "name": "Namo ツ",
-      "elo": 1305.5,
+      "elo": 1305.1,
       "source": "gtr",
       "gtr_rank": 424,
       "gtr_points": 53902
@@ -3796,7 +3796,7 @@
     {
       "steam_id": "76561198079648302",
       "name": "Zeref",
-      "elo": 1305.1,
+      "elo": 1304.8,
       "source": "gtr",
       "gtr_rank": 425,
       "gtr_points": 52971
@@ -3804,7 +3804,7 @@
     {
       "steam_id": "76561199818782996",
       "name": "Nico",
-      "elo": 1304.8,
+      "elo": 1304.5,
       "source": "gtr",
       "gtr_rank": 426,
       "gtr_points": 52920
@@ -3812,7 +3812,7 @@
     {
       "steam_id": "76561199152921323",
       "name": "Babup",
-      "elo": 1304.1,
+      "elo": 1303.8,
       "source": "gtr",
       "gtr_rank": 428,
       "gtr_points": 52488
@@ -3820,7 +3820,7 @@
     {
       "steam_id": "76561197999123785",
       "name": "NightHawk475",
-      "elo": 1303.8,
+      "elo": 1303.5,
       "source": "gtr",
       "gtr_rank": 429,
       "gtr_points": 52468
@@ -3828,7 +3828,7 @@
     {
       "steam_id": "76561198745965008",
       "name": "htamtac",
-      "elo": 1303.5,
+      "elo": 1303.1,
       "source": "gtr",
       "gtr_rank": 430,
       "gtr_points": 52338
@@ -3836,7 +3836,7 @@
     {
       "steam_id": "76561198796982756",
       "name": "JayDaRippar",
-      "elo": 1303.1,
+      "elo": 1302.8,
       "source": "gtr",
       "gtr_rank": 431,
       "gtr_points": 52098
@@ -3844,7 +3844,7 @@
     {
       "steam_id": "76561198714739796",
       "name": "Rubberbandpig",
-      "elo": 1302.8,
+      "elo": 1302.5,
       "source": "gtr",
       "gtr_rank": 432,
       "gtr_points": 50942
@@ -3852,7 +3852,7 @@
     {
       "steam_id": "76561198069833764",
       "name": "Panfi",
-      "elo": 1302.5,
+      "elo": 1302.1,
       "source": "gtr",
       "gtr_rank": 433,
       "gtr_points": 49674
@@ -3860,7 +3860,7 @@
     {
       "steam_id": "76561198725117658",
       "name": "xREAPERx",
-      "elo": 1302.2,
+      "elo": 1301.8,
       "source": "gtr",
       "gtr_rank": 434,
       "gtr_points": 49574
@@ -3868,7 +3868,7 @@
     {
       "steam_id": "76561199243964036",
       "name": "Gamer_boi9164",
-      "elo": 1301.8,
+      "elo": 1301.5,
       "source": "gtr",
       "gtr_rank": 435,
       "gtr_points": 49478
@@ -3876,7 +3876,7 @@
     {
       "steam_id": "76561199203286507",
       "name": "AndyKerman",
-      "elo": 1301.2,
+      "elo": 1300.8,
       "source": "gtr",
       "gtr_rank": 437,
       "gtr_points": 49071
@@ -3884,7 +3884,7 @@
     {
       "steam_id": "76561198262407406",
       "name": "<u> <i> <#DE3163> |͓̽Draugur",
-      "elo": 1300.9,
+      "elo": 1300.5,
       "source": "gtr",
       "gtr_rank": 438,
       "gtr_points": 48718
@@ -3892,7 +3892,7 @@
     {
       "steam_id": "76561198052738789",
       "name": "Franky1811",
-      "elo": 1300.5,
+      "elo": 1300.2,
       "source": "gtr",
       "gtr_rank": 439,
       "gtr_points": 48269
@@ -3900,7 +3900,7 @@
     {
       "steam_id": "76561199115219698",
       "name": "NyxTheVixen",
-      "elo": 1300.2,
+      "elo": 1299.9,
       "source": "gtr",
       "gtr_rank": 440,
       "gtr_points": 47422
@@ -3908,7 +3908,7 @@
     {
       "steam_id": "76561198016802607",
       "name": "Saif_91",
-      "elo": 1299.9,
+      "elo": 1299.5,
       "source": "gtr",
       "gtr_rank": 441,
       "gtr_points": 46496
@@ -3916,7 +3916,7 @@
     {
       "steam_id": "76561198364899294",
       "name": "[HRTMT]kompi",
-      "elo": 1299.6,
+      "elo": 1299.2,
       "source": "gtr",
       "gtr_rank": 442,
       "gtr_points": 45603
@@ -3924,7 +3924,7 @@
     {
       "steam_id": "76561198218808881",
       "name": "Baked Shark",
-      "elo": 1299.3,
+      "elo": 1298.9,
       "source": "gtr",
       "gtr_rank": 443,
       "gtr_points": 45138
@@ -3932,7 +3932,7 @@
     {
       "steam_id": "76561198126778879",
       "name": "Gleitsi™",
-      "elo": 1298.6,
+      "elo": 1298.2,
       "source": "gtr",
       "gtr_rank": 445,
       "gtr_points": 44615
@@ -3940,7 +3940,7 @@
     {
       "steam_id": "76561199849151971",
       "name": "ZzPaty",
-      "elo": 1298.3,
+      "elo": 1297.9,
       "source": "gtr",
       "gtr_rank": 446,
       "gtr_points": 44328
@@ -3948,7 +3948,7 @@
     {
       "steam_id": "76561198179988345",
       "name": "Onigirikatze",
-      "elo": 1298.0,
+      "elo": 1297.6,
       "source": "gtr",
       "gtr_rank": 447,
       "gtr_points": 43985
@@ -3956,7 +3956,7 @@
     {
       "steam_id": "76561198786748042",
       "name": "GravyTheFrog",
-      "elo": 1297.7,
+      "elo": 1297.3,
       "source": "gtr",
       "gtr_rank": 448,
       "gtr_points": 43053
@@ -3964,7 +3964,7 @@
     {
       "steam_id": "76561198075429274",
       "name": "PrincessPon3",
-      "elo": 1297.4,
+      "elo": 1297.0,
       "source": "gtr",
       "gtr_rank": 449,
       "gtr_points": 42224
@@ -3972,7 +3972,7 @@
     {
       "steam_id": "76561199134331550",
       "name": "SwiftEvolta",
-      "elo": 1297.0,
+      "elo": 1296.7,
       "source": "gtr",
       "gtr_rank": 450,
       "gtr_points": 41208
@@ -3980,7 +3980,7 @@
     {
       "steam_id": "76561197984916849",
       "name": "Fat Lenny",
-      "elo": 1296.7,
+      "elo": 1296.3,
       "source": "gtr",
       "gtr_rank": 451,
       "gtr_points": 41084
@@ -3988,7 +3988,7 @@
     {
       "steam_id": "76561199529631435",
       "name": "Zeepkist Showdown",
-      "elo": 1296.4,
+      "elo": 1296.0,
       "source": "gtr",
       "gtr_rank": 452,
       "gtr_points": 41074
@@ -3996,7 +3996,7 @@
     {
       "steam_id": "76561198446744032",
       "name": "Edward",
-      "elo": 1296.1,
+      "elo": 1295.7,
       "source": "gtr",
       "gtr_rank": 453,
       "gtr_points": 40357
@@ -4004,7 +4004,7 @@
     {
       "steam_id": "76561198294435762",
       "name": "Sherlock Homeless",
-      "elo": 1295.8,
+      "elo": 1295.4,
       "source": "gtr",
       "gtr_rank": 454,
       "gtr_points": 39929
@@ -4012,7 +4012,7 @@
     {
       "steam_id": "76561199072402373",
       "name": "LucidLucy",
-      "elo": 1295.5,
+      "elo": 1295.1,
       "source": "gtr",
       "gtr_rank": 455,
       "gtr_points": 39586
@@ -4020,7 +4020,7 @@
     {
       "steam_id": "76561198348144293",
       "name": "im_just_nothing",
-      "elo": 1295.2,
+      "elo": 1294.8,
       "source": "gtr",
       "gtr_rank": 456,
       "gtr_points": 39494
@@ -4028,7 +4028,7 @@
     {
       "steam_id": "76561199023322702",
       "name": "Detiic",
-      "elo": 1294.9,
+      "elo": 1294.5,
       "source": "gtr",
       "gtr_rank": 457,
       "gtr_points": 39167
@@ -4036,7 +4036,7 @@
     {
       "steam_id": "76561198035786764",
       "name": "Xabi",
-      "elo": 1294.6,
+      "elo": 1294.2,
       "source": "gtr",
       "gtr_rank": 458,
       "gtr_points": 38956
@@ -4044,7 +4044,7 @@
     {
       "steam_id": "76561197991765549",
       "name": "FuЬi",
-      "elo": 1294.2,
+      "elo": 1293.8,
       "source": "gtr",
       "gtr_rank": 459,
       "gtr_points": 38916
@@ -4052,7 +4052,7 @@
     {
       "steam_id": "76561198013859526",
       "name": "_𝖊𝖘𝖘𝖎𝖆⛧",
-      "elo": 1293.6,
+      "elo": 1293.2,
       "source": "gtr",
       "gtr_rank": 461,
       "gtr_points": 38783
@@ -4060,7 +4060,7 @@
     {
       "steam_id": "76561199633196994",
       "name": "pokuszer0",
-      "elo": 1293.9,
+      "elo": 1293.5,
       "source": "gtr",
       "gtr_rank": 460,
       "gtr_points": 38770
@@ -4068,7 +4068,7 @@
     {
       "steam_id": "76561198057525734",
       "name": "Mr. Bean PhD",
-      "elo": 1293.3,
+      "elo": 1292.9,
       "source": "gtr",
       "gtr_rank": 462,
       "gtr_points": 38229
@@ -4076,7 +4076,7 @@
     {
       "steam_id": "76561198868222874",
       "name": "silverrose89",
-      "elo": 1293.0,
+      "elo": 1292.6,
       "source": "gtr",
       "gtr_rank": 463,
       "gtr_points": 38202
@@ -4084,7 +4084,7 @@
     {
       "steam_id": "76561199059744340",
       "name": "B1gManM1ke",
-      "elo": 1292.7,
+      "elo": 1292.3,
       "source": "gtr",
       "gtr_rank": 464,
       "gtr_points": 38166
@@ -4092,7 +4092,7 @@
     {
       "steam_id": "76561198083654879",
       "name": "Barnacle Boy",
-      "elo": 1292.4,
+      "elo": 1292.0,
       "source": "gtr",
       "gtr_rank": 465,
       "gtr_points": 37810
@@ -4100,7 +4100,7 @@
     {
       "steam_id": "76561198907410596",
       "name": "Inkats",
-      "elo": 1292.1,
+      "elo": 1291.7,
       "source": "gtr",
       "gtr_rank": 466,
       "gtr_points": 37447
@@ -4108,7 +4108,7 @@
     {
       "steam_id": "76561198280322429",
       "name": "QBach",
-      "elo": 1291.8,
+      "elo": 1291.4,
       "source": "gtr",
       "gtr_rank": 467,
       "gtr_points": 36668
@@ -4116,7 +4116,7 @@
     {
       "steam_id": "76561198081123275",
       "name": "Gr33Nature",
-      "elo": 1291.5,
+      "elo": 1291.1,
       "source": "gtr",
       "gtr_rank": 468,
       "gtr_points": 36595
@@ -4124,7 +4124,7 @@
     {
       "steam_id": "76561198017867935",
       "name": "1uk3",
-      "elo": 1291.2,
+      "elo": 1290.8,
       "source": "gtr",
       "gtr_rank": 469,
       "gtr_points": 36226
@@ -4132,7 +4132,7 @@
     {
       "steam_id": "76561198062925684",
       "name": "死神 - Fetso",
-      "elo": 1290.9,
+      "elo": 1290.5,
       "source": "gtr",
       "gtr_rank": 470,
       "gtr_points": 36166
@@ -4140,7 +4140,7 @@
     {
       "steam_id": "76561198134135118",
       "name": "Bendz2012",
-      "elo": 1290.6,
+      "elo": 1290.2,
       "source": "gtr",
       "gtr_rank": 471,
       "gtr_points": 35987
@@ -4148,7 +4148,7 @@
     {
       "steam_id": "76561197972506419",
       "name": "the_overlord",
-      "elo": 1290.3,
+      "elo": 1289.9,
       "source": "gtr",
       "gtr_rank": 472,
       "gtr_points": 34714
@@ -4156,7 +4156,7 @@
     {
       "steam_id": "76561199749888853",
       "name": "It's Meeeeeeeeeeeeeeeeeee!",
-      "elo": 1290.0,
+      "elo": 1289.6,
       "source": "gtr",
       "gtr_rank": 473,
       "gtr_points": 34478
@@ -4164,7 +4164,7 @@
     {
       "steam_id": "76561198986849934",
       "name": "Lemo",
-      "elo": 1289.7,
+      "elo": 1289.3,
       "source": "gtr",
       "gtr_rank": 474,
       "gtr_points": 34105
@@ -4172,7 +4172,7 @@
     {
       "steam_id": "76561199569017664",
       "name": "Blacknight75_YT",
-      "elo": 1289.4,
+      "elo": 1289.0,
       "source": "gtr",
       "gtr_rank": 475,
       "gtr_points": 33342
@@ -4180,7 +4180,7 @@
     {
       "steam_id": "76561199150037473",
       "name": "Felis Timon Felix",
-      "elo": 1289.1,
+      "elo": 1288.7,
       "source": "gtr",
       "gtr_rank": 476,
       "gtr_points": 33050
@@ -4188,7 +4188,7 @@
     {
       "steam_id": "76561198289191941",
       "name": "knet56",
-      "elo": 1288.8,
+      "elo": 1288.4,
       "source": "gtr",
       "gtr_rank": 477,
       "gtr_points": 32622
@@ -4196,7 +4196,7 @@
     {
       "steam_id": "76561199059626674",
       "name": "23_Aspect",
-      "elo": 1288.2,
+      "elo": 1287.8,
       "source": "gtr",
       "gtr_rank": 479,
       "gtr_points": 31808
@@ -4204,7 +4204,7 @@
     {
       "steam_id": "76561198014702667",
       "name": "Sigma Richards",
-      "elo": 1287.9,
+      "elo": 1287.5,
       "source": "gtr",
       "gtr_rank": 480,
       "gtr_points": 31422
@@ -4212,7 +4212,7 @@
     {
       "steam_id": "76561199446411306",
       "name": "GoldStar184",
-      "elo": 1287.3,
+      "elo": 1286.9,
       "source": "gtr",
       "gtr_rank": 482,
       "gtr_points": 31189
@@ -4220,7 +4220,7 @@
     {
       "steam_id": "76561198292311772",
       "name": "Mandala Manfred",
-      "elo": 1287.0,
+      "elo": 1286.6,
       "source": "gtr",
       "gtr_rank": 483,
       "gtr_points": 30919
@@ -4228,7 +4228,7 @@
     {
       "steam_id": "76561199048919798",
       "name": "DragonTacoSauce",
-      "elo": 1286.7,
+      "elo": 1286.3,
       "source": "gtr",
       "gtr_rank": 484,
       "gtr_points": 30605
@@ -4236,7 +4236,7 @@
     {
       "steam_id": "76561199223662053",
       "name": "Phasmanian",
-      "elo": 1286.5,
+      "elo": 1286.0,
       "source": "gtr",
       "gtr_rank": 485,
       "gtr_points": 30385
@@ -4244,7 +4244,7 @@
     {
       "steam_id": "76561198400915865",
       "name": "JGR",
-      "elo": 1286.2,
+      "elo": 1285.7,
       "source": "gtr",
       "gtr_rank": 486,
       "gtr_points": 30272
@@ -4252,7 +4252,7 @@
     {
       "steam_id": "76561198417815826",
       "name": "zauber_apfel",
-      "elo": 1285.9,
+      "elo": 1285.4,
       "source": "gtr",
       "gtr_rank": 487,
       "gtr_points": 30138
@@ -4260,7 +4260,7 @@
     {
       "steam_id": "76561198397415733",
       "name": "DNFplays",
-      "elo": 1285.6,
+      "elo": 1285.1,
       "source": "gtr",
       "gtr_rank": 488,
       "gtr_points": 29854
@@ -4268,7 +4268,7 @@
     {
       "steam_id": "76561198129909222",
       "name": "Cr4zZySlick",
-      "elo": 1284.7,
+      "elo": 1284.3,
       "source": "gtr",
       "gtr_rank": 491,
       "gtr_points": 28604
@@ -4276,7 +4276,7 @@
     {
       "steam_id": "76561199122064400",
       "name": "<#FC6A03>TheActualSun",
-      "elo": 1284.4,
+      "elo": 1284.0,
       "source": "gtr",
       "gtr_rank": 492,
       "gtr_points": 28496
@@ -4284,7 +4284,7 @@
     {
       "steam_id": "76561197965415412",
       "name": "Henry The Bogard",
-      "elo": 1284.1,
+      "elo": 1283.7,
       "source": "gtr",
       "gtr_rank": 493,
       "gtr_points": 28469
@@ -4292,7 +4292,7 @@
     {
       "steam_id": "76561198028111042",
       "name": "Voltage",
-      "elo": 1283.9,
+      "elo": 1283.4,
       "source": "gtr",
       "gtr_rank": 494,
       "gtr_points": 28354
@@ -4300,7 +4300,7 @@
     {
       "steam_id": "76561198075660285",
       "name": "Wigtertainment",
-      "elo": 1283.6,
+      "elo": 1283.1,
       "source": "gtr",
       "gtr_rank": 495,
       "gtr_points": 28330
@@ -4308,7 +4308,7 @@
     {
       "steam_id": "76561199807074878",
       "name": "calebmcr",
-      "elo": 1283.3,
+      "elo": 1282.8,
       "source": "gtr",
       "gtr_rank": 496,
       "gtr_points": 27204
@@ -4316,7 +4316,7 @@
     {
       "steam_id": "76561198054177763",
       "name": "MadZitrone",
-      "elo": 1283.0,
+      "elo": 1282.5,
       "source": "gtr",
       "gtr_rank": 497,
       "gtr_points": 26655
@@ -4324,7 +4324,7 @@
     {
       "steam_id": "76561198189922306",
       "name": "GamingKlex",
-      "elo": 1282.7,
+      "elo": 1282.2,
       "source": "gtr",
       "gtr_rank": 498,
       "gtr_points": 26337
@@ -4332,7 +4332,7 @@
     {
       "steam_id": "76561199402028554",
       "name": "YXRQkar",
-      "elo": 1282.4,
+      "elo": 1282.0,
       "source": "gtr",
       "gtr_rank": 499,
       "gtr_points": 25978
@@ -4340,7 +4340,7 @@
     {
       "steam_id": "76561198161246221",
       "name": "HarukoG",
-      "elo": 1282.1,
+      "elo": 1281.7,
       "source": "gtr",
       "gtr_rank": 500,
       "gtr_points": 25642
@@ -4348,7 +4348,7 @@
     {
       "steam_id": "76561199013473044",
       "name": "mutleyboy99",
-      "elo": 1281.9,
+      "elo": 1281.4,
       "source": "gtr",
       "gtr_rank": 501,
       "gtr_points": 23901
@@ -4356,7 +4356,7 @@
     {
       "steam_id": "76561199825796864",
       "name": "Bynzyldyhydeditoximonothaixatide",
-      "elo": 1281.6,
+      "elo": 1281.1,
       "source": "gtr",
       "gtr_rank": 502,
       "gtr_points": 23820
@@ -4364,7 +4364,7 @@
     {
       "steam_id": "76561198114380937",
       "name": "Brudersteffen©",
-      "elo": 1281.3,
+      "elo": 1280.8,
       "source": "gtr",
       "gtr_rank": 503,
       "gtr_points": 23248
@@ -4372,7 +4372,7 @@
     {
       "steam_id": "76561198105894037",
       "name": "CalmestRaccoon",
-      "elo": 1281.0,
+      "elo": 1280.5,
       "source": "gtr",
       "gtr_rank": 504,
       "gtr_points": 23231
@@ -4380,7 +4380,7 @@
     {
       "steam_id": "76561198320531165",
       "name": "Banana Joe",
-      "elo": 1280.7,
+      "elo": 1280.3,
       "source": "gtr",
       "gtr_rank": 505,
       "gtr_points": 23004
@@ -4388,7 +4388,7 @@
     {
       "steam_id": "76561199085755730",
       "name": "[CTR] YOYOKING47",
-      "elo": 1280.5,
+      "elo": 1280.0,
       "source": "gtr",
       "gtr_rank": 506,
       "gtr_points": 22460
@@ -4396,7 +4396,7 @@
     {
       "steam_id": "76561198807977257",
       "name": "hostile",
-      "elo": 1280.2,
+      "elo": 1279.7,
       "source": "gtr",
       "gtr_rank": 507,
       "gtr_points": 22212
@@ -4404,7 +4404,7 @@
     {
       "steam_id": "76561199184447373",
       "name": "I_LikeBurntSoup",
-      "elo": 1279.9,
+      "elo": 1279.4,
       "source": "gtr",
       "gtr_rank": 508,
       "gtr_points": 21753
@@ -4412,7 +4412,7 @@
     {
       "steam_id": "76561198209946185",
       "name": "Diaspielt",
-      "elo": 1279.6,
+      "elo": 1279.1,
       "source": "gtr",
       "gtr_rank": 509,
       "gtr_points": 20596
@@ -4420,7 +4420,7 @@
     {
       "steam_id": "76561198994944452",
       "name": "Sevi",
-      "elo": 1279.3,
+      "elo": 1278.9,
       "source": "gtr",
       "gtr_rank": 510,
       "gtr_points": 19833
@@ -4428,7 +4428,7 @@
     {
       "steam_id": "76561197976648611",
       "name": "fuesselpueh",
-      "elo": 1279.1,
+      "elo": 1278.6,
       "source": "gtr",
       "gtr_rank": 511,
       "gtr_points": 19515
@@ -4436,7 +4436,7 @@
     {
       "steam_id": "76561198264248652",
       "name": "stealthswor1",
-      "elo": 1278.8,
+      "elo": 1278.3,
       "source": "gtr",
       "gtr_rank": 512,
       "gtr_points": 19278
@@ -4444,7 +4444,7 @@
     {
       "steam_id": "76561198118002570",
       "name": "Snowritz",
-      "elo": 1278.5,
+      "elo": 1278.0,
       "source": "gtr",
       "gtr_rank": 513,
       "gtr_points": 19155
@@ -4452,7 +4452,7 @@
     {
       "steam_id": "76561199105833064",
       "name": "Hagavi",
-      "elo": 1278.2,
+      "elo": 1277.7,
       "source": "gtr",
       "gtr_rank": 514,
       "gtr_points": 19045
@@ -4460,7 +4460,7 @@
     {
       "steam_id": "76561199875492259",
       "name": "grpierce515",
-      "elo": 1278.0,
+      "elo": 1277.5,
       "source": "gtr",
       "gtr_rank": 515,
       "gtr_points": 18953
@@ -4468,7 +4468,7 @@
     {
       "steam_id": "76561198029726080",
       "name": "Haern",
-      "elo": 1277.7,
+      "elo": 1277.2,
       "source": "gtr",
       "gtr_rank": 516,
       "gtr_points": 17694
@@ -4476,7 +4476,7 @@
     {
       "steam_id": "76561198326183338",
       "name": "archerman64",
-      "elo": 1277.4,
+      "elo": 1276.9,
       "source": "gtr",
       "gtr_rank": 517,
       "gtr_points": 17445
@@ -4484,7 +4484,7 @@
     {
       "steam_id": "76561198017214995",
       "name": "Walter",
-      "elo": 1277.1,
+      "elo": 1276.6,
       "source": "gtr",
       "gtr_rank": 518,
       "gtr_points": 17333
@@ -4492,7 +4492,7 @@
     {
       "steam_id": "76561198017993853",
       "name": "eXeLuis",
-      "elo": 1276.9,
+      "elo": 1276.4,
       "source": "gtr",
       "gtr_rank": 519,
       "gtr_points": 17084
@@ -4500,7 +4500,7 @@
     {
       "steam_id": "76561198183706821",
       "name": "BrandonMP4",
-      "elo": 1276.6,
+      "elo": 1276.1,
       "source": "gtr",
       "gtr_rank": 520,
       "gtr_points": 17056
@@ -4508,7 +4508,7 @@
     {
       "steam_id": "76561198749161990",
       "name": "I_ernninja",
-      "elo": 1276.3,
+      "elo": 1275.8,
       "source": "gtr",
       "gtr_rank": 521,
       "gtr_points": 16589
@@ -4516,7 +4516,7 @@
     {
       "steam_id": "76561198069001879",
       "name": "IceTech13",
-      "elo": 1276.1,
+      "elo": 1275.5,
       "source": "gtr",
       "gtr_rank": 522,
       "gtr_points": 16483
@@ -4524,7 +4524,7 @@
     {
       "steam_id": "76561199133498345",
       "name": "D3_Sail0R",
-      "elo": 1275.8,
+      "elo": 1275.3,
       "source": "gtr",
       "gtr_rank": 523,
       "gtr_points": 16414
@@ -4532,7 +4532,7 @@
     {
       "steam_id": "76561197974307406",
       "name": "Zeberon",
-      "elo": 1275.5,
+      "elo": 1275.0,
       "source": "gtr",
       "gtr_rank": 524,
       "gtr_points": 16359
@@ -4540,7 +4540,7 @@
     {
       "steam_id": "76561198081198531",
       "name": "ArcticMammoth",
-      "elo": 1275.2,
+      "elo": 1274.7,
       "source": "gtr",
       "gtr_rank": 525,
       "gtr_points": 15969
@@ -4548,7 +4548,7 @@
     {
       "steam_id": "76561198026556065",
       "name": "Wraith",
-      "elo": 1275.0,
+      "elo": 1274.5,
       "source": "gtr",
       "gtr_rank": 526,
       "gtr_points": 15749
@@ -4556,7 +4556,7 @@
     {
       "steam_id": "76561198148601607",
       "name": "._.",
-      "elo": 1274.7,
+      "elo": 1274.2,
       "source": "gtr",
       "gtr_rank": 527,
       "gtr_points": 14834
@@ -4564,7 +4564,7 @@
     {
       "steam_id": "76561198047120857",
       "name": "Luffy",
-      "elo": 1274.4,
+      "elo": 1273.9,
       "source": "gtr",
       "gtr_rank": 528,
       "gtr_points": 14766
@@ -4572,7 +4572,7 @@
     {
       "steam_id": "76561198010189904",
       "name": "VipermitSniper",
-      "elo": 1274.2,
+      "elo": 1273.7,
       "source": "gtr",
       "gtr_rank": 529,
       "gtr_points": 14730
@@ -4580,7 +4580,7 @@
     {
       "steam_id": "76561198267722522",
       "name": "GameBear",
-      "elo": 1273.9,
+      "elo": 1273.4,
       "source": "gtr",
       "gtr_rank": 530,
       "gtr_points": 14719
@@ -4588,7 +4588,7 @@
     {
       "steam_id": "76561199125260635",
       "name": "Just__play_yt",
-      "elo": 1273.6,
+      "elo": 1273.1,
       "source": "gtr",
       "gtr_rank": 531,
       "gtr_points": 14175
@@ -4596,7 +4596,7 @@
     {
       "steam_id": "76561198020470724",
       "name": "LightsTune",
-      "elo": 1273.4,
+      "elo": 1272.8,
       "source": "gtr",
       "gtr_rank": 532,
       "gtr_points": 14027
@@ -4604,7 +4604,7 @@
     {
       "steam_id": "76561199494381509",
       "name": "zeriv",
-      "elo": 1273.1,
+      "elo": 1272.6,
       "source": "gtr",
       "gtr_rank": 533,
       "gtr_points": 14005
@@ -4612,7 +4612,7 @@
     {
       "steam_id": "76561198004477733",
       "name": "ElectricCaveman",
-      "elo": 1272.8,
+      "elo": 1272.3,
       "source": "gtr",
       "gtr_rank": 534,
       "gtr_points": 13889
@@ -4620,7 +4620,7 @@
     {
       "steam_id": "76561199143689433",
       "name": "yolkev",
-      "elo": 1272.6,
+      "elo": 1272.0,
       "source": "gtr",
       "gtr_rank": 535,
       "gtr_points": 13074
@@ -4628,7 +4628,7 @@
     {
       "steam_id": "76561198076530307",
       "name": "Shuffle21",
-      "elo": 1272.3,
+      "elo": 1271.8,
       "source": "gtr",
       "gtr_rank": 536,
       "gtr_points": 12480
@@ -4636,7 +4636,7 @@
     {
       "steam_id": "76561198139304458",
       "name": "plantox.",
-      "elo": 1272.1,
+      "elo": 1271.5,
       "source": "gtr",
       "gtr_rank": 537,
       "gtr_points": 11875
@@ -4644,7 +4644,7 @@
     {
       "steam_id": "76561198817360646",
       "name": "Scroller",
-      "elo": 1271.8,
+      "elo": 1271.3,
       "source": "gtr",
       "gtr_rank": 538,
       "gtr_points": 11867
@@ -4652,7 +4652,7 @@
     {
       "steam_id": "76561199137713381",
       "name": "Cronus",
-      "elo": 1271.5,
+      "elo": 1271.0,
       "source": "gtr",
       "gtr_rank": 539,
       "gtr_points": 11705
@@ -4660,7 +4660,7 @@
     {
       "steam_id": "76561198274158960",
       "name": "Dauthdaertya",
-      "elo": 1271.3,
+      "elo": 1270.7,
       "source": "gtr",
       "gtr_rank": 540,
       "gtr_points": 11650
@@ -4668,7 +4668,7 @@
     {
       "steam_id": "76561197996197343",
       "name": "Vaulter White",
-      "elo": 1271.0,
+      "elo": 1270.5,
       "source": "gtr",
       "gtr_rank": 541,
       "gtr_points": 11606
@@ -4676,7 +4676,7 @@
     {
       "steam_id": "76561197981814766",
       "name": "☜ Unkl4r ☞",
-      "elo": 1270.7,
+      "elo": 1270.2,
       "source": "gtr",
       "gtr_rank": 542,
       "gtr_points": 10897
@@ -4684,7 +4684,7 @@
     {
       "steam_id": "76561198024494523",
       "name": "MarthXT",
-      "elo": 1270.5,
+      "elo": 1269.9,
       "source": "gtr",
       "gtr_rank": 543,
       "gtr_points": 10841
@@ -4692,7 +4692,7 @@
     {
       "steam_id": "76561198972173968",
       "name": "countducky",
-      "elo": 1270.2,
+      "elo": 1269.7,
       "source": "gtr",
       "gtr_rank": 544,
       "gtr_points": 10140
@@ -4700,7 +4700,7 @@
     {
       "steam_id": "76561198250142228",
       "name": "CatMint",
-      "elo": 1270.0,
+      "elo": 1269.4,
       "source": "gtr",
       "gtr_rank": 545,
       "gtr_points": 9982
@@ -4708,7 +4708,7 @@
     {
       "steam_id": "76561198811535392",
       "name": "cyberpunkninja",
-      "elo": 1269.7,
+      "elo": 1269.2,
       "source": "gtr",
       "gtr_rank": 546,
       "gtr_points": 9565
@@ -4716,7 +4716,7 @@
     {
       "steam_id": "76561198406215018",
       "name": "DamNation",
-      "elo": 1269.4,
+      "elo": 1268.9,
       "source": "gtr",
       "gtr_rank": 547,
       "gtr_points": 8676
@@ -4724,7 +4724,7 @@
     {
       "steam_id": "76561199750464295",
       "name": "frederik.boss15",
-      "elo": 1269.2,
+      "elo": 1268.6,
       "source": "gtr",
       "gtr_rank": 548,
       "gtr_points": 8008
@@ -4732,7 +4732,7 @@
     {
       "steam_id": "76561198030686493",
       "name": "Lughor",
-      "elo": 1268.9,
+      "elo": 1268.4,
       "source": "gtr",
       "gtr_rank": 549,
       "gtr_points": 7624
@@ -4740,7 +4740,7 @@
     {
       "steam_id": "76561198288699268",
       "name": "Thanatos",
-      "elo": 1268.4,
+      "elo": 1267.9,
       "source": "gtr",
       "gtr_rank": 551,
       "gtr_points": 6678
@@ -4748,7 +4748,7 @@
     {
       "steam_id": "76561198377215080",
       "name": "Chiquasa",
-      "elo": 1268.2,
+      "elo": 1267.6,
       "source": "gtr",
       "gtr_rank": 552,
       "gtr_points": 6251
@@ -4756,7 +4756,7 @@
     {
       "steam_id": "76561198680182170",
       "name": "_mellifera",
-      "elo": 1267.9,
+      "elo": 1267.3,
       "source": "gtr",
       "gtr_rank": 553,
       "gtr_points": 6250
@@ -4764,7 +4764,7 @@
     {
       "steam_id": "76561198069020364",
       "name": "Andi",
-      "elo": 1267.6,
+      "elo": 1267.1,
       "source": "gtr",
       "gtr_rank": 554,
       "gtr_points": 6220
@@ -4772,7 +4772,7 @@
     {
       "steam_id": "76561198424456730",
       "name": "TChapman500",
-      "elo": 1267.4,
+      "elo": 1266.8,
       "source": "gtr",
       "gtr_rank": 555,
       "gtr_points": 6155
@@ -4780,7 +4780,7 @@
     {
       "steam_id": "76561199021217517",
       "name": "Jessyiie",
-      "elo": 1267.1,
+      "elo": 1266.6,
       "source": "gtr",
       "gtr_rank": 556,
       "gtr_points": 5009
@@ -4788,7 +4788,7 @@
     {
       "steam_id": "76561199769295432",
       "name": "Packard Bell Legend 10CD",
-      "elo": 1266.9,
+      "elo": 1266.3,
       "source": "gtr",
       "gtr_rank": 557,
       "gtr_points": 4955
@@ -4796,7 +4796,7 @@
     {
       "steam_id": "76561199073337243",
       "name": "Al Mighty",
-      "elo": 1266.6,
+      "elo": 1266.1,
       "source": "gtr",
       "gtr_rank": 558,
       "gtr_points": 4522
@@ -4804,7 +4804,7 @@
     {
       "steam_id": "76561199286847400",
       "name": "NoelOfSpace",
-      "elo": 1266.4,
+      "elo": 1265.8,
       "source": "gtr",
       "gtr_rank": 559,
       "gtr_points": 4471
@@ -4812,7 +4812,7 @@
     {
       "steam_id": "76561198011182308",
       "name": "Hextro",
-      "elo": 1266.1,
+      "elo": 1265.5,
       "source": "gtr",
       "gtr_rank": 560,
       "gtr_points": 4200
@@ -4820,7 +4820,7 @@
     {
       "steam_id": "76561199350602531",
       "name": "lynsamson",
-      "elo": 1265.9,
+      "elo": 1265.3,
       "source": "gtr",
       "gtr_rank": 561,
       "gtr_points": 3698
@@ -4828,7 +4828,7 @@
     {
       "steam_id": "76561199101028752",
       "name": "captancraft",
-      "elo": 1265.6,
+      "elo": 1265.0,
       "source": "gtr",
       "gtr_rank": 562,
       "gtr_points": 3437
@@ -4836,7 +4836,7 @@
     {
       "steam_id": "76561198009967547",
       "name": "マイゴデス",
-      "elo": 1265.4,
+      "elo": 1264.8,
       "source": "gtr",
       "gtr_rank": 563,
       "gtr_points": 3068
@@ -4844,7 +4844,7 @@
     {
       "steam_id": "76561198746974442",
       "name": "ikkirkitty",
-      "elo": 1265.1,
+      "elo": 1264.5,
       "source": "gtr",
       "gtr_rank": 564,
       "gtr_points": 2758
@@ -4852,7 +4852,7 @@
     {
       "steam_id": "76561199547051910",
       "name": "theHumanBanan.",
-      "elo": 1264.9,
+      "elo": 1264.3,
       "source": "gtr",
       "gtr_rank": 565,
       "gtr_points": 2666
@@ -4860,7 +4860,7 @@
     {
       "steam_id": "76561199211927169",
       "name": "xtuov_",
-      "elo": 1264.6,
+      "elo": 1264.0,
       "source": "gtr",
       "gtr_rank": 566,
       "gtr_points": 2661
@@ -4868,7 +4868,7 @@
     {
       "steam_id": "76561198847091588",
       "name": "MossRover",
-      "elo": 1264.4,
+      "elo": 1263.8,
       "source": "gtr",
       "gtr_rank": 567,
       "gtr_points": 2166
@@ -4876,7 +4876,7 @@
     {
       "steam_id": "76561199650443351",
       "name": "Cherux",
-      "elo": 1264.1,
+      "elo": 1263.5,
       "source": "gtr",
       "gtr_rank": 568,
       "gtr_points": 1085
@@ -4884,7 +4884,7 @@
     {
       "steam_id": "76561198096997553",
       "name": "F34st",
-      "elo": 1263.9,
+      "elo": 1263.3,
       "source": "gtr",
       "gtr_rank": 569,
       "gtr_points": 969
@@ -4892,7 +4892,7 @@
     {
       "steam_id": "76561197997671603",
       "name": "Coreymill",
-      "elo": 1263.6,
+      "elo": 1263.0,
       "source": "gtr",
       "gtr_rank": 570,
       "gtr_points": 966
@@ -4900,7 +4900,7 @@
     {
       "steam_id": "76561199521248636",
       "name": "Lord Luci XIII.",
-      "elo": 1263.4,
+      "elo": 1262.8,
       "source": "gtr",
       "gtr_rank": 571,
       "gtr_points": 929
@@ -4908,7 +4908,7 @@
     {
       "steam_id": "76561199540657692",
       "name": "Scrumbo",
-      "elo": 1263.1,
+      "elo": 1262.5,
       "source": "gtr",
       "gtr_rank": 572,
       "gtr_points": 232
@@ -4916,7 +4916,7 @@
     {
       "steam_id": "76561198842097976",
       "name": "Miss_Okamii",
-      "elo": 1262.9,
+      "elo": 1262.3,
       "source": "gtr",
       "gtr_rank": 573,
       "gtr_points": 5
@@ -4924,7 +4924,7 @@
     {
       "steam_id": "76561198016137221",
       "name": "Dj Soundboost",
-      "elo": 1262.6,
+      "elo": 1262.0,
       "source": "gtr",
       "gtr_rank": 574,
       "gtr_points": 3
